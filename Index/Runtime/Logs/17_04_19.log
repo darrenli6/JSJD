@@ -1,0 +1,346 @@
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000710s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000819s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.009947s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000866s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.009851s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SELECT * FROM `czxy_news` LIMIT 5   [ RunTime:0.000880s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.009579s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | SQL: SELECT * FROM `czxy_subjectrace` ORDER BY id DESC LIMIT 3   [ RunTime:0.000473s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.046788s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.046856s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.052443s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.052540s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000890s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000902s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000651s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003255s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000794s ]
+[ 2017-04-19T16:52:12+08:00 ] /JSJD/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000861s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001154s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000905s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.007210s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000660s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002258s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002441s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.052132s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.052213s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000634s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000590s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000528s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000689s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002598s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001973s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002044s ]
+[ 2017-04-19T16:52:17+08:00 ] /JSJD/index.php/images/20100820.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:18+08:00 ] /JSJD/index.php/images/20100820104640206.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:18+08:00 ] /JSJD/index.php/images/20100820144401230.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:18+08:00 ] /JSJD/index.php/images/20100820104417799.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:18+08:00 ] /JSJD/index.php/images/20100712094639942.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:18+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run CheckRoute Behavior [ RunTime:0.001460s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001628s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000873s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000953s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.006426s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000816s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001508s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001573s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run ParseTemplate Behavior [ RunTime:0.061395s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.061456s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run ContentReplace Behavior [ RunTime:0.000717s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run TokenBuild Behavior [ RunTime:0.000625s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000459s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000681s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002622s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000817s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000910s ]
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/images/xinwen.png | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/images/22204.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:24+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run CheckRoute Behavior [ RunTime:0.000923s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001019s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000891s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.008063s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000604s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000981s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001065s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run ParseTemplate Behavior [ RunTime:0.027209s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027275s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run ContentReplace Behavior [ RunTime:0.000664s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run TokenBuild Behavior [ RunTime:0.000870s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000611s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002799s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000805s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/News/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000872s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/images/xinwen.png | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/images/22204.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run CheckRoute Behavior [ RunTime:0.000890s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001002s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000728s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000787s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.007520s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000691s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run LocationTemplate Behavior [ RunTime:0.036693s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.036757s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run ParseTemplate Behavior [ RunTime:0.034407s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034473s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run ContentReplace Behavior [ RunTime:0.000602s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run TokenBuild Behavior [ RunTime:0.000730s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000448s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000579s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002504s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000739s ]
+[ 2017-04-19T16:52:39+08:00 ] /JSJD/index.php/About/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000800s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run CheckRoute Behavior [ RunTime:0.001194s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --END-- [ RunTime:0.001333s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000753s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000825s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005982s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000467s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --END-- [ RunTime:0.000829s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ParseTemplate Behavior [ RunTime:0.046073s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --END-- [ RunTime:0.046142s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ContentReplace Behavior [ RunTime:0.000623s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run TokenBuild Behavior [ RunTime:0.000609s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowRuntime Behavior [ RunTime:0.000570s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002403s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowPageTrace Behavior [ RunTime:0.000528s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --END-- [ RunTime:0.000579s ]
+[ 2017-04-19T16:52:44+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:54+08:00 ] /JSJD/index.php/About/About/rlzy.html | ERR: (ThinkException) 非法操作About
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run CheckRoute Behavior [ RunTime:0.001189s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --END-- [ RunTime:0.001337s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001041s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001142s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.007413s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000538s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run LocationTemplate Behavior [ RunTime:0.000823s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --END-- [ RunTime:0.000879s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ParseTemplate Behavior [ RunTime:0.009234s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009293s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ContentReplace Behavior [ RunTime:0.000715s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run TokenBuild Behavior [ RunTime:0.000666s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000549s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowRuntime Behavior [ RunTime:0.000724s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002822s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowPageTrace Behavior [ RunTime:0.000881s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --END-- [ RunTime:0.000975s ]
+[ 2017-04-19T16:52:57+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run CheckRoute Behavior [ RunTime:0.000766s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --END-- [ RunTime:0.000863s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000709s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000790s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.006408s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000550s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run LocationTemplate Behavior [ RunTime:0.000727s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --END-- [ RunTime:0.000794s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ParseTemplate Behavior [ RunTime:0.009585s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009645s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ContentReplace Behavior [ RunTime:0.000602s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run TokenBuild Behavior [ RunTime:0.000592s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000423s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowRuntime Behavior [ RunTime:0.000502s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002274s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowPageTrace Behavior [ RunTime:0.000517s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --END-- [ RunTime:0.000592s ]
+[ 2017-04-19T16:52:58+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run CheckRoute Behavior [ RunTime:0.000688s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ route_check ] --END-- [ RunTime:0.000775s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000743s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000814s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.006438s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000485s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run LocationTemplate Behavior [ RunTime:0.000828s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_template ] --END-- [ RunTime:0.000906s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ParseTemplate Behavior [ RunTime:0.011013s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011071s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ContentReplace Behavior [ RunTime:0.000566s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run TokenBuild Behavior [ RunTime:0.000550s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000462s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowRuntime Behavior [ RunTime:0.000684s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002405s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Run ShowPageTrace Behavior [ RunTime:0.000652s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/About/contactus | INFO: Tag[ view_end ] --END-- [ RunTime:0.000722s ]
+[ 2017-04-19T16:52:59+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.001035s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001187s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000824s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000926s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.009704s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000642s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.008892s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SELECT * FROM `czxy_news` LIMIT 5   [ RunTime:0.000552s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.008686s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | SQL: SELECT * FROM `czxy_subjectrace` ORDER BY id DESC LIMIT 3   [ RunTime:0.000491s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001155s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001243s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.024282s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024350s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000865s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.001517s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000873s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001002s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004550s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001689s ]
+[ 2017-04-19T16:53:20+08:00 ] /JSJD/index.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001795s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.001053s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001196s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000921s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.006389s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000588s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000959s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001031s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009348s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009414s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000758s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000591s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000405s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000531s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002440s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000663s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000725s ]
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/images/20100712094639942.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/images/20100820104640206.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/images/20100820104417799.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/images/20100820.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:53:47+08:00 ] /JSJD/index.php/images/20100820144401230.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.001291s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001449s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001150s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001242s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.008563s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000888s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001118s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001211s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.014412s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014509s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.001007s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000767s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000510s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000788s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003312s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000969s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001058s ]
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/images/20100820.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/images/20100820104417799.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/images/20100820104640206.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/images/20100712094639942.jpg | ERR: (ThinkException) 无法加载模块images
+[ 2017-04-19T16:55:37+08:00 ] /JSJD/index.php/js/jquery.bxslider.min.js | ERR: (ThinkException) 无法加载模块js
+[ 2017-04-19T16:55:38+08:00 ] /JSJD/index.php/images/20100820144401230.jpg | ERR: (ThinkException) 无法加载模块images

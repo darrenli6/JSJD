@@ -1,0 +1,37 @@
+<layout name="layout" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+	<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<form action="__SELF__" method='post'>
+		<table class="table">
+			<tr>
+				<td width='45%' align='right'>班级代号：</td>
+				<td>
+					<input type="text" name='classid'/>
+				</td>
+			</tr>
+		   <tr>
+				<td width='45%' align='right'>班级名称：</td>
+				<td>
+					<input type="text" name='name'/>
+				</td>
+			</tr>
+			<tr>
+				<td align='right'>专业：</td>
+				<td>
+					<select name="pid">
+					<foreach name='PData' item='v'>
+						<option value="{$v.id}">{$v.name}</option>
+					</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+ 

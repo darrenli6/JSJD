@@ -1,0 +1,299 @@
+ //学生管理
+create table czxy_stu(
+    id int unsigned primary key auto_increment comment 'id',
+    stuid varchar(50) not null comment '学号',
+    password varchar(45) not null comment '密码',
+    lasttime varchar(45) not null comment '最后一次登录的时间',
+    lastip varchar(45) not null comment '最后一次登录的ip',
+    locked tinyint not null default 1 comment '0为锁定1为开放',
+    index(stuid)
+)engine=InnoDB default charset=utf8 comment '学生列表';
+//学生详细信息
+create table czxy_stuinfo(
+   id int unsigned primary key auto_increment comment 'id',
+   stuid varchar(50)   not null comment '学号',
+   stuname varchar(10) not null comment '学生的姓名',
+   nation varchar(10)  default '汉族' comment '民族',
+   registarea varchar(45)  comment '学生户籍',
+   resourcearea varchar(45)  comment '生源地',
+   parentstel varchar(45)  comment '父母联系方式',
+   sex tinyint not null comment '0为女1为男',
+   face varchar(100) comment '免冠照片',
+   mobilephone char(11) comment '手机号',
+   birthday varchar(45) comment '生日时间戳',
+   stuinfo  text  comment '学生备注',
+   deid  int unsigned not null comment '部门id',
+   cid  int unsigned not null comment '班级id',
+   index(deid,cid),
+   index(stuid)
+)engine=InnoDB default charset=utf8 comment '学生详细信息';
+
+alter table czxy_stuinfo add partyid int default 4 comment '政治面貌id';
+alter table czxy_stuinfo add email varchar(30) default 'null' comment '邮箱';
+create table czxy_departinfo(
+   id int unsigned primary key auto_increment comment 'id',
+   departname varchar(45) not null comment '部门名称',
+   departlogo varchar(60) not null comment '部门logo',
+   context text not null comment '备注'
+)engine=InnoDB default charset=utf8 comment '部门信息';
+
+
+create table czxy_classinfo(
+  id int unsigned primary key auto_increment comment 'id',
+  classid int unsigned not null comment '班级代号',
+  name varchar(50) not null comment '班级名称',
+  pid int unsigned not null comment '专业id',
+  index(pid)
+)engine=InnoDB default charset=utf8 comment '班级信息';
+
+create table czxy_profession(
+    id int unsigned primary key auto_increment comment 'id',
+    name varchar(45) not null comment '名称'
+)engine=InnoDB default charset=utf8 comment '专业信息';
+
+create table czxy_partyrole(
+    id int unsigned primary key auto_increment comment 'id',
+    rolename varchar(45) not null comment '党员角色名称',
+    rolecontent varchar(255) not null comment '党员角色说明'
+)engine=InnoDB default charset=utf8 comment '党员角色'; 
+
+create table czxy_subjectrace(
+   id int unsigned primary key auto_increment comment 'id',
+   racename varchar(45) not null comment '比赛主题',
+   racecontent text not null comment '比赛内容',
+   racetime varchar(50) not null comment '比赛开始时间',
+   smallimg varchar(80) not null comment '比赛缩略图',
+   deds varchar(100) not null comment '说明部门',
+   is_show tinyint unsigned default 1 comment '默认1开放0为关闭'
+)engine=InnoDB default charset=utf8 comment '学科竞赛信息';
+
+alter table czxy_subjectrace add summary varchar(500) not null default '无' comment '概要';
+
+alter table czxy_subjectrace add endtime varchar(50) not null comment '截止时间';
+
+
+create table czxy_racetostu(
+   rid int unsigned comment '比赛id',
+   sid int unsigned comment '学生id',
+   index(rid,sid)
+)engine=InnoDB default charset=utf8 comment '学科竞赛-学生';
+
+
+create table czxy_racetoimg(
+    id int unsigned primary key auto_increment comment 'id',
+    rid int unsigned comment '比赛id',
+    img varchar(50) comment '图片路径',
+    index(rid)
+)engine=InnoDB default charset=utf8 comment '科学竞赛的照片';
+ 
+//party paper
+
+drop table czxy_partyideapaper;
+create table czxy_partyideapaper(
+   id int unsigned primary key auto_increment comment 'id',
+   title varchar(100) not null comment '标题',
+   papertime varchar(100) not null comment '上传时间',
+   paperurl varchar(100) not null comment 'word文档连接',
+   isverify tinyint unsigned default 0 comment '是否通过',
+   sid int unsigned default 0 comment '学生id' 
+)engine=InnoDB default charset=utf8 comment '党员思想汇报';
+
+
+//party activities
+create table czxy_partyactivity(
+   id int unsigned primary key auto_increment comment 'id',
+   title varchar(100) not null comment '标题',
+   content text not null comment '内容',
+   starttime varchar(50) not null comment '开始时间',
+   endtime varchar(50) not null comment '结束时间',
+   attachfile varchar(100) not null comment '文件',
+   smallimg varchar(100) not null comment '缩略图',
+   is_show tinyint unsigned default 1 comment '默认显示'
+)engine=InnoDB default charset=utf8 comment '党员活动';
+
+
+//管理员列表
+create table czxy_admin(
+    id int unsigned primary key auto_increment comment 'id',
+    adminusername varchar(45) not null comment '用户名',
+    password varchar(45) not null comment '密码',
+    lasttime varchar(50) not null comment '最近登录时间',
+    lastip   varchar(50) not null comment '最近登录IP',
+    locked  tinyint default 1 comment '0为锁定1为开放'
+)engine=InnoDB default charset=utf8 comment '管理员列表';
+
+alter table czxy_admin add index(adminusername);
+//管理员角色
+create table czxy_adminrole(
+    id int unsigned primary key auto_increment comment 'id',
+    rname varchar(45) not null comment '管理员角色'
+)engine=InnoDB default charset=utf8 comment '管理员角色';
+
+
+//管理-角色
+create table czxy_roleadmin(
+   rid int unsigned comment '角色id',
+   aid int unsigned comment '管理员id',
+   index(rid,aid)
+)engine=InnoDB default charset=utf8 comment '管理-角色'; 
+//权限
+create table czxy_privilege(
+   id int unsigned primary key auto_increment comment 'id',
+   priname varchar(45) not null comment '权限名称',
+   modulename varchar(45) not null comment '模块名称',
+   controllername varchar(45) not null comment '控制器名称',
+   actionname varchar(45) not null comment '方法名称',
+   parentid int unsigned not null comment '父id'
+)engine=InnoDB default charset=utf8 comment '权限列表';
+
+INSERT INTO `czxy_privilege`(`id`,`priname`,`modulename`,`controllername`,`actionname`,`parentid`) VALUES
+(1,'学生管理','','','',0),
+(2,'管理员管理','','','',0),
+(3,'素质拓展管理','','','',0),
+(4,'学科竞赛管理','','','',0),
+(5,'党员管理','','','',0),
+(6,'党员动态','','','',0),
+(7,'系统设置','','','',0),
+
+
+(8,'班级信息列表','Admin','Classinfo','index',1),
+(9,'添加班级','Admin','Classinfo','add',8),
+(10,'编辑班级','Admin','Classinfo','edit',8),
+(11,'删除班级','Admin','Classinfo','del',8),
+
+(12,'部门列表','Admin','Departinfo','index',1),
+(13,'添加部门','Admin','Departinfo','add',12),
+(14,'编辑部门','Admin','Departinfo','edit',12),
+(15,'删除部门','Admin','Departinfo','del',12),
+
+
+(16,'专业信息','Admin','Profession','index',1),
+(17,'添加专业','Admin','Profession','add',16),
+(18,'编辑专业','Admin','Profession','edit',16),
+(19,'删除专业','Admin','Profession','del',16),
+
+
+(20,'管理员列表','Admin','Admin','index',2),
+(21,'添加管理员','Admin','Admin','add',20),
+(22,'删除班级','Admin','Admin','del',20),
+(23,'操控管理员','Admin','Admin','lockAdmin',20),
+
+
+(24,'素质拓展列表','Admin','Qualitydevestore','index',3),
+(25,'添加素质拓展选项','Admin','Qualitydevestore','add',24),
+(26,'编辑素质拓展选项','Admin','Qualitydevestore','edit',24),
+(27,'删除素质拓展选项','Admin','Qualitydevestore','del',24),
+
+
+(28,'学科竞赛列表','Admin','Subjectrace','index',4),
+(29,'添加竞赛','Admin','Subjectrace','add',28),
+(30,'编辑竞赛','Admin','Subjectrace','edit',28),
+(31,'删除竞赛','Admin','Subjectrace','del',28),
+
+
+(32,'党员角色列表','Admin','Partyrole','index',5),
+(33,'添加角色','Admin','Partyrole','add',32),
+(34,'编辑角色','Admin','Partyrole','edit',32),
+(35,'删除角色','Admin','Partyrole','del',32),
+
+
+(36,'思想报告列表','Admin','Partyideapaper','index',6),
+(37,'添加思想报告','Admin','Partyideapaper','add',36),
+(38,'编辑思想报告','Admin','Partyideapaper','edit',36),
+(39,'删除思想报告','Admin','Partyideapaper','del',36),
+
+(40,'网站设置','Admin','System','setting',7),
+(41,'修改密码','Admin','System','modifyPwd',7);
+
+
+INSERT INTO `czxy_privilege`(`id`,`priname`,`modulename`,`controllername`,`actionname`,`parentid`) VALUES
+(42,'权限列表','Admin','Privilege','index',2),
+(43,'添加权限','Admin','Privilege','add',42),
+(44,'编辑权限','Admin','Privilege','edit',42),
+(45,'删除权限','Admin','Privilege','del',42),
+(46,'角色列表','Admin','Adminrole','index',2),
+(47,'添加角色','Admin','Adminrole','add',46),
+(48,'编辑角色','Admin','Adminrole','edit',46),
+(49,'删除角色','Admin','Adminrole','del',46);
+
+INSERT INTO `czxy_privilege`(`id`,`priname`,`modulename`,`controllername`,`actionname`,`parentid`) VALUES
+(50,'学生信息列表','Admin','Stu','index',1),
+(51,'添加学生','Admin','Stu','add',50),
+(52,'编辑学生','Admin','Stu','edit',50),
+(53,'删除学生','Admin','Stu','del',50);
+
+
+
+
+//prililege-admin
+create table czxy_rolepri(
+   pid int unsigned comment '权限id',
+   rid int unsigned comment '管理员id',
+   index(pid,rid)
+)engine=InnoDB default charset=utf8 comment '权限-角色';
+
+create table czxy_qualitydevestore(
+    id  int unsigned primary key auto_increment comment 'id',
+    qualityname varchar(100) not null comment '名称',
+    fullstore float not null comment '满分',
+    qualityinfo text not null comment '素质拓展说明'
+)engine=InnoDB default charset=utf8 comment '素质拓展表信息';
+
+create table czxy_quastu(
+    id int unsigned primary key auto_increment comment 'id',
+    sid int unsigned not null comment '学生id',
+    qid int unsigned not null comment '拓展项目id',
+    addtime varchar(32) not null comment '添加时间戳',
+    store mediumint unsigned not null comment '分数',
+    index(sid,qid)
+)engine=InnoDB default charset=utf8 comment '素质拓展学生表';
+
+
+//news
+create table czxy_news(
+    id int unsigned primary key auto_increment comment 'id',
+    title varchar(100) comment '新闻标题',
+    img   varchar(100) comment '缩略图',
+    publictime varchar(30) comment '发布时间',
+    sort  mediumint unsigned default 1 comment '排序权重',
+    isshow tinyint default 1 comment '是否显示默认显示',
+    content text comment '文章内容',
+    islike int default 1 comment '点赞'
+)engine=InnoDB default charset=utf8 comment '新闻';
+alter table czxy_news add new_catid int unsigned  default 1 comment '新闻分类id';
+alter table czxy_news add summary varchar(255)  not null comment '简介说明';
+
+//create new comment
+create table czxy_newscomment(
+    id int unsigned primary key auto_increment comment 'id',
+    content varchar(255) comment '评论内容',
+    publictime varchar(100) comment '评论时间',
+    isverify tinyint unsigned comment '是否被审核1审核 0未审核',
+    islike  int default 1 comment '点赞数',
+    ip varchar(50) comment 'ip',
+    nid int unsigned not null comment 'news_id',
+    sid int unsigned not null comment '学生id'
+)engine=InnoDB default charset=utf8 comment '新闻评论';
+
+create table czxy_newscategory(
+   id int unsigned primary key auto_increment comment 'id',
+   cat_name varchar(100) not null comment '分类名称',
+   cat_info varchar(655) not null comment '分类说明',
+   pid int unsigned not null comment '父id',
+   index(pid)
+)engine=InnoDB default charset=utf8 comment '新闻分类';
+
+create table czxy_systemconfig(
+  id int unsigned primary key auto_increment comment 'id',
+  ckey varchar(60) not null comment '项目名',
+  cvalue varchar(255) not null comment '项目值',
+  index(ckey)
+)engine=InnoDB default charset=utf8 comment '系统配置';
+
+insert into czxy_systemconfig(ckey,cvalue)
+values
+('telephone','15135580287'),
+('email','darren94me@gmail.com'),
+('fox','12345678910'),
+('aboutus','xxxxxx');
+

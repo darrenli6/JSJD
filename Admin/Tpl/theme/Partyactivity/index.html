@@ -1,0 +1,49 @@
+<layout name="layout" />
+<a href="{:U('add')}" class='addbtn' ></a> 
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<table class='table'>
+		<tr>
+			<th>ID</th>
+			<th>名称</th>
+			<th>缩略图</th>
+			<th>周期</th>
+			<th colspan="2">状态</th>
+			<th>操作</th>
+		</tr>
+		<foreach name='PData' item='v'>
+			<tr>
+				<td width='50' align='center'>{$v.id}</td>
+				<td width='100'>{$v.title}</td>
+				<td>
+				  <img width='120' height='120' src='{$imgpath}{$v.smallimg}'>
+				</td>
+				<td align='center'>
+					{$v.starttime}--{$v.endtime}
+				</td>
+				
+				<td>
+				<if condition='$v["is_show"]'> 开放
+	          <else /> 锁定           
+	           </if></td>
+				<td width='100' align='center'>
+					<if condition='$v["is_show"]'>
+						<a href="{:U('unshow', array('id' => $v['id'], 'is_show' => 0))}" class='add lock'>锁定</a>
+					<else/>
+						<a href="{:U('show', array('id' => $v['id'], 'is_show' => 1))}" class='add lock'>开放</a>
+					</if>
+				</td>
+				<td width='100' align='center'>
+				<a href="{$path}{$v.attachfile}" class='down_file'></a>
+				<a href="{:U('showdetail',array('id' => $v['id']))}" target="_blank" class='see' ></a>  
+				<a href="{:U('edit', array('id' => $v['id']))}" class='edit'></a> 
+				<a href="{:U('del', array('id' => $v['id']))}" class='del'></a> 
+				 </td>
+			</tr>
+		</foreach>
+		<tr height='50'>
+			<td align='center' colspan='7'>{$page}</td>
+		</tr>
+	</table>

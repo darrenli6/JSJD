@@ -1,0 +1,59 @@
+<layout name="layout" />
+ 
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+	<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<form action="__SELF__" method='post'>
+		<table class="table">
+		  <input type="hidden" name="id"  value="{$DData.id}" />
+			<tr>
+				<td width='40%' align='right'>部门名称：</td>
+				<td>
+					<input type="text" name='departname' value="{$DData.departname}" />
+				</td>
+			</tr>
+		   <tr>
+				<td width='40%' align='right'>部门logo：</td>
+				<td>
+					 <input  type="file"   id="uploadlogo" />
+					 
+                     <div class="showimg">
+                       <img width='120' height='120' src="{$path}{$DData.departlogo}" />;
+                       <input type="hidden" name="departlogo" value="{$DData.departlogo}" />
+	                 </div>
+	 			</td>
+			</tr>
+		     <tr>
+				<td width='40%' align='right'>部门信息：</td>
+				<td>
+			    <textarea id="context" cols="40" rows="6" name="context" >{$DData.context}</textarea>
+                    </td> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+<script>
+  var IMAGEURL="{:U('Departinfo/handlerimage')}";
+  
+</script>
+<script type="text/javascript" src="__PUBLIC__/Js/uploadimage.js"></script> 
+<!--导入在线编辑器 -->
+<link href="__PUBLIC__/umeditor1_2_2-utf8-php/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/umeditor1_2_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
+<script>
+UM.getEditor('context', {
+	initialFrameWidth : "80%",
+	initialFrameHeight : 350
+});
+</script>	
+ 

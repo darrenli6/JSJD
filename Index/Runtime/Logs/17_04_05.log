@@ -1,0 +1,27 @@
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000894s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.038944s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000437s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.054396s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_news` LIMIT 5   [ RunTime:0.000955s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.051131s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_subjectrace` ORDER BY id DESC LIMIT 3   [ RunTime:0.000884s ]
+[ 2017-04-05T09:13:45+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002324s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002483s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.048520s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.048637s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000928s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.001108s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000744s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000930s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003969s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001301s ]
+[ 2017-04-05T09:13:46+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001410s ]

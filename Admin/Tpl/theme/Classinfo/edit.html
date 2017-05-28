@@ -1,0 +1,41 @@
+<layout name="layout" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<form action="__SELF__" method='post'>
+		<table class="table">
+		 <input type="hidden" name="id" value="<?php echo $CData['id']; ?>"  />
+			<tr>
+				<td width='45%' align='right'>班级代号：</td>
+				<td>
+					<input type="text" name='classid' value="<?php echo $CData['classid']; ?>" />
+				</td>
+			</tr>
+		   <tr>
+				<td width='45%' align='right'>班级名称：</td>
+				<td>
+					<input type="text" name='name' value="<?php echo $CData['name']; ?>" />
+				</td>
+			</tr>
+			<tr>
+				<td align='right'>专业：</td>
+				<td>
+					<select name="pid" >
+					<?php foreach($PData as $k=>$v): ?>
+						<option value="<?php echo $v['id']; ?>" 
+						  <?php echo $v['id']==$CData['pid']?'selected="selected"':''; ?> >
+						  <?php echo $v['name']; ?>
+					    </option>
+					<?php endforeach; ?>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+ 

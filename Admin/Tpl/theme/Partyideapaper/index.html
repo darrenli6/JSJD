@@ -1,0 +1,46 @@
+<layout name="layout" />
+<a href="{:U('add')}" class='addbtn' ></a> 
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<table class='table'>
+		<tr>
+			<th>ID</th>
+			<th>名称</th>
+			<th>上传日期</th>
+			<th>学号姓名</th>
+			<th colspan="2">状态</th>
+			<th>操作</th>
+		</tr>
+		<foreach name='PData' item='v'>
+			<tr>
+				<td width='50' align='center'>{$v.id}</td>
+				<td width='100'>{$v.title}</td>
+				<td align='center'>
+					{$v.papertime|date='y-m-d H:i', ###}
+				</td>
+				<td>
+				 13407216---李佳
+				</td>
+				<td>
+				<if condition='$v["isverify"]'> 通过
+	          <else /> 未通过            
+	           </if></td>
+				<td width='100' align='center'>
+					<if condition='$v["isverify"]'>
+						<a href="{:U('unverify', array('id' => $v['id'], 'isverify' => 0))}" class='add lock'>不通过</a>
+					<else/>
+						<a href="{:U('verify', array('id' => $v['id'], 'isverify' => 1))}" class='add lock'>通过</a>
+					</if>
+				</td>
+				<td width='100' align='center'>
+				<a href="{$path}{$v.paperurl}" class='down_file'></a>
+				<a href="{:U('del', array('id' => $v['id']))}" class='del'></a> 
+				 </td>
+			</tr>
+		</foreach>
+		<tr height='50'>
+			<td align='center' colspan='7'>{$page}</td>
+		</tr>
+	</table>

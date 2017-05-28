@@ -1,0 +1,23 @@
+<layout name="layout" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+	<div class='status'>
+		<span>{$title}</span>
+	</div>
+	<form action="__SELF__" method='post'>
+		<table class="table">
+		    <input type="hidden" name='id' value="{$PData.id}"/>
+			<tr>
+				<td width='45%' align='right'>专业名称：</td>
+				<td>
+					<input type="text" name='name' value="{$PData.name}"/>
+				</td>
+			</tr>
+	  
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+ 

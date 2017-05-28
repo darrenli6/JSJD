@@ -1,0 +1,100 @@
+<layout name="layout" />
+      
+<div id="big_wrapper">
+	
+   
+  <div class="top_gywm">
+   			<ul>
+            	<li class="cpzx_left">
+                	<div class="gywm_liebiao">
+                    	<ul>
+                        	<li class="gywm_lbname"><span class="spa">组织者</span><span class="spb">origination</span></li>
+                            <li class="gywm_lb">
+                            	<div>
+                                	<ul>
+                                	<?php foreach($dData as $k=>$v): ?>
+                                	<li><a href="#" ><?php echo $v['departname']; ?></a></li>
+                                <?php endforeach; ?>   
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </li>
+
+               <li class="cpzx_right">
+               		<div class="gywm_xp"></div>
+						<div class="gywm_rightName">
+							<ul>
+								<li class="gyName">竞赛<span>近况</span></li>
+								<li class="gyyou"></li>
+							</ul>
+						</div>
+               		<div class="cpzx_rightCP">
+                    	
+                        <ul class="qikan_list">
+                         <?php foreach($sData as $k=>$v ):?>
+                          <li class="imghover"><a href="{:U('detail',array('sid'=>$v['id']))}" target="_blank" title="<?php echo $v['racename']; ?>">
+                          <img src="<?php echo C('SHOWIMAGE').$v['smallimg']; ?>" alt="<?php echo $v['racename']; ?>"/></a>
+                            <div class="fix intro">
+                              <div class="l t"><?php echo $v['racename']; ?></div>
+                              <p class="p"><?php echo $v['summary']; ?>...</p>
+                            </div>
+                            <a href="{:U('detail',array('sid'=>$v['id']))}" target="_blank" title="<?php echo $v['racename']; ?>">
+                            <div  class="info">更多...</div>
+                            </a>
+                          </li>
+                         <?php endforeach;?>
+                          
+                        </ul>
+                    </div>	
+               </li> 
+           </ul>
+   </div> 
+     
+     
+</div>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+	
+	}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);
+   
+}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>
+<SCRIPT src="../js/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">
+$('.bxslider1').bxSlider({
+  auto:true,
+  infiniteLoop: true,
+  hideControlOnEnd: true
+});
+</script>
+
+ 
+ 

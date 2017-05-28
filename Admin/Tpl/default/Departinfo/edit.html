@@ -1,0 +1,45 @@
+<include file='Common:header'/>
+ 
+    <div class="result_wrap">
+      	<form action="__SELF__" method='post'>
+		<table class="table">
+		  <input type="hidden" name="id"  value="{$DData.id}" />
+			<tr>
+				<td width='40%' align='right'>部门名称：</td>
+				<td>
+					<input type="text" name='departname' value="{$DData.departname}" />
+				</td>
+			</tr>
+		   <tr>
+				<td width='40%' align='right'>部门logo：</td>
+				<td>
+					 <input  type="file"   id="uploadlogo" />
+					 
+                     <div class="showimg">
+                       <img width='120' height='120' src="{$path}{$DData.departlogo}" />;
+                       <input type="hidden" name="departlogo" value="{$DData.departlogo}" />
+	                 </div>
+	 			</td>
+			</tr>
+		     <tr>
+				<td width='40%' align='right'>部门信息：</td>
+				<td>
+			    <textarea id="context" cols="40" rows="6" name="context" >{$DData.context}</textarea>
+                    </td> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan='2' align='center'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+    </div>
+<script>
+  var IMAGEURL="{:U('Departinfo/handlerimage')}";
+  var objeditor='context';
+</script>
+<include file='Common:footer'/>
+<script type="text/javascript" src="__PUBLIC__/js/uploadimage.js"></script> 

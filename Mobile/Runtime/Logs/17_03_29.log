@@ -1,0 +1,20 @@
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ app_begin ] --START--
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000636s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000721s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005415s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000400s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_template ] --START--
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000858s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000930s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_parse ] --START--
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run ParseTemplate Behavior [ RunTime:0.009461s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009515s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_filter ] --START--
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run ContentReplace Behavior [ RunTime:0.000662s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run TokenBuild Behavior [ RunTime:0.000605s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000455s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000557s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002398s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_end ] --START--
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000934s ]
+[ 2017-03-29T09:13:52+08:00 ] /JSJD/mobile.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001012s ]

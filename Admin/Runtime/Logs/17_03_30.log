@@ -1,0 +1,509 @@
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001928s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002116s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001452s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001558s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000847s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000903s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.022788s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022834s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000664s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000872s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000581s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000659s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002890s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000662s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000711s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002239s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.002491s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002847s ]
+[ 2017-03-30T09:12:57+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002985s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000948s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000728s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | SQL: SHOW COLUMNS FROM `czxy_admin` [ RunTime:0.102877s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | SQL: SELECT * FROM `czxy_admin` WHERE ( `adminusername` = 'admin' ) LIMIT 1   [ RunTime:0.001198s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Use of undefined constant user - assumed 'user' LoginAction.class.php 第 37 行.
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | SQL: UPDATE `czxy_admin` SET `lasttime`=1490836392,`lastip`='127.0.0.1' WHERE ( `id` = '1' ) [ RunTime:0.048940s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.001789s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001914s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.023313s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023502s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.000802s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.001016s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000896s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.001194s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004219s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001199s ]
+[ 2017-03-30T09:13:12+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001293s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001028s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001186s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000924s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000997s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.015337s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005608s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000444s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.053582s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.053640s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000541s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000465s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000532s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002355s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000545s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000590s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.000756s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.000887s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000869s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000467s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000516s ]
+[ 2017-03-30T09:13:13+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.044901s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.044941s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000592s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000476s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000355s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000627s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002193s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.001082s ]
+[ 2017-03-30T09:13:14+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.001136s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run CheckRoute Behavior [ RunTime:0.000802s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000891s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000654s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000700s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006056s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SHOW COLUMNS FROM `czxy_newscategory` [ RunTime:0.005918s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_newscategory` LIMIT 1   [ RunTime:0.000366s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SELECT * FROM `czxy_newscategory`  [ RunTime:0.000288s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000783s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000829s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ParseTemplate Behavior [ RunTime:0.007527s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007577s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ContentReplace Behavior [ RunTime:0.000582s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run TokenBuild Behavior [ RunTime:0.000711s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000477s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000637s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002546s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000600s ]
+[ 2017-03-30T09:13:18+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000640s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run CheckRoute Behavior [ RunTime:0.000857s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000943s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000725s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005493s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.005683s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_news` LIMIT 1   [ RunTime:0.000324s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT * FROM `czxy_news` ORDER BY publictime desc  [ RunTime:0.000387s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000839s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000886s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run ParseTemplate Behavior [ RunTime:0.037912s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.037964s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run ContentReplace Behavior [ RunTime:0.000516s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001073s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000940s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003450s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000720s ]
+[ 2017-03-30T09:13:21+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000767s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001077s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000739s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000783s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006759s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.013119s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | SQL: SELECT `id`,`cat_name` FROM `czxy_news`  [ RunTime:0.000281s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000856s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000902s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | NOTIC: [2] Invalid argument supplied for foreach() ec807c1a29c34bb99ecf740c8dff8422.php 第 33 行.
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run ParseTemplate Behavior [ RunTime:0.008201s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008242s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run ContentReplace Behavior [ RunTime:0.000617s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run TokenBuild Behavior [ RunTime:0.000614s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000587s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000681s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002632s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000672s ]
+[ 2017-03-30T09:18:36+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000724s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000777s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000883s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000593s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000640s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.054449s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.009710s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000528s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.078869s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.078903s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000631s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000510s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000546s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002213s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000606s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000646s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001359s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001493s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001074s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001143s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.001585s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.001823s ]
+[ 2017-03-30T09:19:23+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.014866s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.014926s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000675s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000639s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000682s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002619s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.001355s ]
+[ 2017-03-30T09:19:24+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.001455s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000931s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000664s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000707s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.053322s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.006018s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_news` LIMIT 1   [ RunTime:0.000691s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT * FROM `czxy_news` ORDER BY publictime desc  [ RunTime:0.000749s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001419s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001521s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run ParseTemplate Behavior [ RunTime:0.020694s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020801s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run ContentReplace Behavior [ RunTime:0.001149s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run TokenBuild Behavior [ RunTime:0.001082s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000826s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001108s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004439s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001489s ]
+[ 2017-03-30T09:19:27+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001600s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run CheckRoute Behavior [ RunTime:0.000747s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000821s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000570s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000611s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.089600s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.017685s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | SQL: SELECT `id`,`cat_name` FROM `czxy_news`  [ RunTime:0.000867s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000879s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000954s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | NOTIC: [2] Invalid argument supplied for foreach() ec807c1a29c34bb99ecf740c8dff8422.php 第 33 行.
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run ParseTemplate Behavior [ RunTime:0.010248s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010316s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run ContentReplace Behavior [ RunTime:0.000798s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run TokenBuild Behavior [ RunTime:0.000799s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000622s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003403s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001012s ]
+[ 2017-03-30T09:19:29+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001082s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run CheckRoute Behavior [ RunTime:0.001290s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001432s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000877s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000947s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.026923s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.105570s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | SQL: SELECT `id`,`cat_name` FROM `czxy_news`  [ RunTime:0.000747s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001637s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001792s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | NOTIC: [2] Invalid argument supplied for foreach() ec807c1a29c34bb99ecf740c8dff8422.php 第 33 行.
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run ParseTemplate Behavior [ RunTime:0.023773s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023926s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run ContentReplace Behavior [ RunTime:0.001590s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run TokenBuild Behavior [ RunTime:0.001582s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001201s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001694s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006422s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001838s ]
+[ 2017-03-30T09:19:31+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001957s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000981s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000861s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006228s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | SQL: SHOW COLUMNS FROM `czxy_newscategory` [ RunTime:0.006004s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | SQL: SELECT `id`,`cat_name` FROM `czxy_newscategory`  [ RunTime:0.000317s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000731s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000770s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run ParseTemplate Behavior [ RunTime:0.015360s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015404s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run TokenBuild Behavior [ RunTime:0.000740s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000433s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000538s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002383s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000555s ]
+[ 2017-03-30T09:19:58+08:00 ] /JSJD/admin.php/News/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000598s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000760s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000902s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000739s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000796s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006526s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005928s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000544s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.039143s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.039181s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000797s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000803s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000538s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000673s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002945s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000671s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000717s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001261s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001382s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000879s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000949s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000726s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000805s ]
+[ 2017-03-30T09:42:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.019603s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.019656s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000720s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000659s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000544s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000710s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002786s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000857s ]
+[ 2017-03-30T09:42:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000908s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000968s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000687s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000732s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005766s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SHOW COLUMNS FROM `czxy_newscategory` [ RunTime:0.005331s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_newscategory` LIMIT 1   [ RunTime:0.000388s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | SQL: SELECT * FROM `czxy_newscategory`  [ RunTime:0.000339s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000808s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000864s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ParseTemplate Behavior [ RunTime:0.007239s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007298s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ContentReplace Behavior [ RunTime:0.000481s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run TokenBuild Behavior [ RunTime:0.000485s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000441s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000571s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002216s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000646s ]
+[ 2017-03-30T09:42:42+08:00 ] /JSJD/admin.php/Newscategory/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000692s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run CheckRoute Behavior [ RunTime:0.000737s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000808s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000590s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000626s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005143s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | SQL: SHOW COLUMNS FROM `czxy_newscategory` [ RunTime:0.005735s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | SQL: SELECT * FROM `czxy_newscategory` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000364s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run LocationTemplate Behavior [ RunTime:0.000658s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000698s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run ParseTemplate Behavior [ RunTime:0.006252s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006323s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run ContentReplace Behavior [ RunTime:0.000699s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run TokenBuild Behavior [ RunTime:0.000665s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000503s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run ShowRuntime Behavior [ RunTime:0.000605s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002609s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000624s ]
+[ 2017-03-30T09:42:46+08:00 ] /JSJD/admin.php/Newscategory/edit/id/1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000661s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run CheckRoute Behavior [ RunTime:0.000872s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000966s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000722s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005488s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.054964s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_news` LIMIT 1   [ RunTime:0.000309s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | SQL: SELECT * FROM `czxy_news` ORDER BY publictime desc  [ RunTime:0.000313s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000808s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000905s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009287s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009339s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run ContentReplace Behavior [ RunTime:0.000582s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run TokenBuild Behavior [ RunTime:0.000542s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000455s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000594s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002310s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000562s ]
+[ 2017-03-30T09:42:49+08:00 ] /JSJD/admin.php/News/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000604s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run CheckRoute Behavior [ RunTime:0.000853s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000939s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000745s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000787s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005907s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | SQL: SHOW COLUMNS FROM `czxy_news` [ RunTime:0.005872s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | SQL: SELECT * FROM `czxy_news` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000370s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | SQL: SHOW COLUMNS FROM `czxy_newscategory` [ RunTime:0.006080s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | SQL: SELECT `id`,`cat_name` FROM `czxy_newscategory`  [ RunTime:0.000332s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run LocationTemplate Behavior [ RunTime:0.000615s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000657s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Use of undefined constant new_catid - assumed 'new_catid' 35f5bec69668089c1808466ba2e3b1dc.php 第 35 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Array to string conversion 35f5bec69668089c1808466ba2e3b1dc.php 第 35 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Undefined variable: selected 35f5bec69668089c1808466ba2e3b1dc.php 第 37 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Use of undefined constant new_catid - assumed 'new_catid' 35f5bec69668089c1808466ba2e3b1dc.php 第 35 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Array to string conversion 35f5bec69668089c1808466ba2e3b1dc.php 第 35 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | NOTIC: [8] Undefined variable: selected 35f5bec69668089c1808466ba2e3b1dc.php 第 37 行.
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run ParseTemplate Behavior [ RunTime:0.007730s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007764s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run ContentReplace Behavior [ RunTime:0.000553s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run TokenBuild Behavior [ RunTime:0.000541s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000466s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run ShowRuntime Behavior [ RunTime:0.000558s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002260s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000577s ]
+[ 2017-03-30T09:42:51+08:00 ] /JSJD/admin.php/News/edit/id/2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000650s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000780s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000642s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000694s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006738s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.005468s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000535s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.041693s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.041729s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000711s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000843s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000492s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000598s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002769s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000571s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000608s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001473s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001599s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001047s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001122s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.001125s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.001210s ]
+[ 2017-03-30T09:53:54+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info(): A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.017540s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.017619s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.001316s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000692s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000485s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000617s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003258s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000623s ]
+[ 2017-03-30T09:53:55+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000658s ]

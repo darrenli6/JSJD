@@ -1,0 +1,9 @@
+[ 2017-02-15T10:08:47+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-02-15T10:08:47+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004757s ]
+[ 2017-02-15T10:08:47+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004843s ]
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Tag[ route_check ] --START--
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Run CheckRoute Behavior [ RunTime:0.001214s ]
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001346s ]
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Tag[ app_begin ] --START--
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+[ 2017-02-15T13:50:07+08:00 ] /JSJD/index.php/Index/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000968s ]

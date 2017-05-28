@@ -1,0 +1,6 @@
+[ 2017-03-10T09:55:39+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-03-10T09:55:39+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001317s ]
+[ 2017-03-10T09:55:39+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001392s ]
+[ 2017-03-10T18:02:22+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-03-10T18:02:22+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001082s ]
+[ 2017-03-10T18:02:22+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001197s ]

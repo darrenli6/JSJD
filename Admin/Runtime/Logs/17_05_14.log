@@ -1,0 +1,476 @@
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001886s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001976s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 125 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000774s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000303s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000389s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010954s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011036s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000347s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001602s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000300s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000517s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003024s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000694s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000764s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001016s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001157s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 125 行.
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+[ 2017-05-14T09:43:35+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000804s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.000519s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000577s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 125 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000356s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | SQL: SHOW COLUMNS FROM `czxy_admin` [ RunTime:0.002067s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 660 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | SQL: SELECT * FROM `czxy_admin` WHERE ( `adminusername` = 'admin' ) LIMIT 1   [ RunTime:0.000377s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Use of undefined constant user - assumed 'user' LoginAction.class.php 第 37 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | SQL: UPDATE `czxy_admin` SET `lasttime`=1494726237,`lastip`='127.0.0.1' WHERE ( `id` = '1' ) [ RunTime:0.003415s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.000231s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000274s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.008693s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008747s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.000232s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000139s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000300s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001015s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000274s ]
+[ 2017-05-14T09:43:57+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000311s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000423s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000171s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000217s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.003442s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.002097s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Db.class.php 第 660 行.
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000364s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.033129s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.033191s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000360s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000276s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000257s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001145s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000255s ]
+[ 2017-05-14T09:43:58+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000291s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.000773s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.000854s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 125 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000365s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000407s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000215s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead 63a16aed536409667bc2bb138cd559ae.php 第 30 行.
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:0.009857s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009926s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000451s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000454s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000236s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000492s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001874s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000557s ]
+[ 2017-05-14T09:43:59+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000642s ]

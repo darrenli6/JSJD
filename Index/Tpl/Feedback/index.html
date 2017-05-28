@@ -1,0 +1,158 @@
+  <layout name="layout" />
+<div id="big_wrapper">
+	
+     
+ <div class="top_gywm">
+	<ul>
+            	<li class="cpzx_left">
+                	<div class="gywm_liebiao">
+                    	<ul>
+                        	<li class="gywm_lbname"><span class="spa">联系我们</span><span class="spb">adout us</span></li>
+                            <li class="gywm_lb">
+                            	<div>
+                                	<ul>
+                                	<li><a href="#" onClick="toggle('1')" >联系我们</a></li>
+                                    <li><a href="#" onClick="toggle('2')" >意见反馈</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </li>
+
+               <li class="cpzx_right" id="div1" style="display:block">
+               		<div class="gywm_xp"></div>
+						<div class="gywm_rightName">
+							<ul>
+								<li class="gyName">联系我们<span>company profil</span></li>
+								<li class="gyyou"></li>
+							</ul>
+						</div>
+                      <div class="lxwmjs">
+                   		<p><img  src="__PUBLIC__/images/lxwm2.png" alt="" /></p>
+								<br />
+                                <br />
+                            <font size="4">邦力重工有限公司</font><br />
+                             <br />
+                            咨询热线：  4000 580 100<br />
+                            网址(Web)： www.mycodes.net <br />      
+                            集团官网：  www.ipr580.cn<br />
+                            招聘邮箱：  hsdongli@163.com<br />
+                            客服邮箱：  1725962903@qq.com<br />
+                            地址：  西安市科技二路创新信息大厦B座5层
+                      </div>
+                                 <!--  地图 容器-->
+                             <div id="l-map"></div>
+                                  <!--  地图 结束-->
+               </li> 
+               
+                <li class="cpzx_right" id="div2" style="display:none">
+               		<div class="gywm_xp"></div>
+						<div class="gywm_rightName">
+							<ul>
+								<li class="gyName">意见反馈<span>company profil</span></li>
+								<li class="gyyou"></li>
+							</ul>
+						</div>
+                      <div class="lxwmly">
+                   				<ul>
+                                	<form action="" name="form1">
+                                	<p><font color="#FF0000">*</font>&nbsp;&nbsp;请留下您的意见和建议，帮助我们做得更好：)</p>
+                                	<li class="js_jy"><textarea type="text" name="jy"></textarea></li>
+                                    <p>联系Email</p>
+                                    <li class="js_Email"><input type="text" name="email" dataType="email[1,]"  style="width:500px; height:30px;" /></li>
+                                    <p>联系电话</p>
+                                    <li class="js_Tel"><input  type="text"  style="width:500px; height:30px;"></li>
+                                    
+                                    <li class="js_tjcz"><input name="" value="提 交" type="submit" /> &nbsp;&nbsp;&nbsp;&nbsp;<input name="" value="重 置" type="reset" /></li>
+                                    </form>
+                                    <li class="js_tjcz"><font size="2">说明：*为必填项，请填写完整。填写E-mail或者联系电话方便我们及时给您回复，此信息不公开仅限客户联络，请放心。</font></li>
+                                </ul>
+                      </div>
+               </li> 
+           </ul>
+     
+     
+</div>            
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+	
+	}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);
+   
+}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>  
+<script language="JavaScript" type="text/JavaScript">
+ function toggle(targetid){
+ 	document.getElementById("div"+targetid).style.display="block";        
+ 	for(var i =1;i<=3;i++){
+		if(targetid != i){
+			document.getElementById("div"+i).style.display="none";
+		}
+	}
+ }
+ </script>	    
+<SCRIPT src="../js/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">
+$('.bxslider1').bxSlider({
+  auto:true,
+  infiniteLoop: true,
+  hideControlOnEnd: true
+});
+</script>
+<script type="text/javascript">
+
+								// 百度地图API功能
+								var map = new BMap.Map("l-map");
+								var point = new BMap.Point(108.885655,34.230192);
+								map.centerAndZoom(point, 16);
+								var marker = new BMap.Marker(point);  // 创建标注
+								map.addOverlay(marker);              // 将标注添加到地图中
+								marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+								
+								
+								map.addControl(new BMap.OverviewMapControl());              //添加默认缩略地图控件
+								map.addControl(new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_TOP_RIGHT}));   //右上角，打开
+								
+								
+								map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}));  //右上角，仅包含平移和缩放按钮
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT, type: BMAP_NAVIGATION_CONTROL_PAN}));  //左下角，仅包含平移按钮
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT, type: BMAP_NAVIGATION_CONTROL_ZOOM}));  //右下角，仅包含缩放按钮
+								
+								map.centerAndZoom(point,17);                   // 初始化地图,设置城市和地图级别。
+								
+								map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+								map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+								
+								
+								</script>	
+
+</body>
+</html>
+ 

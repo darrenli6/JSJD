@@ -1,0 +1,138 @@
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001278s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001421s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.038051s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000744s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.007528s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.007600s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.089937s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.090119s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.013769s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.007257s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.007358s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.004354s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.032988s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001120s ]
+[ 2017-04-01T09:15:03+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001203s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000777s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005932s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000382s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000606s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000655s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.008435s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008500s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000580s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.000753s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000553s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002754s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000627s ]
+[ 2017-04-01T09:15:16+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000688s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000624s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000733s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005958s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000440s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000620s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000694s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.009892s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009960s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000688s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.000575s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000428s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000561s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002415s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000525s ]
+[ 2017-04-01T09:16:00+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000575s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000829s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000965s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.092673s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000600s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000878s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011310s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011394s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000647s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.000572s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000430s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000959s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002832s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001132s ]
+[ 2017-04-01T09:16:49+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001217s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000707s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000800s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.006744s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000479s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000766s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000821s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011305s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011399s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000685s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.000580s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000600s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002472s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001398s ]
+[ 2017-04-01T09:17:07+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001472s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --START--
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001194s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005904s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000411s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --START--
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000736s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000790s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --START--
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/top.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/luenhuan.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | NOTIC: [2] file_get_contents(./Index/Tpl/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory ThinkTemplate.class.php 第 702 行.
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018490s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018580s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --START--
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run ContentReplace Behavior [ RunTime:0.000857s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000434s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000547s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002856s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --START--
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000835s ]
+[ 2017-04-01T09:18:28+08:00 ] /JSJD/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000909s ]

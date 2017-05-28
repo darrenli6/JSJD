@@ -1,0 +1,74 @@
+ <include file='Common:header'/>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+        <!--搜索结果页面 列表 开始-->
+ 
+        <div class="result_wrap">
+            <!--快捷导航 开始-->
+            <div class="result_content">
+                <div class="short_wrap">
+                    <a href="{:U('add')}"><i class="fa fa-plus"></i>新增</a>
+                    <a href="#" onclick="delall()"><i class="fa fa-recycle"></i>批量删除</a>
+                </div>
+            </div>
+            <!--快捷导航 结束-->
+        </div>
+
+        <div class="result_wrap">
+            <div class="result_content">
+                <table class="list_tab">
+                    <tr>
+            <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>
+			<th>ID</th>
+			<th>管理员名称</th>
+			<th>角色</th>
+			<th>最后登录时间</th>
+			<th>最后登录IP</th>
+			<th colspan="2">账号状态</th>
+			<if condition='$_SESSION["adminusername"]=="admin"'>
+				<th>操作</th>
+			</if>
+		</tr>
+		<foreach name='admin' item='v'>
+			<tr>
+			
+			<td>  <input type="checkbox" name="id"  id="id{$v.id}" onclick="addchecked({$v.id})"  value="{$v.id}"></td>
+				<td width='50' align='center'>{$v.id}</td>
+				<td width='120' align='center'>{$v.adminusername}</td>
+				<td align='center'>
+					{$v.rname}
+				</td>
+				<td align='center'>{$v.lasttime|date='y-m-d H:i', ###}</td>
+				<td align='center'>{$v.lastip}</td>
+				<td width='60' align='center'>
+					<if condition='$v["locked"]'>锁定
+					<else />
+					开放
+					</if>
+				</td>
+				<if condition='$_SESSION["adminusername"]=="admin"'>
+					<td width='240'>
+						<if condition='$v["adminusername"]=="admin"'>
+							
+						<else />
+						   <if condition='$v["locked"]'>
+								<a href="{:U('lockAdmin', array('id' => $v['id'], 'locked' => 0))}" class='add lock'>解除锁定</a>
+							<else/>
+								<a href="{:U('lockAdmin', array('id' => $v['id'], 'locked' => 1))}" class='add lock'>锁定用户</a>
+							</if>
+							
+						</if>
+					</td>
+				</if>
+				<td>
+				<if condition='$v["adminusername"]=="admin"'>
+							
+			    <else />
+				<a href='{:U("edit", array("id" => $v["id"]))}' class='edit'>编辑</a>
+				<a href='{:U("del", array("id" => $v["id"]))}' class='del'>删除</a>
+				</if>
+				</td>
+			</tr>
+		</foreach>
+	</table>
+ 
+<include file='Common:footer'/>	

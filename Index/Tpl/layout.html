@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>计算机系</title>
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" >
+<link rel="stylesheet" href="__PUBLIC__/css/jquery.bxslider.css" >
+<link rel="stylesheet" href="__PUBLIC__/css/reset.css">
+</head>
+
+<body>
+<!--头部调用--><!--导航调用-->
+<!--<include file="Public:top"/>-->
+
+<!--头部-->
+	<div class="big_logo">
+			<ul>
+            	<li><span class="logo"></span></li>
+                <li>
+                	<span class="lgfw">
+                			<ul>
+                            	<ol class="fw_jt"></ol>
+                            	<?php if(empty(session('sid'))){ ?>
+                                <ol class="fw_kefu"><a href="{:U('Login/index')}">用户登录</a></ol>
+                                <ol class="fw_kefu"><a href="{:U('Login/index')}">用户注册</a></ol>
+                             <?php }else{ ?>
+                                <ol class="fw_kefu"><a href="{:U('Usercenter/index')}">个人中心</a></ol>
+                                <ol class="fw_kefu"><a href="{:U('Login/logout')}">退出</a></ol>
+                             <?php } ?>
+                                <ol class="fw_kefu"><a href="{:U('About/contactus')}">联系我们</a></ol>
+                               
+                            </ul>
+                	</span>
+                </li>
+            </ul>
+    </div>
+   	<!--导航-->
+    <div class="top_daohang" >
+		<ul id="jsddm">
+        	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
+            <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
+           		 <ul>
+                	<li><a href="#">学习部</a></li>
+                    <li><a href="#">纪律部</a></li>
+               </ul> 
+            </li>	
+            <li class="top_dh"><a href="<?php echo U('News/index'); ?>">党员会议</a>
+          
+            </li>
+            
+            <li class="top_dh"><a href="<?php echo U('News/index'); ?>">新闻列表</a>
+           
+            </li>
+             <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
+             <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
+            <li class="top_dh"><a href="About/rlzy.html">投诉建议</a>
+
+
+            
+        </ul>
+	  </div>
+      
+      
+      
+      
+<div id="big_wrapper">
+	
+<!--轮换图调用-->
+<!--<include file="Public:luenhuan"/>-->    
+    <div class="top_luhuan">
+		<div id="banner">
+		  <ul class="bxslider1">
+		  
+		    <?php foreach($rotatedata as $k=>$v): ?>
+			<li><img  src="__ROOT__/Public/rotate/<?php echo $v['cvalue'];?>" alt=""  width="1000px" height="531px" /></li>
+            <?php endforeach; ?>		 
+		  </ul>
+		</div>
+       
+    </div>
+    
+    
+    
+   {__CONTENT__} 
+      
+<!--底部-->   
+
+<!--<include file="Public:footer"/> -->   
+    
+    
+    <div class="Under">
+    		<ul>
+            	<li class="Ur_dizhi">版权所有(2017)长治学院计算机系</li>
+                <li class="Ur_caidan">
+                		<div class="Ur_cd">
+                        	<ul>
+                        		<li><a href="">人才招聘</a></li>
+                                <li class="Ur_cdA"><a href="">网站地图</a></li>
+                                <li class="Ur_cdA"><a href="">友情链接</a></li>
+                                <li class="Ur_cdA"><a href="">会员登录</a></li>
+                                <li class="Ur_cdA"><a href="">联系我们</a></li>
+                            </ul>
+                        </div>
+                </li>
+            </ul>
+    </div>
+    <div class="Under_B">
+    		<ul>
+            	 
+                <li class="BAPPP">计科1302_Darren技术支持&nbsp;&nbsp;&nbsp;&nbsp; 
+                </li>
+            </ul>
+    		
+    </div>
+</div>
+
+
+<script type="text/javascript" src="__PUBLIC__/js/choose.js"></script>
+</body>
+</html>
+    
+    

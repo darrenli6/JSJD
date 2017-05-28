@@ -1,0 +1,646 @@
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.000823s ]
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000961s ]
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000655s ]
+[ 2017-04-02T17:31:28+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000704s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000860s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000931s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.025265s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025320s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000637s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001064s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000588s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000634s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003069s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000653s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000695s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.000709s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.000791s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000787s ]
+[ 2017-04-02T17:31:29+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000852s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.001192s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001335s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000750s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000799s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | SQL: SHOW COLUMNS FROM `czxy_admin` [ RunTime:0.026463s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | SQL: SELECT * FROM `czxy_admin` WHERE ( `adminusername` = 'admin' ) LIMIT 1   [ RunTime:0.000854s ]
+[ 2017-04-02T17:31:34+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Use of undefined constant user - assumed 'user' LoginAction.class.php 第 37 行.
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | SQL: UPDATE `czxy_admin` SET `lasttime`=1491125494,`lastip`='127.0.0.1' WHERE ( `id` = '1' ) [ RunTime:0.144988s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.002202s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002381s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.053777s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.053983s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.001765s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.001769s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001626s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.002454s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008341s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002399s ]
+[ 2017-04-02T17:31:35+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002629s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000610s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000699s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.043937s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.044035s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.011505s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010937s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000912s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.080008s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.080080s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000781s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000670s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000496s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000547s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002673s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000534s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000583s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.000758s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.000873s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000618s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000674s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000525s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000588s ]
+[ 2017-04-02T17:31:36+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.037700s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.037763s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.001137s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000555s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000484s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003024s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000650s ]
+[ 2017-04-02T17:31:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000705s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run CheckRoute Behavior [ RunTime:0.000741s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000821s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000623s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000675s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010349s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | SQL: SHOW COLUMNS FROM `czxy_partyideapaper` [ RunTime:0.010612s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_partyideapaper` LIMIT 1   [ RunTime:0.023206s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | SQL: SHOW COLUMNS FROM `czxy_partyideapaper` [ RunTime:0.009588s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | SQL: SELECT * FROM `czxy_partyideapaper`  [ RunTime:0.000345s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run LocationTemplate Behavior [ RunTime:0.013307s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.013377s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run ParseTemplate Behavior [ RunTime:0.016993s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017069s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run ContentReplace Behavior [ RunTime:0.000699s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run TokenBuild Behavior [ RunTime:0.000593s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000469s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000612s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002536s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000618s ]
+[ 2017-04-02T17:31:46+08:00 ] /JSJD/admin.php/Partyideapaper/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000679s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run CheckRoute Behavior [ RunTime:0.001570s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001757s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001531s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001660s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.017787s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | SQL: SHOW COLUMNS FROM `czxy_partyactivity` [ RunTime:0.016524s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_partyactivity` LIMIT 1   [ RunTime:0.000587s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | SQL: SHOW COLUMNS FROM `czxy_partyactivity` [ RunTime:0.010943s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | SQL: SELECT * FROM `czxy_partyactivity`  [ RunTime:0.000439s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001044s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001106s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run ParseTemplate Behavior [ RunTime:0.032751s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032806s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run ContentReplace Behavior [ RunTime:0.000549s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run TokenBuild Behavior [ RunTime:0.000514s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000423s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000580s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002215s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000560s ]
+[ 2017-04-02T17:31:47+08:00 ] /JSJD/admin.php/Partyactivity/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000607s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001047s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000759s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000837s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.012822s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.011238s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_subjectrace` LIMIT 1   [ RunTime:0.000729s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT * FROM `czxy_subjectrace`  [ RunTime:0.000328s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000826s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000884s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010515s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000794s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.049296s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.049368s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000895s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000688s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000500s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000792s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003120s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000635s ]
+[ 2017-04-02T17:32:51+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000683s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run CheckRoute Behavior [ RunTime:0.001034s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001165s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001438s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001561s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.049025s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.013423s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | SQL: SELECT `racecontent` FROM `czxy_subjectrace` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033849s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run LocationTemplate Behavior [ RunTime:0.000875s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000963s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | NOTIC: [8] Undefined variable: title 45596693ff6086799da92c0e494b9429.php 第 5 行.
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run ParseTemplate Behavior [ RunTime:0.011242s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011315s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run ContentReplace Behavior [ RunTime:0.000610s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run TokenBuild Behavior [ RunTime:0.000583s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run ShowRuntime Behavior [ RunTime:0.000657s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002522s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000759s ]
+[ 2017-04-02T17:32:56+08:00 ] /JSJD/admin.php/Subjectrace/show/id/2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000836s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001015s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000967s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.009793s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010114s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000402s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000811s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000880s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.061042s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.061107s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000630s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000562s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000452s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000582s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002389s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000653s ]
+[ 2017-04-02T17:33:51+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000707s ]
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000934s ]
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001106s ]
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000925s ]
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001020s ]
+[ 2017-04-02T17:38:33+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.028039s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.014170s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000635s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.086775s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.086867s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000961s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001039s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000559s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000689s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003459s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000676s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000743s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001109s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001242s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000915s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000660s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000749s ]
+[ 2017-04-02T17:38:34+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.021054s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.021125s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000625s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000476s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000685s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002686s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000800s ]
+[ 2017-04-02T17:38:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000872s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.001076s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001214s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000866s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000948s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.014249s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.012319s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_subjectrace` LIMIT 1   [ RunTime:0.000403s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT * FROM `czxy_subjectrace`  [ RunTime:0.000495s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001165s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001274s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.011041s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000412s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.026431s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026487s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000698s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000757s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000660s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000786s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003217s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000757s ]
+[ 2017-04-02T17:39:01+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000837s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.001049s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001173s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000854s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010733s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010036s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000354s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000692s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000744s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.008864s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008920s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000891s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000929s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000940s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003540s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000689s ]
+[ 2017-04-02T17:39:03+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000751s ]
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001107s ]
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000798s ]
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000871s ]
+[ 2017-04-02T17:39:52+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.013573s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.022030s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000427s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000805s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000870s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.012012s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012100s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000547s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000525s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000498s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002234s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000446s ]
+[ 2017-04-02T17:39:53+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000488s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000954s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001078s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000736s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000804s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.014411s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.012908s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000429s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000830s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000915s ]
+[ 2017-04-02T17:40:04+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.013194s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013278s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000610s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000663s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000892s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000743s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003156s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000627s ]
+[ 2017-04-02T17:40:05+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000689s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000675s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000755s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000584s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000631s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010191s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.009900s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000439s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000726s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000782s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.008731s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008803s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000689s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000878s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000464s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000533s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002794s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000511s ]
+[ 2017-04-02T17:40:12+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000557s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.001119s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001267s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001045s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001154s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.013562s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.012102s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000492s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000804s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000861s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.011580s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011640s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.001185s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.001061s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000550s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000598s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003605s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000604s ]
+[ 2017-04-02T17:42:00+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000664s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.001518s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001711s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001231s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001345s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.009933s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.010751s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_subjectrace` LIMIT 1   [ RunTime:0.000352s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT * FROM `czxy_subjectrace`  [ RunTime:0.000302s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000675s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000728s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.009692s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000359s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000322s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021964s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022002s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000570s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000526s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000482s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000494s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002212s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000460s ]
+[ 2017-04-02T17:43:38+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000518s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000746s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000837s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000653s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000703s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010575s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010372s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000349s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000624s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000671s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.009835s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009903s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000685s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000480s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000551s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002598s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000559s ]
+[ 2017-04-02T17:43:47+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000603s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000965s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001255s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001321s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010961s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010237s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000373s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000763s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000826s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.009496s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009551s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000723s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000734s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000478s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000759s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002891s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000648s ]
+[ 2017-04-02T17:44:15+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000710s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run CheckRoute Behavior [ RunTime:0.000735s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000820s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000548s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000593s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010566s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.010667s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | SQL: SELECT `id`,`departname` FROM `czxy_departinfo`  [ RunTime:0.000354s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000737s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000811s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ParseTemplate Behavior [ RunTime:0.010454s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010512s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ContentReplace Behavior [ RunTime:0.000643s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run TokenBuild Behavior [ RunTime:0.000634s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000568s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002459s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000643s ]
+[ 2017-04-02T17:44:26+08:00 ] /JSJD/admin.php/Subjectrace/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000694s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000771s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000723s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.009718s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_subjectrace` [ RunTime:0.010068s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT COUNT(*) AS tp_count FROM `czxy_subjectrace` LIMIT 1   [ RunTime:0.000384s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT * FROM `czxy_subjectrace`  [ RunTime:0.000420s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000700s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000759s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SHOW COLUMNS FROM `czxy_departinfo` [ RunTime:0.009427s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000400s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('4') )  [ RunTime:0.000450s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | NOTIC: [8] Use of undefined constant deds - assumed 'deds' 7ea672f54c25bb7f38d789391801ee83.php 第 43 行.
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | SQL: SELECT `departname` FROM `czxy_departinfo` WHERE ( `id` IN ('5') )  [ RunTime:0.000308s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ParseTemplate Behavior [ RunTime:0.022788s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022850s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ContentReplace Behavior [ RunTime:0.000751s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run TokenBuild Behavior [ RunTime:0.000567s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000451s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000518s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002431s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000538s ]
+[ 2017-04-02T17:44:58+08:00 ] /JSJD/admin.php/Subjectrace/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000581s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run CheckRoute Behavior [ RunTime:0.000898s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --END-- [ RunTime:0.000994s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000658s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000717s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010528s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run LocationTemplate Behavior [ RunTime:0.000646s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --END-- [ RunTime:0.000711s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 38 行.
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 39 行.
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ParseTemplate Behavior [ RunTime:0.011211s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011261s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ContentReplace Behavior [ RunTime:0.000614s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run TokenBuild Behavior [ RunTime:0.000603s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000474s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowRuntime Behavior [ RunTime:0.000574s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002415s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowPageTrace Behavior [ RunTime:0.000661s ]
+[ 2017-04-02T17:56:55+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --END-- [ RunTime:0.000707s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run CheckRoute Behavior [ RunTime:0.001039s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ route_check ] --END-- [ RunTime:0.001182s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000831s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000916s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.073541s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run LocationTemplate Behavior [ RunTime:0.001034s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_template ] --END-- [ RunTime:0.001185s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | NOTIC: [8] Undefined variable: title efe24268473ce2b5f06bdc3709b25331.php 第 5 行.
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ParseTemplate Behavior [ RunTime:0.071965s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_parse ] --END-- [ RunTime:0.072031s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ContentReplace Behavior [ RunTime:0.001030s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run TokenBuild Behavior [ RunTime:0.000572s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000620s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ShowRuntime Behavior [ RunTime:0.000477s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002901s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ShowPageTrace Behavior [ RunTime:0.000736s ]
+[ 2017-04-02T17:56:56+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_end ] --END-- [ RunTime:0.000815s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ route_check ] --END-- [ RunTime:0.001134s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000702s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000766s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.011740s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run LocationTemplate Behavior [ RunTime:0.000689s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_template ] --END-- [ RunTime:0.000756s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ParseTemplate Behavior [ RunTime:0.008704s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008786s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ContentReplace Behavior [ RunTime:0.000583s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run TokenBuild Behavior [ RunTime:0.000574s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000434s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ShowRuntime Behavior [ RunTime:0.000551s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002290s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ShowPageTrace Behavior [ RunTime:0.000638s ]
+[ 2017-04-02T17:56:57+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_end ] --END-- [ RunTime:0.000690s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ route_check ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run CheckRoute Behavior [ RunTime:0.000730s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ route_check ] --END-- [ RunTime:0.000809s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ app_begin ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000569s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000614s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.010764s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.010522s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000432s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_template ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run LocationTemplate Behavior [ RunTime:0.000719s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_template ] --END-- [ RunTime:0.000774s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_parse ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | NOTIC: [8] Undefined variable: title 5cd5027347409348ea3c4a3ef6a97d6e.php 第 5 行.
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ParseTemplate Behavior [ RunTime:0.007549s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007603s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_filter ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run TokenBuild Behavior [ RunTime:0.000632s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002606s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_end ] --START--
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ShowPageTrace Behavior [ RunTime:0.000809s ]
+[ 2017-04-02T17:56:58+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_end ] --END-- [ RunTime:0.000862s ]

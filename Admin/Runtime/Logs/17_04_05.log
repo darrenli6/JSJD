@@ -1,0 +1,681 @@
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001238s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000725s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000779s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.007187s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.007357s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.052301s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.052373s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.009488s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.007497s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.007103s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.004934s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.029285s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001770s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001889s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001043s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+[ 2017-04-05T16:01:26+08:00 ] /JSJD/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000721s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.000898s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001020s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000607s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000678s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | SQL: SHOW COLUMNS FROM `czxy_admin` [ RunTime:0.098537s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | SQL: SELECT * FROM `czxy_admin` WHERE ( `adminusername` = 'admin' ) LIMIT 1   [ RunTime:0.000619s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | NOTIC: [8] Use of undefined constant user - assumed 'user' LoginAction.class.php 第 37 行.
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | SQL: UPDATE `czxy_admin` SET `lasttime`=1491379294,`lastip`='127.0.0.1' WHERE ( `id` = '1' ) [ RunTime:0.147691s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.001120s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001206s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.021239s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021311s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.000544s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.000522s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000432s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000577s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002224s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000539s ]
+[ 2017-04-05T16:01:34+08:00 ] /JSJD/admin.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000582s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001274s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001475s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.025859s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.025948s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.100851s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.095522s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.001778s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.247041s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.247156s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001855s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001643s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001156s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001619s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006808s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001416s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001555s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.000687s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.000783s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001308s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001398s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000856s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000964s ]
+[ 2017-04-05T16:01:35+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.065250s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.065320s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000604s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000490s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000491s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002184s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000522s ]
+[ 2017-04-05T16:01:37+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000566s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --END-- [ RunTime:0.001131s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000737s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006626s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run LocationTemplate Behavior [ RunTime:0.000718s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --END-- [ RunTime:0.000798s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 38 行.
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 39 行.
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ParseTemplate Behavior [ RunTime:0.053146s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --END-- [ RunTime:0.053279s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ContentReplace Behavior [ RunTime:0.001652s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run TokenBuild Behavior [ RunTime:0.002225s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001184s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowRuntime Behavior [ RunTime:0.001369s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006851s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowPageTrace Behavior [ RunTime:0.001358s ]
+[ 2017-04-05T16:03:24+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --END-- [ RunTime:0.001485s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run CheckRoute Behavior [ RunTime:0.000913s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ route_check ] --END-- [ RunTime:0.001036s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000964s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006896s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run LocationTemplate Behavior [ RunTime:0.000837s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_template ] --END-- [ RunTime:0.000895s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | NOTIC: [8] Undefined variable: title efe24268473ce2b5f06bdc3709b25331.php 第 5 行.
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ParseTemplate Behavior [ RunTime:0.060151s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_parse ] --END-- [ RunTime:0.060230s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ContentReplace Behavior [ RunTime:0.001151s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run TokenBuild Behavior [ RunTime:0.001903s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001337s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ShowRuntime Behavior [ RunTime:0.001863s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006739s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Run ShowPageTrace Behavior [ RunTime:0.001294s ]
+[ 2017-04-05T16:03:39+08:00 ] /JSJD/admin.php/System/modifyPwd | INFO: Tag[ view_end ] --END-- [ RunTime:0.001402s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run CheckRoute Behavior [ RunTime:0.000803s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ route_check ] --END-- [ RunTime:0.000908s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000704s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006644s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run LocationTemplate Behavior [ RunTime:0.000777s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_template ] --END-- [ RunTime:0.000852s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ParseTemplate Behavior [ RunTime:0.036898s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_parse ] --END-- [ RunTime:0.036961s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ContentReplace Behavior [ RunTime:0.000748s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000521s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ShowRuntime Behavior [ RunTime:0.000607s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002926s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Run ShowPageTrace Behavior [ RunTime:0.000552s ]
+[ 2017-04-05T16:03:41+08:00 ] /JSJD/admin.php/System/filter | INFO: Tag[ view_end ] --END-- [ RunTime:0.000603s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run CheckRoute Behavior [ RunTime:0.000749s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ route_check ] --END-- [ RunTime:0.000842s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000917s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000993s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007255s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SHOW COLUMNS FROM `czxy_systemconfig` [ RunTime:0.005929s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | SQL: SELECT * FROM `czxy_systemconfig` WHERE ( `ckey` = 'rotateimg' )  [ RunTime:0.000554s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run LocationTemplate Behavior [ RunTime:0.000844s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_template ] --END-- [ RunTime:0.000910s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | NOTIC: [8] Undefined variable: title 5cd5027347409348ea3c4a3ef6a97d6e.php 第 5 行.
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ParseTemplate Behavior [ RunTime:0.029845s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029900s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ContentReplace Behavior [ RunTime:0.000502s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run TokenBuild Behavior [ RunTime:0.000516s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ShowRuntime Behavior [ RunTime:0.000514s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002079s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Run ShowPageTrace Behavior [ RunTime:0.000505s ]
+[ 2017-04-05T16:03:44+08:00 ] /JSJD/admin.php/System/rotateimg | INFO: Tag[ view_end ] --END-- [ RunTime:0.000555s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run CheckRoute Behavior [ RunTime:0.000769s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ route_check ] --END-- [ RunTime:0.000889s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000971s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001038s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007287s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run LocationTemplate Behavior [ RunTime:0.000678s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_template ] --END-- [ RunTime:0.000745s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 38 行.
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | NOTIC: [8] Undefined index: COMMON_ON e3a83fac9682fbabf93c11e5e142e179.php 第 39 行.
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ParseTemplate Behavior [ RunTime:0.016743s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016789s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ContentReplace Behavior [ RunTime:0.000665s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run TokenBuild Behavior [ RunTime:0.001249s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000520s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowRuntime Behavior [ RunTime:0.000647s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003262s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Run ShowPageTrace Behavior [ RunTime:0.000696s ]
+[ 2017-04-05T16:09:57+08:00 ] /JSJD/admin.php/System/setting | INFO: Tag[ view_end ] --END-- [ RunTime:0.000755s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run CheckRoute Behavior [ RunTime:0.001049s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001194s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000964s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001054s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.008374s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | SQL: SHOW COLUMNS FROM `czxy_admin` [ RunTime:0.006770s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | NOTIC: [8] Use of undefined constant czxy_ - assumed 'czxy_' Db.class.php(660) : regexp code 第 1 行.
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | NOTIC: [8] Use of undefined constant czxy_ - assumed 'czxy_' Db.class.php(660) : regexp code 第 1 行.
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | SQL: SELECT a.*,GROUP_CONCAT(c.rname) as rname FROM czxy_admin a LEFT JOIN czxy_roleadmin b ON b.aid=a.id LEFT JOIN czxy_adminrole c ON c.id=b.rid GROUP BY a.id  [ RunTime:0.067352s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000872s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000966s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run ParseTemplate Behavior [ RunTime:0.020012s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020079s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run ContentReplace Behavior [ RunTime:0.000592s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run TokenBuild Behavior [ RunTime:0.000533s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000528s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000810s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002655s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000679s ]
+[ 2017-04-05T16:10:34+08:00 ] /JSJD/admin.php/Admin/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000730s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000937s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000753s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006883s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006505s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000616s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000810s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000877s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ParseTemplate Behavior [ RunTime:0.046512s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.046589s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run TokenBuild Behavior [ RunTime:0.000626s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000448s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000614s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002595s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000642s ]
+[ 2017-04-05T16:10:35+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000709s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000931s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000711s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006058s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | SQL: SHOW COLUMNS FROM `czxy_adminrole` [ RunTime:0.007915s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | NOTIC: [8] Use of undefined constant czxy_ - assumed 'czxy_' Db.class.php(660) : regexp code 第 1 行.
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | NOTIC: [8] Use of undefined constant czxy_ - assumed 'czxy_' Db.class.php(660) : regexp code 第 1 行.
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | SQL: SELECT a.*,GROUP_CONCAT(c.priname) priname FROM czxy_adminrole a LEFT JOIN czxy_rolepri b ON a.id=b.rid 
+		        LEFT JOIN czxy_privilege c ON b.pid=c.id
+		        GROUP BY a.id  [ RunTime:0.048948s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001151s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001214s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | NOTIC: [8] Undefined variable: page aebd427a1135200f34ac07a80b35c6ae.php 第 39 行.
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run ParseTemplate Behavior [ RunTime:0.035179s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035229s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run ContentReplace Behavior [ RunTime:0.000526s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run TokenBuild Behavior [ RunTime:0.000558s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000651s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000580s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002486s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000622s ]
+[ 2017-04-05T16:10:36+08:00 ] /JSJD/admin.php/Adminrole/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000688s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run CheckRoute Behavior [ RunTime:0.000812s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000910s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000683s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000738s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007259s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.014354s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000499s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000605s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000649s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009817s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009881s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ContentReplace Behavior [ RunTime:0.000706s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run TokenBuild Behavior [ RunTime:0.000781s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001034s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001201s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003997s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000904s ]
+[ 2017-04-05T16:10:37+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000994s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000907s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000736s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006599s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007391s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000481s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run LocationTemplate Behavior [ RunTime:0.039606s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.039714s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | NOTIC: [8] Undefined variable: title af250f22a8bf4a8cbb2f74fba8130c3f.php 第 5 行.
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run ParseTemplate Behavior [ RunTime:0.032592s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032708s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run ContentReplace Behavior [ RunTime:0.001302s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run TokenBuild Behavior [ RunTime:0.001265s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000893s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001173s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004975s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001182s ]
+[ 2017-04-05T16:10:39+08:00 ] /JSJD/admin.php/Privilege/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001293s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run CheckRoute Behavior [ RunTime:0.001239s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001429s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000984s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001076s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007677s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.006549s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000564s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | NOTIC: [8] Use of undefined constant id - assumed 'id' PrivilegeModel.class.php 第 31 行.
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000584s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000630s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ParseTemplate Behavior [ RunTime:0.008646s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008707s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ContentReplace Behavior [ RunTime:0.000755s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run TokenBuild Behavior [ RunTime:0.000604s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000421s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000570s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002506s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000670s ]
+[ 2017-04-05T16:11:14+08:00 ] /JSJD/admin.php/Privilege/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000746s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001102s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001270s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001459s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001592s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.008125s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.009087s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | SQL: SELECT * FROM `czxy_privilege`  [ RunTime:0.000543s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.049440s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.049508s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000545s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000507s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000554s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002195s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001177s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001272s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001458s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001629s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000942s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001034s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000804s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.000903s ]
+[ 2017-04-05T16:11:15+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user ''@'localhost' (using password: NO) f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established f50709f4c96babd9a294fb55fb5076ad.php 第 28 行.
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:1.020389s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:1.020453s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000757s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000549s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000538s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002458s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.000530s ]
+[ 2017-04-05T16:11:16+08:00 ] /JSJD/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.000575s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ route_check ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ route_check ] --END-- [ RunTime:0.000926s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ app_begin ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000905s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001002s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | SQL: SHOW COLUMNS FROM `czxy_privilege` [ RunTime:0.007220s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_template ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run LocationTemplate Behavior [ RunTime:0.000732s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_template ] --END-- [ RunTime:0.000793s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_parse ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: title bf8cf6ef20d62dd510a10f400ea93687.php 第 5 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 19 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 25 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 31 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 32 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 38 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | NOTIC: [8] Undefined variable: config bf8cf6ef20d62dd510a10f400ea93687.php 第 39 行.
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run ParseTemplate Behavior [ RunTime:0.007723s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007774s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_filter ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run TokenBuild Behavior [ RunTime:0.000629s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run ShowRuntime Behavior [ RunTime:0.000615s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002496s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_end ] --START--
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+[ 2017-04-05T16:11:20+08:00 ] /JSJD/admin.php/System/webinfo | INFO: Tag[ view_end ] --END-- [ RunTime:0.000776s ]
