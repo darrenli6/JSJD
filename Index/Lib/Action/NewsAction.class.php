@@ -35,11 +35,14 @@ class NewsAction extends CommonAction {
             'a.isshow'=>array('eq',1),
         ))->find();
         
+        $sql="SELECT id,title FROM czxy_news WHERE id=
+            (SELECT max(id) FROM czxy_news WHERE id<$nid ) LIMIT 1";
+        $this->pre=M('News')->query($sql);
         
+        $sql="SELECT id,title FROM czxy_news WHERE id=
+        (SELECT min(id) FROM czxy_news WHERE id>$nid ) LIMIT 1";
+        $this->next=M('News')->query($sql);
         
-        $sql="SELECT id,title FROM czxy_news WHERE id=($nid-1) OR id=($nid+1) ";
-        $this->link=M('News')->execute($sql);
-        echo M('News')->getLastSql();
         $this->display();
     }
     

@@ -35,6 +35,10 @@ class  PartyactivityAction extends CommonAction {
              
             $arr=explode('.', $_FILES['attachfile']['name']);
             $size=count($arr)-1;
+            if($arr[$size]!='pdf'){
+                $result['state']   = 2;
+                $result['msg']='格式不正确';
+            }
             $file_name = 'partyactivity'.microtime(true).time().'.'.$arr[$size];
             
             $result=checkFile($_FILES['attachfile']);
@@ -46,6 +50,9 @@ class  PartyactivityAction extends CommonAction {
             if($bool)  {
                 $result['state']   = 1;
                 $result['file_name']=$file_name;
+            }else{
+                $result['state']   = 3;
+                $result['msg']     ='上传失败，请重新上传';
             }
             
             die(json_encode($result));
@@ -99,6 +106,7 @@ class  PartyactivityAction extends CommonAction {
                 'smallimg'  => $this->_post('smallimg'),
                 'attachfile'=> $this->_post('attachfile'),
                 'content'   => $this->_post('content'),
+                'summary'   => $this->_post('summary'),
             );
            
             if (M('Partyactivity')->data($data)->add()) {
@@ -131,6 +139,7 @@ class  PartyactivityAction extends CommonAction {
                 'smallimg'  => $this->_post('smallimg'),
                 'attachfile'=> $this->_post('attachfile'),
                 'content'   => $this->_post('content'),
+                'summary'   => $this->_post('summary'),
             );
            
             $old=M('Partyactivity')->field(array('attachfile','smallimg'))->find($this->_post('id'));

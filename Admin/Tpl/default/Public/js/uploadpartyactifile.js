@@ -24,11 +24,12 @@ $(function(){
 			 {	 
 		     $('.showfile').html("<span style='color:red' >上传成功</span>" +
 		     		"<input type='text' readonly='readonly' name='attachfile' value='"+m.file_name+"'  />"); 
-			 }else{
-				  
-				 alert(m.msg);
-				 
-			 }
+			 }else if(m.state==2){
+				 $('#notification').text(m.msg);
+			 }else if(m.state=3)
+		     {
+				 $('#notification').text(m.msg);
+		     }
 		 }
 	 });
 	 });

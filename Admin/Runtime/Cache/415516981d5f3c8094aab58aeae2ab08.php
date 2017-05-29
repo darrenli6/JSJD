@@ -34,7 +34,7 @@
 			<th>时间</th>
 			<th>部门组织</th>
 			<th colspan="2">是否开放</th>
-			<th>操作</th>
+			<th width="200px">操作</th>
 		</tr>
 		<?php if(is_array($SData)): foreach($SData as $key=>$v): ?><tr>
 			 <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>

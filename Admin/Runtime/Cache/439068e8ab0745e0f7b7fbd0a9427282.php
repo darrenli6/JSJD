@@ -61,6 +61,14 @@
 	                 </div>
 	 			</td>
 			</tr>
+			  <tr>
+				<td width='40%' align='right'>简介：</td>
+				<td>
+				<textarea name="summary" rows="6" cols="40">
+				<?php echo ($PData["summary"]); ?>
+				</textarea>
+	 			</td>
+			</tr>
 		     	<tr>
 				<td width='40%' align='right'>备注信息：</td>
 				<td>
@@ -73,7 +81,9 @@
 				<br />
 				<br />
 				<br />
-			    <textarea id="content" cols="40" rows="6" name="content"><?php echo ($PData["content"]); ?></textarea>
+			    <textarea id="content" cols="40" rows="6" name="content">
+			      <?php echo html_entity_decode($PData.content); ?>
+			     </textarea>
                     </td> 
 				 
 			</tr>
@@ -100,7 +110,7 @@
 
 
 <script type="text/javascript">
-$( "input[name='starttime'],input[name='endtime']" ).datetimepicker(); ;
+$( "input[name='starttime'],input[name='endtime']" ).datetimepicker(); 
 </script>
  
 <!--导入在线编辑器 -->

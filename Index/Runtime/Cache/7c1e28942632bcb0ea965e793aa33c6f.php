@@ -8,7 +8,9 @@
 <link rel="stylesheet" href="__PUBLIC__/css/style.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/jquery.bxslider.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/reset.css">
- <script type="text/javascript" src="__PUBLIC__/lib/jquery-1.8.3.min.js"></script>
+ <SCRIPT src="__PUBLIC__/lib/jquery-1.8.3.min.js" type=text/javascript></SCRIPT>
+ <SCRIPT src="__PUBLIC__/lib/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
+  <SCRIPT src="__PUBLIC__/lib/base.js" type=text/javascript></SCRIPT>
 </head>
 
 <body>
@@ -42,17 +44,16 @@
 		<ul id="jsddm">
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
-           		 <ul>
+           		<ul>
                 	<li><a href="#">学习部</a></li>
-                    <li><a href="#">纪律部</a></li>
+                 <li><a href="#">纪律部</a></li>
                </ul> 
             </li>	
-            <li class="top_dh"><a href="<?php echo U('News/index'); ?>">党员会议</a>
+            <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
           
             </li>
             
             <li class="top_dh"><a href="<?php echo U('News/index'); ?>">新闻列表</a>
-           
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
@@ -75,7 +76,7 @@
 		  <ul class="bxslider1">
 		  
 		    <?php foreach($rotatedata as $k=>$v): ?>
-			<li><img  src="__ROOT__/Public/rotate/<?php echo $v['cvalue'];?>" alt=""  /></li>
+			<li><img  src="__ROOT__/Public/rotate/<?php echo $v['cvalue'];?>" alt=""  width="1000px" height="531px" /></li>
             <?php endforeach; ?>		 
 		  </ul>
 		</div>
@@ -137,13 +138,13 @@
                                         <li class="fanhui"><p><a href="<?php  echo U('News/index'); ?>">返回列表</a></p></li>
                                         <li class="Newsinfo_sxpian" >
                                         	<ul >
-                                        	     <a href="<?php  echo $link[0]!=null?U('News/detail',array('nid'=>$link[0]['id'])):''; ?>">
+                                        	     <a href="<?php  echo $pre[0]!=null?U('News/detail',array('nid'=>$pre[0]['id'])):''; ?>">
                                             	<li class="Newsinfo_sxpianA">上一篇：
-                                            	  <?php echo $link[0]!=null?$link[0]['title']:'没有新闻了'; ?>
+                                            	  <?php echo $pre[0]!=null?$pre[0]['title']:'没有新闻了'; ?>
                                             	</li>
                                               </a>
-                                              <a href="<?php  echo $link[1]!=null?U('News/detail',array('nid'=>$link[1]['id'])):''; ?>">
-                                                <li>下一篇： <?php echo $link[1]!=null?$link[1]['title']:'没有新闻了'; ?></li>
+                                              <a href="<?php  echo $next[0]!=null?U('News/detail',array('nid'=>$next[0]['id'])):''; ?>">
+                                                <li>下一篇： <?php echo $next[0]!=null?$next[0]['title']:'没有新闻了'; ?></li>
                                              </a>
                                             </ul>
                                         </li>
@@ -284,7 +285,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                 <li class="Ur_caidan">
                 		<div class="Ur_cd">
                         	<ul>
-                        		<li><a href="">人才招聘</a></li>
+                        		<li> 
                                 <li class="Ur_cdA"><a href="">网站地图</a></li>
                                 <li class="Ur_cdA"><a href="">友情链接</a></li>
                                 <li class="Ur_cdA"><a href="">会员登录</a></li>
@@ -304,64 +305,8 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     </div>
 </div>
 
-<SCRIPT src="__PUBLIC__/lib/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
-<script type="text/javascript" src="__PUBLIC__/lib/jquery.bxslider.min.js"></script> 
-<script type="text/javascript">
-var timeout         = 500;
-var closetimer		= 0;
-var ddmenuitem      = 0;
-
-function jsddm_open()
-{	jsddm_canceltimer();
-	jsddm_close();
-	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
-	
-	}
-
-function jsddm_close()
-{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');
-}
-
-function jsddm_timer()
-{	closetimer = window.setTimeout(jsddm_close, timeout);
-   
-}
-
-function jsddm_canceltimer()
-{	if(closetimer)
-	{	window.clearTimeout(closetimer);
-		closetimer = null;}}
-
-$(document).ready(function()
-{	$('#jsddm > li').bind('mouseover', jsddm_open);
-	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
-
-document.onclick = jsddm_close;
-  </script>
-<script type="text/javascript"> 
-	function blurtitle(v){ //鼠标滑过显示内容方法
-		 
-		for(var i=0;i<5;i++){ //以3个标题举例
-			
-			if("title"+i == v.id){ //当前循环的i如果是正确的标题，将内容的display设为block，即显示
-				$("#content"+i).css('display','block'); 
-			}else{ //当前循环的i是其他标题，将内容设为none，即隐藏
-				$("#content"+i).css('display','none'); 
-			}
-		}
-	}
-	
-	
-</script>
 
 
-<script type="text/javascript">
-$('.bxslider1').bxSlider({
-  auto:true,
-  infiniteLoop: true,
-  hideControlOnEnd: true
-});
-</script>
 <script type="text/javascript" src="__PUBLIC__/js/choose.js"></script>
 </body>
 </html>

@@ -20,6 +20,7 @@ select{width:130px; height:220px;}
                   <span class="current">基本信息</span>
                   <span class="other">比赛内容</span>
                   <span class="other">添加学生</span>
+                  <span class="other">添加活动照片</span>
                  </p> 
                 </div>
             </div>
@@ -135,7 +136,29 @@ select{width:130px; height:220px;}
             	
             	 
             </table>
-              
+                 <table style="display:none;" width="100%" class="tab_table" align="center">
+                     <?php if(!empty($imgData)): ?>
+                     <tr>
+                     <?php foreach($imgData as $k=>$v): ?>
+                     <td > 
+                     <div id="imgdiv<?php echo $v['id']; ?>" >
+                      <img width='120' height='120' src="<?php echo  $path.'Subjectrace/'.$v['img']; ?>" />
+                      <span onclick="delimg(<?php echo $v['id']; ?>)">删除</span>
+                     </div>
+                     </td>
+                      <?php endforeach; ?>
+                     </tr>
+                     <?php  endif; ?>
+                     <tr cols="4">
+                      	<!-- 引入时间插件 -->
+ <include file="Common:datetimePlugin" />
+<script type="text/javascript">
+$( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
+</script>
+<script type="text/javascript" src="__PUBLIC__/Js/uploadraceimage.js"></script> 
+ <include file='Common:upmanyimg'/>
+ </tr>
+           </table>
 			<tr>
 				<td colspan='2'>
 					<input type="submit" value='保存添加' class='big-btn'/>
@@ -148,12 +171,8 @@ select{width:130px; height:220px;}
   var SEARCHSTU="{:U('Subjectrace/ajaxSearchStu')}";
    
 </script>
-<!-- 引入时间插件 -->
- <include file="Common:datetimePlugin" />
-<script type="text/javascript">
-$( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
-</script>
-<script type="text/javascript" src="__PUBLIC__/Js/uploadraceimage.js"></script> 
+ 
+ 
 <!--导入在线编辑器 -->
 
 <include file="Common:editPlugin" />
@@ -191,6 +210,11 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
   	 $(".tab_table").hide();
   	 //显示第一个table
   	 $(".tab_table").eq(i).show();
+  	 if(i==3){
+  		 $('#addpic').show();
+  	 }else{
+  		 $('#addpic').hide();
+  	 }
   	 //先取消原来按钮的选中状态
   	 $(".current").removeClass("current").addClass("other");
   	 //设置当前按钮选中
@@ -239,5 +263,31 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
        var html="<input type='hidden' name='stus' value="+all+"  />";
        $('#myform').append(html);
        return true;
+   }
+   //js delete img
+   function delimg(id){
+	   var DELIMGURL="<?php echo U('Subjectrace/ajaxDelImg') ?>";
+	   var imgid=id;
+	   var r=window.confirm('确定删除吗?');
+	   if(r==true)
+	{
+		   $.post(
+				DELIMGURL,
+				{imgid:imgid},
+				function(msg){
+					 
+					if(msg.status==1)
+					{
+					  
+					  $('div#imgdiv'+imgid).slideDown(1000).remove();
+				    }else if(msg.status==0){
+				    	  alert('删除失败');
+				    }
+				},'json',
+				  
+		   );
+		   
+		   
+    } 
    }
 </script>

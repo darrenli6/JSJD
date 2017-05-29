@@ -41,17 +41,16 @@
 		<ul id="jsddm">
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
-           		 <ul>
+           		<ul>
                 	<li><a href="#">学习部</a></li>
-                    <li><a href="#">纪律部</a></li>
+                 <li><a href="#">纪律部</a></li>
                </ul> 
             </li>	
-            <li class="top_dh"><a href="<?php echo U('News/index'); ?>">党员会议</a>
+            <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
           
             </li>
             
             <li class="top_dh"><a href="<?php echo U('News/index'); ?>">新闻列表</a>
-           
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>

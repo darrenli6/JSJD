@@ -135,8 +135,7 @@ select{width:130px; height:220px;}
             	</tr>
 
          </table>   	
-<div id="photos">
-</div>
+ 
            <table style="display:none;" width="100%" class="tab_table" align="center">
                       	<!-- 引入时间插件 -->
  <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>

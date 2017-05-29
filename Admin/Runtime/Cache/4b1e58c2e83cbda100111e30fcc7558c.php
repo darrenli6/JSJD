@@ -28,7 +28,7 @@
 				<td width='40%' align='right'>新闻分类：</td>
 				<td>
 					<select name="new_catid">
-					  <?php  foreach($newsData as $k=>$v): if($v['id']==$NData.new_catid) $selected='selected="selected"'; ?>
+					  <?php  foreach($newsData as $k=>$v): if($v['id']==$NData[new_catid]) $selected='selected="selected"'; ?>
 					  <option  value="<?php echo $v['id']; ?>" 
 					           <?php echo $selected; ?>
 					   > <?php echo $v['cat_name']; ?></option>
@@ -100,42 +100,14 @@
 <script>
   var IMAGEURL="<?php echo U('News/handlerimage');?>";
   var SHOWIMAGE="<?php echo ($path); ?>";
+  var EditName='context';
 </script>
  </body>
- 
  <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.7.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-validate.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/common.js'></script> 
-    <script type="text/javascript" src="__PUBLIC__/js/ch-ui.admin.js"></script>
- 
- 	 <!-- 引入时间插件 -->
-	 
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/time_plugin/css/jquery-ui.css" />
-	<script type="text/javascript" src="__PUBLIC__/time_plugin/js/jquery-ui-1.10.4.custom.min.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/time_plugin/js/jquery.ui.datepicker-zh-CN.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/time_plugin/js/jquery-ui-timepicker-addon.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/time_plugin/js/jquery-ui-timepicker-zh-CN.js"></script>
-	<script type="text/javascript">
-	$(objdatatime).datetimepicker();
-	</script>
-    
- <!--导入在线编辑器 -->
-<link href="__PUBLIC__/umeditor1_2_2-utf8-php/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/umeditor1_2_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
-<script>
-UM.getEditor(objeditor, {
-	initialFrameWidth : "80%",
-	initialFrameHeight : 350
-});
-</script>
-<script type="text/javascript"> var SHOWIMAGE="/JSJD/Public/Upload/";
-                                var delallurl="<?php echo U('delall');?>";
-</script>	
- 
-<script type="text/javascript" src="__PUBLIC__/js/delall.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/ch-ui.admin.js"></script>
 </html>  
 <script type="text/javascript" src="__PUBLIC__/Js/uploadnewsimage.js"></script> 
  <!-- 引入时间插件 -->
@@ -173,13 +145,13 @@ UM.getEditor(objeditor, {
 	});
 </script>	
 <!--导入在线编辑器 -->
-<link href="__PUBLIC__/umeditor1_2_2-utf8-php/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/umeditor1_2_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
-<script>
-UM.getEditor('context', {
-	initialFrameWidth : "80%",
-	initialFrameHeight : 350
-});
-</script>
+<!--导入在线编辑器 -->
+<!--导入在线编辑器 -->
+	<!-- 配置文件 -->
+    <script type="text/javascript" src="__ROOT__/Public/utf8-php/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__ROOT__/Public/utf8-php/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor(EditName);
+    </script>

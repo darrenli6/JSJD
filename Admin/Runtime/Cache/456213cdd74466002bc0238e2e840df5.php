@@ -29,6 +29,9 @@
 			     <input type="text" name="starttime" readonly="readonly" id="starttime" value="" />
                     </td> 
 				</td>
+				
+				<br />
+				<br />
 			</tr>
 			
 			   <tr>
@@ -37,16 +40,20 @@
 			      <input type="text" name="endtime" readonly="readonly"  id="endtime" value="" />
                     </td> 
 				</td>
+				
+				<br />
+				<br />
 			</tr>
 			
 		   <tr>
 				<td width='40%' align='right'>党员活动文件：</td>
 				<td>
 					 <input  type="file"    id="attachfile" />
-					 <span style="color:red;">*请上传doc,docx格式的文件</span>
+					 <span style="color:red;" >*请上传pdf格式的文件</span>
                      <div class="showfile">
                      
 	                 </div>
+	                  <span id="notification" style="color:red;"></span>
 	 			</td>
 			</tr>
 			  <tr>
@@ -59,12 +66,17 @@
 	                 </div>
 	 			</td>
 			</tr>
+			  <tr>
+				<td width='40%' align='right'>简介：</td>
+				<td>
+				<textarea name="summary" rows="6" cols="40">
+				</textarea>
+	 			</td>
+			</tr>
 		     	<tr>
 				<td width='40%' align='right'>备注信息：</td>
 				<td>
 			  
-				<br />
-				<br />
 				<br />
 				<br />
 				<br />

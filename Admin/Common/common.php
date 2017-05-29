@@ -39,7 +39,7 @@ function checkFile($_File){
     $type=$_File['type'];
      
     switch ($type){
-        case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+        case 'application/pdf':
             $okType=true;
             break;
         
@@ -71,10 +71,10 @@ function checkFile($_File){
         }
 
         return $result;
-
+  
     }else{
 
-        $result= array('status'=>0,'imagepath'=>null,'msg'=>'请上传doc,docx格式的文件！');
+        $result= array('status'=>0,'imagepath'=>null,'msg'=>'请上传pdf格式的文件！');
         return $result;
     }
 

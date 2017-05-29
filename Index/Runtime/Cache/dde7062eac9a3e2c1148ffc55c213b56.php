@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="__PUBLIC__/css/style.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/jquery.bxslider.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/reset.css">
+ <SCRIPT src="__PUBLIC__/lib/jquery-1.8.3.min.js" type=text/javascript></SCRIPT>
+ <SCRIPT src="__PUBLIC__/lib/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
+  <SCRIPT src="__PUBLIC__/lib/base.js" type=text/javascript></SCRIPT>
 </head>
 
 <body>
@@ -41,17 +44,16 @@
 		<ul id="jsddm">
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
-           		 <ul>
+           		<ul>
                 	<li><a href="#">学习部</a></li>
-                    <li><a href="#">纪律部</a></li>
+                 <li><a href="#">纪律部</a></li>
                </ul> 
             </li>	
-            <li class="top_dh"><a href="<?php echo U('News/index'); ?>">党员会议</a>
+            <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
           
             </li>
             
             <li class="top_dh"><a href="<?php echo U('News/index'); ?>">新闻列表</a>
-           
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
@@ -74,7 +76,7 @@
 		  <ul class="bxslider1">
 		  
 		    <?php foreach($rotatedata as $k=>$v): ?>
-			<li><img  src="__ROOT__/Public/rotate/<?php echo $v['cvalue'];?>" alt=""  /></li>
+			<li><img  src="__ROOT__/Public/rotate/<?php echo $v['cvalue'];?>" alt=""  width="1000px" height="531px" /></li>
             <?php endforeach; ?>		 
 		  </ul>
 		</div>
@@ -307,7 +309,7 @@ $('.bxslider1').bxSlider({
         	 
         	if(result.info=='OK')
         	{   var num=result.plans.length;
-        		var str='<span >校园行APP温馨提示:一共有'+num+'种方案:</span>';
+        		var str='<span >长院计算机系温馨提示:一共有'+num+'种方案:</span>';
         		str+='<div align="left"><table border="0" width="100%" cellspacing="0" cellpadding="0">';
         		
         		var obj=result.plans;
@@ -355,7 +357,7 @@ $('.bxslider1').bxSlider({
                 <li class="Ur_caidan">
                 		<div class="Ur_cd">
                         	<ul>
-                        		<li><a href="">人才招聘</a></li>
+                        		<li> 
                                 <li class="Ur_cdA"><a href="">网站地图</a></li>
                                 <li class="Ur_cdA"><a href="">友情链接</a></li>
                                 <li class="Ur_cdA"><a href="">会员登录</a></li>
@@ -374,6 +376,7 @@ $('.bxslider1').bxSlider({
     		
     </div>
 </div>
+
 
 
 <script type="text/javascript" src="__PUBLIC__/js/choose.js"></script>

@@ -123,12 +123,25 @@ class  SubjectraceAction extends CommonAction {
     
     public function edit(){
        
+        $id = $this->_get('id', 'intval');
         if($this->isPost()){
+          
+            
             $deds=implode(',', $_POST['deds']);
             $stus=array_unique(explode('-', rtrim($_POST['stus'],'-')));
             
              
             $rid=intval($this->_post('id'));
+
+            //handle photos in the subjectrace
+            if(!empty($_POST['photos'])){
+                foreach($_POST['photos'] as $k=>$v){
+                    $data['rid']=$rid;
+                    $data['img']=$v;
+                    $ret=M('Racetoimg')->add($data);
+            
+                }
+            }
             $data = array(
                 'id'          => $rid,
                 'racename'    => $this->_post('racename'),
@@ -150,9 +163,11 @@ class  SubjectraceAction extends CommonAction {
                     foreach ($stus as $k=>$v){
                         $data['rid']=$rid;
                         $data['sid']=$v;
-                        M('Racetostu')->add($data);
+                        $ret=M('Racetostu')->add($data);
+                       
                     }  
-              
+                 
+                      
                 $this->success('修改成功', U('index'));
                 die;
             } else {
@@ -162,8 +177,10 @@ class  SubjectraceAction extends CommonAction {
         }
         
         if($this->isGet()){
-            $id = $this->_get('id', 'intval');
+           
+            
             $this->SData=M('Subjectrace')->find($id);
+            
             $this->rsData=M('Racetostu')->alias('a')
                           ->field('a.sid sid,b.stuid stuid')
                           ->join('LEFT JOIN __STU__ b ON b.id=a.sid')
@@ -171,6 +188,17 @@ class  SubjectraceAction extends CommonAction {
                                   'a.rid'=>array('eq',$id),
                               ))
                           ->select();
+                          
+           //get all image in the subjectrace
+           $this->imgData=M('racetoimg')
+           ->field('id,img')
+           ->where(
+               array(
+                   'rid'=>array('eq',$id)
+               )
+               )
+           ->select();
+          // var_dump($this->imgData);die;
            
         }
         
@@ -193,6 +221,15 @@ class  SubjectraceAction extends CommonAction {
         if ($db->delete($id)) {
             if(!empty($old)) @unlink(C('UPLOAD_PATH').$old['smallimg']);
             M('Racetostu')->where("rid=$id")->delete();
+            
+            //delete many photo in the subjectrace
+            $pimg=M('Racetoimg')->where("rid=$id")->select();
+            foreach($pimg as $k=>$v)
+            {
+                if(!empty($v['img'])) @unlink(C('UPLOAD_PATH').'Subjectrace/'.$v['img']);
+            }
+            M('Racetoimg')->where("rid=$id")->delete();
+            
             $this->success('删除成功', U('index'));
         } else {
             $this->error('删除失败，请重试...');
@@ -284,5 +321,21 @@ class  SubjectraceAction extends CommonAction {
             }
         }
         
+    }
+    
+    public function ajaxDelImg(){
+        if(!$this->isAjax()) die('error');
+        $result=array();
+        $imgid=$this->_post('imgid','intval');
+         
+        $data=M('Racetoimg')->find($imgid);
+        if(M('Racetoimg')->delete($imgid)){
+            if(!empty($data)) @unlink(C('UPLOAD_PATH').'Subjectrace/'.$data['img']);
+            $result['status']=1;
+        }else{
+            $result['status']=0;
+            
+        }
+        die(json_encode($result));
     }
 }

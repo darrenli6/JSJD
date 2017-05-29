@@ -31,6 +31,7 @@ select{width:130px; height:220px;}
                   <span class="current">基本信息</span>
                   <span class="other">比赛内容</span>
                   <span class="other">添加学生</span>
+                  <span class="other">添加活动照片</span>
                  </p> 
                 </div>
             </div>
@@ -142,20 +143,21 @@ select{width:130px; height:220px;}
             	
             	 
             </table>
-              
-			<tr>
-				<td colspan='2'>
-					<input type="submit" value='保存添加' class='big-btn'/>
-				</td>
-			</tr>
-	</form>
-<script>
-  var IMAGEURL="<?php echo U('Subjectrace/handlerimage');?>";
-  var EditName='context';
-  var SEARCHSTU="<?php echo U('Subjectrace/ajaxSearchStu');?>";
-   
-</script>
-<!-- 引入时间插件 -->
+                 <table style="display:none;" width="100%" class="tab_table" align="center">
+                     <?php if(!empty($imgData)): ?>
+                     <tr>
+                     <?php foreach($imgData as $k=>$v): ?>
+                     <td > 
+                     <div id="imgdiv<?php echo $v['id']; ?>" >
+                      <img width='120' height='120' src="<?php echo $path.'Subjectrace/'.$v['img']; ?>" />
+                      <span onclick="delimg(<?php echo $v['id']; ?>)">删除</span>
+                     </div>
+                     </td>
+                      <?php endforeach; ?>
+                     </tr>
+                     <?php  endif; ?>
+                     <tr cols="4">
+                      	<!-- 引入时间插件 -->
  <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
 <link href="__ROOT__/Public/datetimepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" charset="utf-8" src="__ROOT__/Public/datetimepicker/jquery-ui-1.9.2.custom.min.js"></script>
@@ -169,6 +171,89 @@ select{width:130px; height:220px;}
 $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
 </script>
 <script type="text/javascript" src="__PUBLIC__/Js/uploadraceimage.js"></script> 
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style type="text/css">
+.uploadifive-button {
+	float: left;
+	margin-right: 10px;
+}
+#queue {
+     
+	border: 1px solid #E5E5E5;
+	height: 177px;
+	overflow: auto;
+	width: 300px;
+}
+</style>
+<body >
+<div id="addpic" style="display:none;">
+
+  <form>
+		<div id="queue"></div>
+		<input id="file_upload" name="file_upload" type="file" multiple="true">
+		<a style="" href="javascript:$('#file_upload').uploadifive('upload')">确定上传</a>
+	    
+	   </form>
+</div>
+<script src="__ROOT__/Public/MulImageUp/jquery.min.js" type="text/javascript"></script>
+<script src="__ROOT__/Public/MulImageUp/jquery.uploadifive.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Public/MulImageUp/uploadifive.css">  	 
+          
+   <script type="text/javascript">
+		<?php $timestamp = time();?>
+		$(function() {
+			$('#file_upload').uploadifive({
+				'auto'             : false,
+				'checkScript'      : "<?php echo U('Subjectrace/checkexists'); ?>",
+				'formData'         : {
+									   'timestamp' : '<?php echo $timestamp;?>',
+									   'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+				                     },
+				'queueID'          : 'queue',
+				'uploadScript'     : "<?php echo U('Subjectrace/uploadifive'); ?>",
+				'onUploadComplete' : function(file, data) { 
+					var data=eval("("+data+")");
+					//console.log(file.queueItem[0]);
+					if(data.status==1){
+					  	
+					var html="<input type='hidden' name='photos[]' value="+data.filename+"   />";
+					$(file.queueItem[0]).append(html);
+					}else if(data.status==0){
+						alert(data.msg);
+					}
+					 
+				}
+			});
+		   
+		});
+	</script>
+     
+
+
+
+</body>
+</html>
+ </tr>
+           </table>
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value='保存添加' class='big-btn'/>
+				</td>
+			</tr>
+	</form>
+<script>
+  var IMAGEURL="<?php echo U('Subjectrace/handlerimage');?>";
+  var EditName='context';
+  var SEARCHSTU="<?php echo U('Subjectrace/ajaxSearchStu');?>";
+   
+</script>
+ 
+ 
 <!--导入在线编辑器 -->
 
 <!--导入在线编辑器 -->
@@ -214,6 +299,11 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
   	 $(".tab_table").hide();
   	 //显示第一个table
   	 $(".tab_table").eq(i).show();
+  	 if(i==3){
+  		 $('#addpic').show();
+  	 }else{
+  		 $('#addpic').hide();
+  	 }
   	 //先取消原来按钮的选中状态
   	 $(".current").removeClass("current").addClass("other");
   	 //设置当前按钮选中
@@ -262,5 +352,31 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
        var html="<input type='hidden' name='stus' value="+all+"  />";
        $('#myform').append(html);
        return true;
+   }
+   //js delete img
+   function delimg(id){
+	   var DELIMGURL="<?php echo U('Subjectrace/ajaxDelImg') ?>";
+	   var imgid=id;
+	   var r=window.confirm('确定删除吗?');
+	   if(r==true)
+	{
+		   $.post(
+				DELIMGURL,
+				{imgid:imgid},
+				function(msg){
+					 
+					if(msg.status==1)
+					{
+					  
+					  $('div#imgdiv'+imgid).slideDown(1000).remove();
+				    }else if(msg.status==0){
+				    	  alert('删除失败');
+				    }
+				},'json',
+				  
+		   );
+		   
+		   
+    } 
    }
 </script>

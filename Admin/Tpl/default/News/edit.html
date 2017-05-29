@@ -18,7 +18,7 @@
 				<td>
 					<select name="new_catid">
 					  <?php  foreach($newsData  as $k=>$v):
-                             if($v['id']==$NData.new_catid) $selected='selected="selected"';
+                             if($v['id']==$NData[new_catid]) $selected='selected="selected"';
                           ?>
 					  <option  value="<?php echo $v['id']; ?>" 
 					           <?php echo $selected; ?>

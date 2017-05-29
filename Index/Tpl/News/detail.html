@@ -51,13 +51,13 @@
                                         <li class="fanhui"><p><a href="<?php  echo U('News/index'); ?>">返回列表</a></p></li>
                                         <li class="Newsinfo_sxpian" >
                                         	<ul >
-                                        	     <a href="<?php  echo $link[0]!=null?U('News/detail',array('nid'=>$link[0]['id'])):''; ?>">
+                                        	     <a href="<?php  echo $pre[0]!=null?U('News/detail',array('nid'=>$pre[0]['id'])):''; ?>">
                                             	<li class="Newsinfo_sxpianA">上一篇：
-                                            	  <?php echo $link[0]!=null?$link[0]['title']:'没有新闻了'; ?>
+                                            	  <?php echo $pre[0]!=null?$pre[0]['title']:'没有新闻了'; ?>
                                             	</li>
                                               </a>
-                                              <a href="<?php  echo $link[1]!=null?U('News/detail',array('nid'=>$link[1]['id'])):''; ?>">
-                                                <li>下一篇： <?php echo $link[1]!=null?$link[1]['title']:'没有新闻了'; ?></li>
+                                              <a href="<?php  echo $next[0]!=null?U('News/detail',array('nid'=>$next[0]['id'])):''; ?>">
+                                                <li>下一篇： <?php echo $next[0]!=null?$next[0]['title']:'没有新闻了'; ?></li>
                                              </a>
                                             </ul>
                                         </li>

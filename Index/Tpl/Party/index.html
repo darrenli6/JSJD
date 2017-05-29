@@ -1,0 +1,143 @@
+  <layout name="layout" />
+<div id="big_wrapper">
+ 
+	<div id="News">
+			<ul class="top_News">
+				 
+				<li class="News_right" id="div1" style="display:block;width:100%;">
+						<div class="gywm_xp"></div>
+						<div class="gywm_rightName">
+							<ul>
+								<li class="gyName">党员活动<span>News</span></li>
+								<li class="gyyou"></li>
+							</ul>
+						</div>
+						<div class="News_right_xw" >
+								<div class="News_xinwen">
+									<ul>
+										<li class="News_xwimages"><img src="<?php echo C('SHOWIMAGE').$newsData[0]['smallimg']; ?>" height="160px" /></li>
+										<li class="News_xwneirong">
+											<div>
+												<ul>
+													<li class="xwmingc"><a href="<?php echo U('Party/detail',array('nid'=>$newsData[0]['id'])); ?>">标题：<?php echo $newsData[0]['title']; ?></a></li>
+													<li class="xwshijian">日期：<?php echo $newsData[0]['starttime'].'--'. $newsData[0]['endtime']; ?></li>
+													<li class="xwneirong"><?php echo $newsData[0]['summary']; ?>...</li>
+													<li class="xwxiangqing"><a href="<?php echo U('Party/detail',array('nid'=>$newsData[0]['id'])); ?>">详情</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>								
+								</div>
+								
+								<div class="newslist">
+									<ul>
+									  
+									  <?php foreach($newsData as $k=>$v):
+                                        if($k==0) continue;
+                                         ?>
+                                         <li> 
+										<div><a href="<?php echo U('Party/detail',array('nid'=>$v['id'])); ?>"><?php echo $v[title]; ?></a></div>
+										<span><?php echo $newsData[0]['starttime'].'--'. $newsData[0]['endtime']; ?></span>
+										</li>
+										<?php endforeach;  ?>
+									</ul>
+								</div>	
+							</li>
+			  
+						</ul>
+					</div>
+	 
+     
+</div>	
+  <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+var showimagepath   = '<?php echo C('SHOWIMAGE'); ?>';
+var detailurl       ="<?php echo U('News/detail'); ?>";
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+	
+	}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);
+   
+}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>	
+<script language="JavaScript" type="text/JavaScript">
+ function toggle(targetid,cat_name){
+	 var html='';
+	 
+	$.ajax({
+		url:"<?php echo U('News/ajaxGetNewsByCat'); ?>",
+		data:{'targetid':targetid},
+		type:'post',
+		dataType:'json',
+		'success':function(msg){
+			if(msg.status){
+			var data=msg.data;	
+			 
+    html+='<div class="gywm_xp"></div>';
+    html+='	<div class="gywm_rightName">';
+	html+='		<ul>';
+	html+='			<li class="gyName">'+cat_name+'<span>News</span></li>';
+	html+='			<li class="gyyou"></li>';
+	html+='		</ul>';
+	html+='	</div>';
+	html+='	<div class="News_right_xw">';
+	html+='			<div class="News_xinwen">';
+	html+='			<ul>';
+	html+='				<li class="News_xwimages"><img src="'+showimagepath+data[0]['img']+'" height="160px" /></li>';
+	html+='<li class="News_xwneirong">';
+	html+='								<div>';
+	html+='								<ul>';
+	html+='									<li class="xwmingc"><a href="'+detailurl+'/nid/'+data[0]['id']+'">标题：'+data[0]['title']+'</a></li>';
+	html+='								<li class="xwshijian">日期：'+data[0]['publictime']+'</li>';
+	html+='								<li class="xwneirong">'+data[0]['summary']+'..</li>';
+	html+='							<li class="xwxiangqing"><a href="'+detailurl+'/nid/'+data[0]['id']+'">详情</a></li>';
+    html+='						</ul>';
+    html+='					</div>';
+    html+='				</li>';
+	html+='			</ul>	';							
+	html+='	</div>';
+						
+	html+='	<div class="newslist">';
+	html+='	<ul>';
+	html+='		  <li>';
+							  for(k in data){
+                                if(k==0) continue;
+                                
+    html+='							<div><a href="'+detailurl+'/nid/'+data[k]['id']+'">'+data[k]['title']+'</a></div>';
+    html+='                          <span>'+data[k]['publictime']+' </span>';
+							  }
+    html+='</ul>';
+    	html+='				</div>	';
+			$('#div1').html(html);	
+				
+			}
+		},
+	}); 
+ 
+ }
+ </script>	
+ 
+ 
+ 
