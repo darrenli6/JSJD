@@ -87,85 +87,63 @@
     
      
 <div id="big_wrapper">
- 
 	
-	<div id="News">
-			<ul class="top_News">
-				<li class="News_left">
-				<div class="gywm_liebiao">
+     
+ <div class="top_gywm">
+	<ul>
+            	<li class="cpzx_left">
+                	<div class="gywm_liebiao">
                     	<ul>
-                        	<li class="gywm_lbname"><span class="spa">新闻中心 </span><span class="spb">News</span></li>
+                        	<li class="gywm_lbname"><span class="spa">联系我们</span><span class="spb">adout us</span></li>
                             <li class="gywm_lb">
                             	<div>
                                 	<ul>
-                                <?php foreach($newsCat as $k=>$v ):?>
-                                	<li><a href="#" onClick="toggle('<?php echo $v['id']; ?>','<?php echo $v['cat_name'] ?>')">
-                                	<?php echo $v['cat_name'] ?></a></li>
-                                 <?php endforeach; ?>
+                                	<li><a href="<?php echo U('About/contactus');?>"  >联系我们</a></li>
+                                    <li><a href="<?php echo U('Feedback/index');?>" >意见反馈</a></li>
                                     </ul>
                                 </div>
                             </li>
                         </ul>
                     </div>
-					 
-				</li>
-				<li class="News_right" id="div1" style="display:block">
-						<div class="gywm_xp"></div>
+                    
+                </li>
+
+              
+               
+                <li class="cpzx_right" id="div2" style="display:block">
+               		<div class="gywm_xp"></div>
 						<div class="gywm_rightName">
 							<ul>
-								<li class="gyName"><?php echo $detail['cat_name']; ?><span>News</span></li>
+								<li class="gyName">意见反馈<span>Feedback</span></li>
 								<li class="gyyou"></li>
 							</ul>
 						</div>
-						<div class="News_right_xw">
-								<div class="Newsinfo">
-                                	<ul>
-                                    	<li class="Newsinfo_Name"><?php echo $detail['title']; ?></li>
-                                        <li class="Newsinfo_Tmin">
-                                        <span style="float: left; width:140px;">发布日期:<?php echo $detail['publictime']; ?></span>
-                                        <span class="fx_xl">浏览：<?php echo $detail['islike']; ?></span>
-                                        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
-                                            <a class="bds_qzone"></a>
-                                            <a class="bds_tsina"></a>
-                                            <a class="bds_tqq"></a>
-                                            <span class="bds_more">更多</span>
-                                            </div>
-                                        </li>
-                                         
-                                        <li class="Newsinfo_Neiron">
-                                        <?php echo html_entity_decode($detail['content']); ?>
-                                        </li>
-                                        <li class="fanhui"><p><a href="<?php  echo U('News/index'); ?>">返回列表</a></p></li>
-                                        <li class="Newsinfo_sxpian" >
-                                        	<ul >
-                                        	     <a href="<?php  echo $pre[0]!=null?U('News/detail',array('nid'=>$pre[0]['id'])):''; ?>">
-                                            	<li class="Newsinfo_sxpianA">上一篇：
-                                            	  <?php echo $pre[0]!=null?$pre[0]['title']:'没有新闻了'; ?>
-                                            	</li>
-                                              </a>
-                                              <a href="<?php  echo $next[0]!=null?U('News/detail',array('nid'=>$next[0]['id'])):''; ?>">
-                                                <li>下一篇： <?php echo $next[0]!=null?$next[0]['title']:'没有新闻了'; ?></li>
-                                             </a>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-						</div>
-					</li>
-				</ul>
-			</div>
-                    
-<!--底部-->   
-
-<!-- -->   
- 
-</div>	
-  <script type="text/javascript">
+                      <div class="lxwmly">
+                   				<ul>
+                                	<form action="__SELF__"  method="post" name="form1">
+                                	<p><font color="#FF0000">*</font>&nbsp;&nbsp;同学，请留下你的意见和建议，帮助我们做得更好：)</p>
+                                	<li class="js_jy"><textarea type="text" name="content"></textarea></li>
+                                    <p>联系Email</p>
+                                    <li class="js_Email"><input type="text" name="email" dataType="email[1,]"  style="width:500px; height:30px;" /></li>
+                                    <p>联系电话</p>
+                                    <li class="js_Tel"><input  type="text"  name="phone" style="width:500px; height:30px;"></li>
+                                    
+                                    <li class="js_tjcz">
+                                    <input name="" value="提 交" type="submit" /> &nbsp;&nbsp;&nbsp;&nbsp;<input name="" value="重 置" type="reset" /></li>
+                                    </form>
+                                    <li class="js_tjcz"><font size="2">说明：*为必填项，请填写完整。填写E-mail或者联系电话方便我们及时给您回复，此信息不公开仅限同学联络，请放心。</font></li>
+                                </ul>
+                      </div>
+               </li> 
+           </ul>
+     
+     
+</div>            
+<script type="text/javascript">
 var timeout         = 500;
 var closetimer		= 0;
 var ddmenuitem      = 0;
-var showimagepath   = '<?php echo C('SHOWIMAGE'); ?>';
-var detailurl       ="<?php echo U('News/detail'); ?>";
+
 function jsddm_open()
 {	jsddm_canceltimer();
 	jsddm_close();
@@ -192,87 +170,56 @@ $(document).ready(function()
 	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
 
 document.onclick = jsddm_close;
-  </script>	
+  </script>  
 <script language="JavaScript" type="text/JavaScript">
- function toggle(targetid,cat_name){
-	 var html='';
-	 
-		$.ajax({
-			url:"<?php echo U('News/ajaxGetNewsByCat'); ?>",
-			data:{'targetid':targetid},
-			type:'post',
-			dataType:'json',
-			'success':function(msg){
-				if(msg.status){
-				var data=msg.data;	
-				 
-	    html+='<div class="gywm_xp"></div>';
-	    html+='	<div class="gywm_rightName">';
-		html+='		<ul>';
-		html+='			<li class="gyName">'+cat_name+'<span>News</span></li>';
-		html+='			<li class="gyyou"></li>';
-		html+='		</ul>';
-		html+='	</div>';
-		html+='	<div class="News_right_xw">';
-		html+='			<div class="News_xinwen">';
-		html+='			<ul>';
-		html+='				<li class="News_xwimages"><img src="'+showimagepath+data[0]['img']+'" height="160px" /></li>';
-		html+='<li class="News_xwneirong">';
-		html+='								<div>';
-		html+='								<ul>';
-		html+='									<li class="xwmingc"><a href="'+detailurl+'/nid/'+data[0]['id']+'">标题：'+data[0]['title']+'</a></li>';
-		html+='								<li class="xwshijian">日期：'+data[0]['publictime']+'</li>';
-		html+='								<li class="xwneirong">'+data[0]['summary']+'..</li>';
-		html+='							<li class="xwxiangqing"><a href="'+detailurl+'/nid/'+data[0]['id']+'">详情</a></li>';
-	    html+='						</ul>';
-	    html+='					</div>';
-	    html+='				</li>';
-		html+='			</ul>	';							
-		html+='	</div>';
-							
-		html+='	<div class="newslist">';
-		html+='	<ul>';
-		html+='		  <li>';
-								  for(k in data){
-	                                if(k==0) continue;
-	                                
-	    html+='							<div><a href="'+detailurl+'/nid/'+data[k]['id']+'">'+data[k]['title']+'</a></div>';
-	    html+='                          <span>'+data[k]['publictime']+' </span>';
-								  }
-	    html+='</ul>';
-	    	html+='				</div>	';
-				$('#div1').html(html);	
-					
-				}
-			},
-		}); 
+ function toggle(targetid){
+ 	document.getElementById("div"+targetid).style.display="block";        
+ 	for(var i =1;i<=3;i++){
+		if(targetid != i){
+			document.getElementById("div"+i).style.display="none";
+		}
+	}
  }
- </script>	
+ </script>	    
 <SCRIPT src="../js/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
 <script type="text/javascript">
-
-$('.newslist').kkPages({
-   PagesClass:'li', //需要分页的元素
-   PagesMth:12, //每页显示个数
-   PagesNavMth:5 //显示导航个数
-});
-
-
 $('.bxslider1').bxSlider({
   auto:true,
   infiniteLoop: true,
   hideControlOnEnd: true
 });
 </script>
-<!-- Baidu Button BEGIN -->
-<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6877940" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
 <script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
-</script>
-<!-- Baidu Button END -->
- 
- 
+
+								// 百度地图API功能
+								var map = new BMap.Map("l-map");
+								var point = new BMap.Point(108.885655,34.230192);
+								map.centerAndZoom(point, 16);
+								var marker = new BMap.Marker(point);  // 创建标注
+								map.addOverlay(marker);              // 将标注添加到地图中
+								marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+								
+								
+								map.addControl(new BMap.OverviewMapControl());              //添加默认缩略地图控件
+								map.addControl(new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_TOP_RIGHT}));   //右上角，打开
+								
+								
+								map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}));  //右上角，仅包含平移和缩放按钮
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT, type: BMAP_NAVIGATION_CONTROL_PAN}));  //左下角，仅包含平移按钮
+								map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT, type: BMAP_NAVIGATION_CONTROL_ZOOM}));  //右下角，仅包含缩放按钮
+								
+								map.centerAndZoom(point,17);                   // 初始化地图,设置城市和地图级别。
+								
+								map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+								map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+								
+								
+								</script>	
+
+</body>
+</html>
+  
       
 <!--底部-->   
 

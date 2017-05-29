@@ -297,3 +297,12 @@ values
 ('fox','12345678910'),
 ('aboutus','xxxxxx');
 
+
+create table czxy_feedback(
+    id int unsigned primary key auto_increment comment 'id',
+    email varchar(50) not null comment 'E-mail',
+    phone varchar(30) not null comment 'phone',
+    content varchar(600) not null comment '内容',
+    username varchar(50) default '匿名' comment '匿名还是用户'
+)engine=InnoDB default charset=utf8 comment '反馈建议';
+

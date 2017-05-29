@@ -1,0 +1,52 @@
+ <include file='Common:header'/>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
+        <!--搜索结果页面 列表 开始-->
+ 
+        <div class="result_wrap">
+            <!--快捷导航 开始-->
+            <div class="result_content">
+                <div class="short_wrap">
+                     
+                    <a href="#" onclick="delall()"><i class="fa fa-recycle"></i>批量删除</a>
+                </div>
+            </div>
+            <!--快捷导航 结束-->
+        </div>
+
+        <div class="result_wrap">
+            <div class="result_content">
+                <table class="list_tab">
+                    <tr>
+            <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>
+			<th>ID</th>
+			<th>联系方式</th>
+			<th>Email</th>
+			<th>内容</th>
+			<th>时间</th>
+			<th>学号/匿名</th>
+			 
+				<th>操作</th>
+			 
+		</tr>
+		<foreach name='fData' item='v'>
+			<tr>
+			
+			<td> 
+			 <input type="checkbox" name="id"  id="id{$v.id}" onclick="addchecked({$v.id})"  value="{$v.id}"></td>
+				<td width='50' align='center'>{$v.id}</td>
+				<td width='120' align='center'>{$v.phone}</td>
+				<td width='120' align='center'>{$v.email}</td>
+				<td align='center'>
+					{$v.content}
+				</td>
+				<td align='center'>{$v.addtime|date='y-m-d H:i', ###}</td>
+				<td align='center'>{$v.username}</td>
+				 
+			 <td>
+				<a href='{:U("del", array("id" => $v["id"]))}' class='del'>删除</a>
+				</td>
+			</tr>
+		</foreach>
+	</table>
+ 
+<include file='Common:footer'/>	

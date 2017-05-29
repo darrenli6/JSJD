@@ -1,4 +1,9 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+
+
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta name="format-detection" content="telephone=no">
@@ -24,14 +29,8 @@
 				<div class="clearfix"></div>
 			</nav>
 			<ul class="nav-list" id="nav-list">
-				<a class="font40" href="index.html"><li class="navlist-item">公司首页</li></a>
-				<a class="font40" href="company.html"><li class="navlist-item">公司简介</li></a>
-				<a class="font40" href="###"><li class="navlist-item">精彩专题</li></a>
-				<a class="font40" href="new-center.html"><li class="navlist-item">新闻中心</li></a>
-				<a class="font40" href="product.html"><li class="navlist-item">产品展示</li></a>
-				<a class="font40" href="company-pic.html"><li class="navlist-item">公司相册</li></a>
-				<a class="font40" href="online-message.html"><li class="navlist-item">在线留言</li></a>
-				<a class="font40" href="contact.html"><li class="navlist-item">联系我们</li></a>
+				<a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">首页</li></a>
+                 <a class="font40" href="<?php echo U('Login/index') ?>"><li class="navlist-item">注册登录</li></a>
 			</ul>
 			<!--<banner class="banner clear">-->
 			    <div id="focus" class="focus banner clear">
@@ -50,6 +49,10 @@
 			    </div>
 			<!--</banner>-->
 		</header>
+		
+		
+		
+		
 		<section>
 	<!--	<form action="" method="post" target="_blank">-->
 			<lable id="search-wrap" class="search-wrap">
@@ -62,156 +65,58 @@
 		<!--</form>-->
 			<div class="company-box">
 				<ul class="company-introwrap">
-					<a class="font40 fontwhite company-introitem index-compcur" href="###"><li>公司简介</li></a>
-					<a class="font40 fontwhite company-introitem" href="###"><li>公司文化</li></a>
-					<a class="font40 fontwhite company-introitem" href="###"><li>发展历程</li></a>
-					<a class="font40 fontwhite company-introitem" href="###"><li>公司荣誉</li></a>
+					<a class="font40 fontwhite company-introitem index-compcur" href="###"><li><?php echo $newses[0]['title']; ?></li></a>
+				  <?php foreach($newses as $k=>$v): if($k==0) continue; ?>
+					<a class="font40 fontwhite company-introitem" href="###"><li><?php echo $v['title'] ?></li></a>
+					<?php endforeach; ?>
 					<div class="clearfix"></div>
 				</ul>
 				<div class="company-conwrap">
 					<div class="company-content">
 						<span class="company-conpic">
-							<img src="__PUBLIC__/img/company-pic.png"/>
+							<img width="376px" height="279px" src="<?php echo C('SHOWIMAGE').$newses[0]['img']; ?>"/>
 						</span>
 						<span class="company-contxt">
 							<p class="company-conitem font24">
-								111山东临网网络科技有限公司起始于2008年。公
-								司总部设立于国家级经济技术开发区中印软件产
-								业园（临沂云计算中心）。公司云集了一支专业、
-								专注、高素质、高标准的互联网精英团队。我们以
-								奉献网络科技而缩短人际沟通距离为目标，全心致力
-								于企事业单位建站和电子商务的应用及推广，重塑企业
-								高端网络形象，为企业产品推广文化发展提供全方位的服
-								务和帮助。
+							  <?php echo $newses[0]['summary'].'..'; ?>
 							</p>
-							<p class="company-conitem font24">
-								111公司业务涵盖品牌网站建设、搜索引擎优化、
-								应用软件开发、电子商务培训、电商平台搭建
-								和广告设计制作等。我们将一直秉承"技术创新，
-								诚信服务"的原则，坚持不懈走技术、创新路线，诚
-								信合作，高效服务于各行业领域，结合行业运营，优化
-								技术，精细运作，将服务理念通过技术执行得以更有效的
-								体现，最大化实现企业价值……
-							</p>
+						 
 							<a href="company.html" class="font20 company-conicon more-icon">[查看详情]</a>
 							<div class="clearfix"></div>
 						</span>
 					</div>
+					<?php foreach($newses as $k=>$v): if($k==0) continue; ?>
 					<div class="company-content box-hidden">
 						<span class="company-conpic">
-							<img src="__PUBLIC__/img/company-pic2.png"/>
+							<img src="<?php echo C('SHOWIMAGE').$v['img']; ?>"/>
 						</span>
 						<span class="company-contxt">
 							<p class="company-conitem font24">
-								222山东临网网络科技有限公司起始于2008年。公
-								司总部设立于国家级经济技术开发区中印软件产
-								业园（临沂云计算中心）。公司云集了一支专业、
-								专注、高素质、高标准的互联网精英团队。我们以
-								奉献网络科技而缩短人际沟通距离为目标，全心致力
-								于企事业单位建站和电子商务的应用及推广，重塑企业
-								高端网络形象，为企业产品推广文化发展提供全方位的服
-								务和帮助。
+								<?php echo $v['summary'].'..'; ?> 
 							</p>
-							<p class="company-conitem font24">
-								222公司业务涵盖品牌网站建设、搜索引擎优化、
-								应用软件开发、电子商务培训、电商平台搭建
-								和广告设计制作等。我们将一直秉承"技术创新，
-								诚信服务"的原则，坚持不懈走技术、创新路线，诚
-								信合作，高效服务于各行业领域，结合行业运营，优化
-								技术，精细运作，将服务理念通过技术执行得以更有效的
-								体现，最大化实现企业价值……
-							</p>
+						 
 							<a href="company.html" class="font20 company-conicon more-icon">[查看详情]</a>
 							<div class="clearfix"></div>
 						</span>
 					</div>
-					<div class="company-content box-hidden">
-						<span class="company-conpic">
-							<img src="__PUBLIC__/img/company-pic.png"/>
-						</span>
-						<span class="company-contxt">
-							<p class="company-conitem font24">
-								333山东临网网络科技有限公司起始于2008年。公
-								司总部设立于国家级经济技术开发区中印软件产
-								业园（临沂云计算中心）。公司云集了一支专业、
-								专注、高素质、高标准的互联网精英团队。我们以
-								奉献网络科技而缩短人际沟通距离为目标，全心致力
-								于企事业单位建站和电子商务的应用及推广，重塑企业
-								高端网络形象，为企业产品推广文化发展提供全方位的服
-								务和帮助。
-							</p>
-							<p class="company-conitem font24">
-								333公司业务涵盖品牌网站建设、搜索引擎优化、
-								应用软件开发、电子商务培训、电商平台搭建
-								和广告设计制作等。我们将一直秉承"技术创新，
-								诚信服务"的原则，坚持不懈走技术、创新路线，诚
-								信合作，高效服务于各行业领域，结合行业运营，优化
-								技术，精细运作，将服务理念通过技术执行得以更有效的
-								体现，最大化实现企业价值……
-							</p>
-							<a href="company.html" class="font20 company-conicon more-icon">[查看详情]</a>
-							<div class="clearfix"></div>
-						</span>
-					</div>
-					<div class="company-content box-hidden">
-						<span class="company-conpic">
-							<img src="__PUBLIC__/img/company-pic2.png"/>
-						</span>
-						<span class="company-contxt">
-							<p class="company-conitem font20">
-								444山东临网网络科技有限公司起始于2008年。公
-								司总部设立于国家级经济技术开发区中印软件产
-								业园（临沂云计算中心）。公司云集了一支专业、
-								专注、高素质、高标准的互联网精英团队。我们以
-								奉献网络科技而缩短人际沟通距离为目标，全心致力
-								于企事业单位建站和电子商务的应用及推广，重塑企业
-								高端网络形象，为企业产品推广文化发展提供全方位的服
-								务和帮助。
-							</p>
-							<p class="company-conitem font20">
-								444公司业务涵盖品牌网站建设、搜索引擎优化、
-								应用软件开发、电子商务培训、电商平台搭建
-								和广告设计制作等。我们将一直秉承"技术创新，
-								诚信服务"的原则，坚持不懈走技术、创新路线，诚
-								信合作，高效服务于各行业领域，结合行业运营，优化
-								技术，精细运作，将服务理念通过技术执行得以更有效的
-								体现，最大化实现企业价值……
-							</p>
-							<a href="company.html" class="font20 company-conicon more-icon">[查看详情]</a>
-							<div class="clearfix"></div>
-						</span>
-					</div>
+				 <?php endforeach; ?>
 				</div>
 			</div>
 			<div class="news-box">
 				<ul class="news-wrap">
-					<a class="font40 fontwhite new-tit index-newscur" href="###"><li>行业新闻</li></a>
-					<a class="font40 fontwhite new-tit" href="###"><li>公司动态</li></a>
-					<a class="font40 fontwhite new-tit" href="###"><li>专题报道</li></a>
+					<a class="font40 fontwhite new-tit index-newscur" href="###"><li>党员会议</li></a>
+					 
 					<div class="clearfix"></div>
 				</ul>
 				<div class="news-newtitwrap">
 					<div class="news-titwrap">
+					<?php foreach($partyData as $k=>$v): ?>
 						<a class="news-tititem" href="new-con.html">
-							<span class="news-titleft font20">111马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
+							<span class="news-titleft font20"><?php echo $v['title']; ?></span>
+							<span class="news-titright font18"><?php echo $v['starttime']; ?></span>
 							<div class="clearfix"></div>
 						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">111马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">111马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem height-bottom" href="company.html">
-							<span class="news-titleft font20">111马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
+					<?php endforeach; ?>	 
 					</div>
 					<div class="news-titwrap box-hidden">
 						<a class="news-tititem" href="company.html">
@@ -261,15 +166,17 @@
 				<a href="new-center.html" class="font30 more-icon news-moreicon">查看更多&gt;</a>
 			</div>
 			<div class="product-box">
-				<span class="product-tit font30 fontwhite">产品信息</span>
+				<span class="product-tit font30 fontwhite">学科竞赛</span>
+				 
 				<a href="product.html" class="product-conwrap">
 					<span class="product-pic">
-						<img src="__PUBLIC__/img/company-pic.png"/>
+						<img width="376px" height="279px" src="<?php echo C('SHOWIMAGE').$srs['smallimg']; ?>"/>
 					</span>
 					<p class="font30 fontwhite product-txt">
-						产品展示一
+						<?php echo $srs['racename']; ?>
 					</p>
 				</a>
+				 
 			</div>
 		</section>
 		
@@ -278,45 +185,26 @@
 		
 		
 		
+		
+	</body>
+
+		
+		
 		<footer>
 			<a class="font40" id="return" href="#">
 				返回顶部
 			</a>
 			<ul class="footer-iconwrap">
-				<a class="font40" href="###">
-					<li class="footer-icon">
-						<span class="icon-pic"><img src="__PUBLIC__/img/footer-tel.png"/></span>
-						<p class="icon-text">客服电话</p>
-					</li>
-				</a>
-				<a class="font40" href="###">
-					<li class="footer-icon">
-						<span class="icon-pic"><img src="__PUBLIC__/img/footer-weixin.png"/></span>
-						<p class="icon-text">微信公众号</p>
-					</li>
-				</a>
-				<a class="font40" href="###">
-					<li class="footer-icon">
-						<span class="icon-pic"><img src="__PUBLIC__/img/footer-weibo.png"/></span>
-						<p class="icon-text">官方微博</p>
-					</li>
-				</a>
-				<a class="font40" href="###">
-					<li class="footer-icon">
-						<span class="icon-pic"><img src="__PUBLIC__/img/footer-aa.png"/></span>
-						<p class="icon-text">客服QQ</p>
-					</li>
-				</a>
+				 
+				 
 				<div class="clearfix"></div>
 				<div class="footer-note">
-					<p class="font40 note-item">鲁ICP备16012712号 copyright © www.mycodes.net</p>
-					<p class="font40 note-item">鲁公网安备 37131202371231号</p>
+					<p class="font40 note-item">版权所有 计科1302_Darren</p>
+					<p class="font40 note-item"></p>
 				</div>
 			</ul>
 		</footer>
-	</body>
-<!--<script src="__PUBLIC__/lib/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>-->	
-<script type="text/javascript" src="__PUBLIC__/lib/public.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/lib/public.js" ></script>
 <script src="__PUBLIC__/lib/jquery.min.js"></script>
 <script src="__PUBLIC__/lib/TouchSlide.1.1.js"></script>
 <script>

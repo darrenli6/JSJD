@@ -13,6 +13,7 @@ class IndexAction extends CommonAction {
         //subjectrace
         $this->srs=M('Subjectrace')->order('id DESC')->limit(3)->select();
         
+        
         $this->display();
     }
 }

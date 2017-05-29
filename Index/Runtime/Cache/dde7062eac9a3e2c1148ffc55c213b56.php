@@ -57,7 +57,7 @@
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
-            <li class="top_dh"><a href="About/rlzy.html">投诉建议</a>
+            <li class="top_dh"><a href="<?php echo U('Feedback/index'); ?>">投诉建议</a>
 
 
             
@@ -152,8 +152,8 @@ else{document.all(c_Str).style.display='none';}}
                             <li class="gywm_lb">
                             	<div>
                                 	<ul>
-                                	<li><a href="#" onClick="toggle('1')" >联系我们</a></li>
-                                    <li><a href="#" onClick="toggle('2')" >意见反馈</a></li>
+                                	<li><a href="<?php echo U('About/contactus');?>"  >联系我们</a></li>
+                                    <li><a href="<?php echo U('Feedback/index');?>" >意见反馈</a></li>
                                     </ul>
                                 </div>
                             </li>

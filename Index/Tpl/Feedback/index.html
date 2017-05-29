@@ -11,8 +11,8 @@
                             <li class="gywm_lb">
                             	<div>
                                 	<ul>
-                                	<li><a href="#" onClick="toggle('1')" >联系我们</a></li>
-                                    <li><a href="#" onClick="toggle('2')" >意见反馈</a></li>
+                                	<li><a href="<?php echo U('About/contactus');?>"  >联系我们</a></li>
+                                    <li><a href="<?php echo U('Feedback/index');?>" >意见反馈</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -21,53 +21,30 @@
                     
                 </li>
 
-               <li class="cpzx_right" id="div1" style="display:block">
-               		<div class="gywm_xp"></div>
-						<div class="gywm_rightName">
-							<ul>
-								<li class="gyName">联系我们<span>company profil</span></li>
-								<li class="gyyou"></li>
-							</ul>
-						</div>
-                      <div class="lxwmjs">
-                   		<p><img  src="__PUBLIC__/images/lxwm2.png" alt="" /></p>
-								<br />
-                                <br />
-                            <font size="4">邦力重工有限公司</font><br />
-                             <br />
-                            咨询热线：  4000 580 100<br />
-                            网址(Web)： www.mycodes.net <br />      
-                            集团官网：  www.ipr580.cn<br />
-                            招聘邮箱：  hsdongli@163.com<br />
-                            客服邮箱：  1725962903@qq.com<br />
-                            地址：  西安市科技二路创新信息大厦B座5层
-                      </div>
-                                 <!--  地图 容器-->
-                             <div id="l-map"></div>
-                                  <!--  地图 结束-->
-               </li> 
+              
                
-                <li class="cpzx_right" id="div2" style="display:none">
+                <li class="cpzx_right" id="div2" style="display:block">
                		<div class="gywm_xp"></div>
 						<div class="gywm_rightName">
 							<ul>
-								<li class="gyName">意见反馈<span>company profil</span></li>
+								<li class="gyName">意见反馈<span>Feedback</span></li>
 								<li class="gyyou"></li>
 							</ul>
 						</div>
                       <div class="lxwmly">
                    				<ul>
-                                	<form action="" name="form1">
-                                	<p><font color="#FF0000">*</font>&nbsp;&nbsp;请留下您的意见和建议，帮助我们做得更好：)</p>
-                                	<li class="js_jy"><textarea type="text" name="jy"></textarea></li>
+                                	<form action="__SELF__"  method="post" name="form1">
+                                	<p><font color="#FF0000">*</font>&nbsp;&nbsp;同学，请留下你的意见和建议，帮助我们做得更好：)</p>
+                                	<li class="js_jy"><textarea type="text" name="content"></textarea></li>
                                     <p>联系Email</p>
                                     <li class="js_Email"><input type="text" name="email" dataType="email[1,]"  style="width:500px; height:30px;" /></li>
                                     <p>联系电话</p>
-                                    <li class="js_Tel"><input  type="text"  style="width:500px; height:30px;"></li>
+                                    <li class="js_Tel"><input  type="text"  name="phone" style="width:500px; height:30px;"></li>
                                     
-                                    <li class="js_tjcz"><input name="" value="提 交" type="submit" /> &nbsp;&nbsp;&nbsp;&nbsp;<input name="" value="重 置" type="reset" /></li>
+                                    <li class="js_tjcz">
+                                    <input name="" value="提 交" type="submit" /> &nbsp;&nbsp;&nbsp;&nbsp;<input name="" value="重 置" type="reset" /></li>
                                     </form>
-                                    <li class="js_tjcz"><font size="2">说明：*为必填项，请填写完整。填写E-mail或者联系电话方便我们及时给您回复，此信息不公开仅限客户联络，请放心。</font></li>
+                                    <li class="js_tjcz"><font size="2">说明：*为必填项，请填写完整。填写E-mail或者联系电话方便我们及时给您回复，此信息不公开仅限同学联络，请放心。</font></li>
                                 </ul>
                       </div>
                </li> 
