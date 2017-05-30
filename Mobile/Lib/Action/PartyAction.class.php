@@ -2,15 +2,26 @@
 
 class PartyAction extends CommonAction {
     public function index(){
-         $this->newsData=M('Partyactivity')
-         ->field('id,title,smallimg,starttime,endtime')
+        //get party info
+         $this->pData=M('Partyactivity')
+         ->field('id,title,starttime')
          ->where(array(
              'is_show'=>array('eq',1),
          ))
          ->order('endtime DESC')
+         ->limit(9)
          ->select();
-       //  var_dump($this->newsData);
         
+       
+         //get news info
+         $this->nData=M('News')
+         ->field('id,title,publictime')
+         ->where(array(
+             'isshow'=>array('eq',1),
+         ))
+         ->order('sort DESC')
+         ->limit(9)
+         ->select();
         
          $this->display();
     }

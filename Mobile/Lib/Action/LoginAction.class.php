@@ -9,7 +9,7 @@ class LoginAction extends CommonAction {
             $account = $this->_post('stuid');
             $pwd = $this->_post('password', 'md5');
             
-            $where = array('account' => $account);
+            $where = array('stuid' => $account);
             
             $user = M('Stu')->where($where)->find();
             
@@ -17,7 +17,7 @@ class LoginAction extends CommonAction {
                 $this->error('用户名或者密码不正确');
             }
             
-            if ($user['lock']==0) {
+            if ($user['locked']==0) {
                 $this->error('用户被锁定');
             }
             
@@ -72,6 +72,10 @@ class LoginAction extends CommonAction {
     
     public function reg(){
         if($this->isPost()){
+        
+        if($this->_post('password')!=$this->_post('password2'))
+        $this->error('两次密码输入不一致');    
+            
         //check user exitst
         $exit=M('stu')->where(array(
          'stuid'=>array('eq',$_POST['stuid'])

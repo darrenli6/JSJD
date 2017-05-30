@@ -20,7 +20,7 @@ class StuAction extends CommonAction {
          
          
         $this->CData=M('Stu')->alias('a')
-               ->field('a.id,a.stuid,b.stuname,b.face,c.name')
+               ->field('a.id,a.stuid,b.stuname,b.face,c.name,a.locked')
                ->join('LEFT JOIN __STUINFO__ b ON b.stu_id=a.stuid
                        LEFT JOIN __CLASSINFO__ c ON c.id=b.cid 
                       ')  
@@ -34,7 +34,17 @@ class StuAction extends CommonAction {
           ));
         $this->display();
     }
-    
+    public function changeLocked(){
+        $id=$this->_get('id','intval');
+        $status=$this->_get('status','intval');
+        $data=array(
+          'id'=>$id,
+          'locked'=>$status,  
+        );
+        if(M('Stu')->save($data))
+            $this->success('操作成功');
+        else $this->error('操作失败');
+    }
     
     public function add(){
         

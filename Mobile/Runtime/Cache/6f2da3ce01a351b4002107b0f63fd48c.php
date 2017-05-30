@@ -1,4 +1,4 @@
-
+<?php if (!defined('THINK_PATH')) exit();?>
 
 
 
@@ -62,7 +62,36 @@
 		
 		
 		
-		{__CONTENT__}
+		
+		<section>
+			<div class="comp-titwrap">
+				<span class="font40 comp-line comp-float"></span>
+				<span class="font40 comp-tit comp-float">竞赛图片</span>
+				<span class="font40 comp-line comp-floatr"></span>
+			<div class="clearfix"></div>
+			<div class="product-picwrap">
+			<?php foreach($sData as $k=>$v): ?>
+				<a href="<?php  echo U('detail',array('sid'=>$v['id'])) ?>" class="product-item">
+					<span class="product-picbox">
+						<img width="100%" height="200px" src="<?php echo C('SHOWIMAGE').$v['smallimg'] ?>"/>
+					</span>
+					<p class="product-text font24 fontwhite">
+					<?php echo $v['racename']; ?>
+					</p>
+				</a>
+			<?php endforeach; ?>
+			</div>
+			<div class="page-wrap font24 page-center">
+				<a href="###" class=" fontcolor-40 page-item page-prev page-float">上一页</a>
+				<a href="###" class=" fontcolor-40 page-item page-float">1</a>
+				<a href="###" class=" fontcolor-40 page-item page-float">2</a>
+				<a href="###" class=" fontcolor-40 page-item page-float">3</a>
+				<a href="###" class=" fontcolor-40 page-item page-float">4</a>
+				<a href="###" class=" fontcolor-40 page-item page-next page-float">下一页</a>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+
 		
 		
 		<footer>
@@ -133,4 +162,3 @@
 </script>
 <script src="__PUBLIC__/js/choose.js"></script>	
 </html>
-		

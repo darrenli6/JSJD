@@ -13,9 +13,9 @@
         <div id="logo">
             <img src="__PUBLIC__/login/images/czxy.png" alt=""/>
         </div>
-        <form action="__SELF" method="POST">
+        <form action="__SELF__" method="POST">
             <div class="userName">
-                <lable>用户名：</lable>
+                <lable>学号：</lable>
                 <input type="text" name="stuid" placeholder="请输入学号" pattern="[0-9]{6,16}" required/>
             </div>
             <div class="passWord">

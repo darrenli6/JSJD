@@ -8,7 +8,7 @@
 	<head>
 		<meta name="format-detection" content="telephone=no">
 		<meta charset="UTF-8">
-		<title>公司首页</title>
+		<title>计算机系</title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -21,16 +21,26 @@
 					<img src="__PUBLIC__/img/menu.png"/>
 				</span>
 				<span class="nav-item logo">
-					<img src="__PUBLIC__/img/logo.png"/>
+					<img src="__PUBLIC__/img/czxy.png" width="30px" height="50px"/>
 				</span>
 				<span class="nav-item admin">
+				<?php if(session('sid')){ ?> 
 					<img src="__PUBLIC__/img/people.png"/>
+				<?php } ?>	
 				</span>
 				<div class="clearfix"></div>
 			</nav>
 			<ul class="nav-list" id="nav-list">
 				<a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">首页</li></a>
+                <?php if(!session('sid')){ ?> 
                  <a class="font40" href="<?php echo U('Login/index') ?>"><li class="navlist-item">注册登录</li></a>
+			     <?php }else{ ?>
+			      <a class="font40" href="<?php echo U('Login/logout') ?>"><li class="navlist-item">退出登录</li></a>
+			     <?php }?>
+			     <a class="font40" href="<?php echo U('Subjectrace/index') ?>"><li class="navlist-item">学科竞赛</li></a>
+			     <a class="font40" href="<?php echo U('Party/index') ?>"><li class="navlist-item">新闻中心</li></a>
+                 <a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">投诉建议</li></a>	     
+			     <a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">联系我们</li></a>
 			</ul>
 			<!--<banner class="banner clear">-->
 			    <div id="focus" class="focus banner clear">
@@ -199,8 +209,8 @@
 				 
 				<div class="clearfix"></div>
 				<div class="footer-note">
-					<p class="font40 note-item">版权所有 计科1302_Darren</p>
-					<p class="font40 note-item"></p>
+					<p class="font40 note-item" align="center">版权所有 计科1302_Darren</p>
+					 
 				</div>
 			</ul>
 		</footer>

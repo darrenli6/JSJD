@@ -1,4 +1,4 @@
-
+<?php if (!defined('THINK_PATH')) exit();?>
 
 
 
@@ -62,7 +62,51 @@
 		
 		
 		
-		{__CONTENT__}
+		 
+		<section>
+			<div class="comp-titwrap">
+				<span class="font40 comp-line comp-float"></span>
+				<span class="font40 comp-tit comp-float">竞赛详情</span>
+				<span class="font40 comp-line comp-floatr"></span>
+			<div class="clearfix"></div>
+			<div class="product-picwrap">
+				<span class="product-item">
+					<span class="product-picbox">
+					    <?php if(!empty($imgSubs[$freenum][img])) { ?>
+						<img width="100%" height="200px" src="<?php echo C('SHOWIMAGE').'Subjectrace/'.$imgSubs[$freenum][img]; ?>"/>
+					    <?php }else{ ?>
+					    <img width="100%" height="330px" src="__PUBLIC__/img/czxy.png"/>
+					    <?php } ?>
+					</span>
+					<p class="product-text font24 fontwhite"><?php echo $dsData['racename'] ?></p>
+				</span>
+			</div>
+			<ul class="product-notewrap">
+				<li class="product-noteitem font24">开始时间：<?php echo $dsData['racetime'] ?></li>
+				<li class="product-noteitem font24">结束时间：<?php echo $dsData['endtime'] ?></li>
+				<li class="product-noteitem font24">组织者：<?php echo $orignals['departnames']; ?></li>
+				<li class="product-noteitem font24">名称：<?php echo $dsData['racename'] ?></li>
+				<div class="clearfix"></div>
+			</ul>
+			<div class="product-textwrap font24">
+				<p class="product-textitem">
+					<?php echo $dsData['summary']; ?>
+				</p>
+				 
+			</div>
+			<div class="page-wrap">
+				<a href="<?php  echo $pre[0]!=null?U('Subjectrace/detail',array('sid'=>$pre[0]['id'])):''; ?>" class=" page-item page-prev fontcolor-40 font24">
+				下一篇：  <?php echo $pre[0]!=null?$pre[0]['racename']:'没有活动'; ?></a>
+				<a href="<?php  echo $next[0]!=null?U('Subjectrace/detail',array('sid'=>$next[0]['id'])):''; ?>" class=" page-item page-next fontcolor-40 font24">
+				下一篇：
+				  <?php echo $next[0]!=null?$next[0]['racename']:'没有活动'; ?>
+				</a>
+			</div>
+		</section>
+		
+		
+		
+		 
 		
 		
 		<footer>
@@ -133,4 +177,3 @@
 </script>
 <script src="__PUBLIC__/js/choose.js"></script>	
 </html>
-		

@@ -1,0 +1,44 @@
+ <layout  name="layout"  />
+		<section>
+			<div class="comp-titwrap">
+				<span class="font40 comp-line comp-float"></span>
+				<span class="font40 comp-tit comp-float">新闻中心</span>
+				<span class="font40 comp-line comp-floatr"></span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="news-box">
+				<ul class="news-wrap">
+					<a class="font40 fontwhite new-tit index-newscur" href="###"><li>党员会议</li></a>
+					<a class="font40 fontwhite new-tit" href="###"><li>新闻汇总</li></a>
+					<div class="clearfix"></div>
+				</ul>
+				<div class="news-newtitwrap">
+					<div class="news-titwrap">
+					<?php foreach($pData as $k=>$v): ?>
+						<a class="news-tititem" href="new-con.html">
+							<span class="news-titleft font20"><?php echo $v['title']; ?></span>
+							<span class="news-titright font18"><?php echo $v['starttime']; ?></span>
+							<div class="clearfix"></div>
+						</a>
+					
+                      <?php endforeach; ?>
+					</div>
+					<div class="news-titwrap box-hidden">
+					<?php foreach($nData as $k=>$v): ?>
+						<a class="news-tititem" href="new-con.html">
+							<span class="news-titleft font20"><?php echo $v['title']; ?></span>
+							<span class="news-titright font18"><?php echo $v['publictime']; ?></span>
+							<div class="clearfix"></div>
+						</a>
+					   <?php endforeach; ?>
+					</div>
+					 
+				</div>
+				 
+			</div>
+		</section>
+		
+		
+		
+		
+	 

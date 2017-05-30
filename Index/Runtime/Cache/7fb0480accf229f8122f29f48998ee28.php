@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="__PUBLIC__/css/style.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/jquery.bxslider.css" >
 <link rel="stylesheet" href="__PUBLIC__/css/reset.css">
+ <SCRIPT src="__PUBLIC__/lib/jquery-1.8.3.min.js" type=text/javascript></SCRIPT>
+ <SCRIPT src="__PUBLIC__/lib/jquery.bxslider.min.js" type=text/javascript></SCRIPT>
+  <SCRIPT src="__PUBLIC__/lib/base.js" type=text/javascript></SCRIPT>
 </head>
 
 <body>
@@ -54,7 +57,7 @@
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
-            <li class="top_dh"><a href="About/rlzy.html">投诉建议</a>
+            <li class="top_dh"><a href="<?php echo U('Feedback/index'); ?>">投诉建议</a>
 
 
             
@@ -272,7 +275,7 @@ $('.bxslider1').bxSlider({
                 <li class="Ur_caidan">
                 		<div class="Ur_cd">
                         	<ul>
-                        		<li><a href="">人才招聘</a></li>
+                        		<li> 
                                 <li class="Ur_cdA"><a href="">网站地图</a></li>
                                 <li class="Ur_cdA"><a href="">友情链接</a></li>
                                 <li class="Ur_cdA"><a href="">会员登录</a></li>
@@ -291,6 +294,7 @@ $('.bxslider1').bxSlider({
     		
     </div>
 </div>
+
 
 
 <script type="text/javascript" src="__PUBLIC__/js/choose.js"></script>

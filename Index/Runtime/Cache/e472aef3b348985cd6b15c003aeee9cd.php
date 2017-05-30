@@ -57,7 +57,7 @@
             </li>
              <li class="top_dh"><a href="<?php echo U('About/index'); ?>">关于我们</a></li>
              <li class="top_dh"><a href="<?php echo U('About/contactus'); ?>">联系我们</a></li>
-            <li class="top_dh"><a href="About/rlzy.html">投诉建议</a>
+            <li class="top_dh"><a href="<?php echo U('Feedback/index'); ?>">投诉建议</a>
 
 
             
@@ -92,7 +92,7 @@
 	<div id="News">
 			<ul class="top_News">
 			 
-				<li class="News_right1" id="div1" style="display:block；width:100%;">
+				<li class="News_right2" id="div1" style="display:block；width:100%;">
 						<div class="gywm_xp"></div>
 						<div class="gywm_rightName">
 							<ul>

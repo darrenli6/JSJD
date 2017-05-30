@@ -35,9 +35,10 @@
 					<th>姓名</th>
 					<th>免冠图片</th>
 					<th>班级</th>
+					<th colspan="2">状态</th>
 					<th>操作</th>
                     </tr>
-                
+               
 			
 
 				<?php if(is_array($CData)): foreach($CData as $key=>$v): ?><tr id="tr">
@@ -53,6 +54,16 @@
 				</td>
 				<td  align='center'>
 					<?php echo ($v["name"]); ?>
+				</td>
+				<td  align='center'>
+					<?php echo $v['locked']==0?'锁定':'开放'; ?>
+				</td>
+				<td  align='center'>
+				   <?php if($v['locked']==0){ ?>
+					<a href="<?php echo U('changeLocked', array('id' => $v['id'],'status'=>1));?>" class='quality'>开放</a>
+				  <?php  }else{ ?>
+				    <a href="<?php echo U('changeLocked', array('id' => $v['id'],'status'=>0));?>" class='quality'>锁定</a>
+				  <?php } ?>
 				</td>
 				<td width='300' align='center'>
 				<a href="<?php echo U('showQuality', array('id' => $v['id']));?>" class='quality'>素质拓展</a>
