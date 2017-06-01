@@ -11,7 +11,9 @@
     <div id="login"></div>
     <div class="login_bg">
         <div id="logo">
+        <a href="<?php echo U('Index/index'); ?>">
             <img src="__PUBLIC__/login/images/czxy.png" alt=""/>
+        </a>
         </div>
         <form action="__SELF__" method="POST">
             <div class="userName">

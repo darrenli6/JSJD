@@ -16,7 +16,6 @@ Class AdminAction extends CommonAction {
 		->join('LEFT JOIN __ADMINROLE__ c ON c.id=b.rid')
 		->group('a.id')
 		->select();
-		
 		 
 		$this->assign(array(
 		    'title'=>'管理员列表',
@@ -30,6 +29,8 @@ Class AdminAction extends CommonAction {
 	 */
 	Public function add () {
 	    if($this->isPost()){
+	        
+	         
 	        if ($_POST['password'] != $_POST['passworded']) {
 	            $this->error('两次密码不一致');
 	        }
@@ -65,7 +66,7 @@ Class AdminAction extends CommonAction {
 	    //get all adminrole
 	    $rModel=M('Adminrole');
 	    $this->rData=$rModel->select();
-	    
+	    //czxy_adminrol  select * from czxy_adminrole
 	    $this->assign(array(
 	        'title'=>'添加管理员信息',
 	    ));
@@ -96,7 +97,7 @@ Class AdminAction extends CommonAction {
 		$id = $this->_get('id', 'intval');
         $ret=M('admin')->field('adminusername')->find($id);
 		if($ret['adminusername']=='admin'){ $this->error('不能删除超级管理员'); } 
-        
+       
 		if (M('admin')->delete($id)) {
 		    M('Roleadmin')->where("aid=$id")->delete();
 			$this->success('删除成功', U('index'));
@@ -156,12 +157,12 @@ Class AdminAction extends CommonAction {
 	    $raData=$rModel->field('GROUP_CONCAT(rid) rid ')->where(array(
 	        'aid'=>array('eq',$id),
 	    ))->find();
-	    
+	  
 	    $this->rData=M('Adminrole')->select();
 	    
 	    $this->rids=$raData['rid'];
 	    $this->data=M('Admin')->find($id);
-	     
+	     //select * from czxy_admin where id=$id
 	    $this->assign(array(
 	        'title'=>'修改管理员信息',
 	    ));

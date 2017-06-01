@@ -306,3 +306,11 @@ create table czxy_feedback(
     username varchar(50) default '匿名' comment '匿名还是用户'
 )engine=InnoDB default charset=utf8 comment '反馈建议';
 
+create table czxy_partyfee(
+    id int unsigned primary key auto_increment comment 'id',
+    feetime varchar(50) null comment '缴纳费用时间',
+    feevalue float null comment '党费',
+    sid int unsigned not null comment '学生id',
+    summary varchar(200) comment '备注'
+)engine=InnoDB default charset=utf8 comment '党费记录';
+alter table czxy_partyfee add status tinyint unsigned default 0  not null comment '1代表已经缴纳0代表没有缴纳';

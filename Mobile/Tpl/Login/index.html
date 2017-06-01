@@ -11,9 +11,11 @@
     <div id="login"></div>
     <div class="login_bg">
         <div id="logo">
+        <a href="<?php echo U('Index/index'); ?>">
             <img src="__PUBLIC__/login/images/czxy.png" alt=""/>
+        </a>
         </div>
-        <form action="__SELF__" method="POST">
+        <form action="__SELF__" method="POST" > 
             <div class="userName">
                 <lable>学号：</lable>
                 <input type="text" name="stuid" placeholder="请输入学号" pattern="[0-9]{6,16}" required/>

@@ -31,6 +31,6 @@ return array(
     //加载扩展配置
     'LOAD_EXT_CONFIG' => 'system',
     'LOAD_EXT_CONFIG' => 'rotateimg',
-    'LOAD_EXT_CONFIG' => 'theme1',
+    'LOAD_EXT_CONFIG' => 'theme',
 );
 ?>

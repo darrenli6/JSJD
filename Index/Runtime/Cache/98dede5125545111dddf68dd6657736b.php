@@ -257,10 +257,10 @@ document.onclick = jsddm_close;
                 		<div class="Ur_cd">
                         	<ul>
                         		<li> 
-                                <li class="Ur_cdA"><a href="">网站地图</a></li>
-                                <li class="Ur_cdA"><a href="">友情链接</a></li>
-                                <li class="Ur_cdA"><a href="">会员登录</a></li>
-                                <li class="Ur_cdA"><a href="">联系我们</a></li>
+                                <li class="Ur_cdA"><a href="<?php echo U('About/contacts'); ?>">网站地图</a></li>
+                                
+                                <li class="Ur_cdA"><a href="<?php echo U('Login/index'); ?>">会员登录</a></li>
+                                <li class="Ur_cdA"><a href="<?php echo U('Feedback/index'); ?>">联系我们</a></li>
                             </ul>
                         </div>
                 </li>

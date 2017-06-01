@@ -11,7 +11,14 @@
 <div class="public-header-warrp">
 	<div class="public-header">
 		<div class="content">
-			<div class="public-header-logo"><a href=""><i>LOGO</i><h3><?php echo session('stuid'); ?></h3></a></div>
+			<div class="public-header-logo"><a href="">
+			 
+			<?php if(!empty($mainstu['face'])){ ?>
+			<img  src="<?php  echo C('SHOWIMAGE').$mainstu['face']; ?>" width="50px" height="50px" />
+			<?php }else{ ?>
+			<img  src="__PUBLIC__/images/people.png" width="50px" height="50px" />
+			<?php } ?>
+			<h3><?php echo session('stuid'); ?></h3></a></div>
 			<div class="public-header-admin fr">
 				<p class="admin-name"> 您好！</p>
 				<div class="public-header-fun fr">
@@ -40,7 +47,6 @@
 					<div class="ifame-item-sub">
 						<ul>
 							<li class="active"><a href="{:U('personinfo')}" target="content">个人资料</a></li>
-							<li><a href="系统管理/admin_music.html" target="content"></a></li>
 							<li><a href="系统管理/admin_cardTemplate.html" target="content">名片模板管理</a></li>
 							<li><a href="系统管理/index_tj.html" target="content">首页推荐导航</a></li>
 						</ul>
@@ -50,7 +56,9 @@
 					<a href="javascript:;">党员信息</a>
 					<div class="ifame-item-sub">
 						<ul>
-							<li><a href="信息管理/article_manage.html" target="content">列表管理</a>|<a href="信息管理/article_add.html" target="content">添加</a></li>
+							<li>
+							<a href="" target="content">上交文档</a>
+							</li>
 							<li><a href="信息管理/cate_manage.html" target="content">分类管理</a></li>
 						</ul>
 					</div>

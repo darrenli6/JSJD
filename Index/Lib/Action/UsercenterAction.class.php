@@ -40,4 +40,11 @@ class UsercenterAction extends CommonAction {
         
         $this->display();
     }
+    
+    
+    /**
+     * 上传党员文档
+     * 
+     */
+    //public  function 
 }

@@ -1,0 +1,66 @@
+ <layout  name="layout" />
+		<section>
+			<div class="comp-titwrap">
+				<span class="font40 comp-line comp-float"></span>
+				<span class="font40 comp-tit comp-float">投诉建议</span>
+				<span class="font40 comp-line comp-floatr"></span>
+			<div class="clearfix"></div>
+			<div class="onlin-conbox">
+					<form   id="on"   >
+						 
+						<span class="online-conitem">
+							<label for="online-tel" class="online-contit">您的电话：</label>
+							<input type="text" name="phone" value="Tel" onfocus="if(this.value=='Tel'){this.value=''};this.style.color='#666666';"
+	onblur="if(this.value==''||this.value=='Tel'){this.value='Tel';this.style.color='#C4C4C4';}" id="online-tel" />
+						</span>
+						<span class="online-conitem">
+							<label for="online-email" class="online-contit">您的邮箱：</label>
+							<input type="text" value="E-mail"  name="email" onfocus="if(this.value=='E-mail'){this.value=''};this.style.color='#666666';"
+	onblur="if(this.value==''||this.value=='E-mail'){this.value='E-mail';this.style.color='#C4C4C4';}" id="online-email" />
+						</span>
+						<span class="online-conitem">
+							<label for="online-context" class="online-contit">您的留言：</label>
+							<textarea name="content" id="online-context"  value="Contact" rows="2"> </textarea>
+						</span>
+					
+ 
+					<div class="clearfix"></div>
+					<button type="reset" form="online-reset"  onclick="reset()" id="online-resicon">重置内容</button><!--reset重置内容-->
+					<button type="submit" form="online-reset"  onclick="s()" id="online-subicon">提交留言</button>
+					<!--submit提交内容-->
+				</form>
+				 </div>
+		</section>
+		
+		<script type="text/javascript">
+		var url="<?php echo U('About/submitcon');  ?>";
+		function s(){
+			var email=$('input[name=email]').val();
+			var phone=$('input[name=phone]').val();
+			var content=$('textarea[name=content]').val();
+			$.post(
+				url,
+				{email:email,phone:phone,content:content},
+				function(msg){
+				  if(msg.status==1)
+					{
+					  layer.msg('提交成功');
+					}else{
+				      layer.msg('提交失败');
+					}
+				},
+				'json'
+			);
+			 
+		}
+		function reset(){
+			$('input[name=email]').val('');
+			$('input[name=phone]').val('');
+			$('textarea[name=content]').val('');
+			
+		}
+		</script>
+		
+		
+		
+	 

@@ -1,9 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-
-
-
-
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta name="format-detection" content="telephone=no">
@@ -13,6 +8,8 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css"/>
+		<script src="__PUBLIC__/lib/jquery-1.8.3.min.js"></script>
+		<script src="__PUBLIC__/js/layer.js"></script>
 	</head>
 	<body>
 		<header>
@@ -39,8 +36,8 @@
 			     <?php }?>
 			     <a class="font40" href="<?php echo U('Subjectrace/index') ?>"><li class="navlist-item">学科竞赛</li></a>
 			     <a class="font40" href="<?php echo U('Party/index') ?>"><li class="navlist-item">新闻中心</li></a>
-                 <a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">投诉建议</li></a>	     
-			     <a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">联系我们</li></a>
+                 <a class="font40" href="<?php echo U('About/contact') ?>"><li class="navlist-item">投诉建议</li></a>	     
+			     <a class="font40" href="<?php echo U('About/index') ?>"><li class="navlist-item">联系我们</li></a>
 			</ul>
 			<!--<banner class="banner clear">-->
 			    <div id="focus" class="focus banner clear">
@@ -109,7 +106,7 @@
 			</ul>
 		</footer>
 		<script type="text/javascript" src="__PUBLIC__/lib/public.js" ></script>
-<script src="__PUBLIC__/lib/jquery.min.js"></script>
+
 <script src="__PUBLIC__/lib/TouchSlide.1.1.js"></script>
 <script>
 	/*字号rem尺寸变化代码*/

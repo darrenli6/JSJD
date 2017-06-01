@@ -6,7 +6,7 @@
 <link href="__PUBLIC__/Login/css/login2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1>请注册登录<sup>2017</sup></h1>
+<h1>请注册登录<sup><?php echo date('Y-m-d'); ?></sup></h1>
 
 <div class="login" style="margin-top:50px;">
     
