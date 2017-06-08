@@ -25,7 +25,7 @@
                 	<span class="lgfw">
                 			<ul>
                             	<ol class="fw_jt"></ol>
-                            	<?php if(empty(session('sid'))){ ?>
+                            	<?php if(empty($sessionid)){ ?>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户登录</a></ol>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户注册</a></ol>
                              <?php }else{ ?>
@@ -45,8 +45,10 @@
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
            		<ul>
-                	<li><a href="#">学习部</a></li>
-                 <li><a href="#">纪律部</a></li>
+           		<?php foreach($departinfo as $k=>$v): ?>
+                	<li><a href="<?php echo U('Subjectrace/index',array('did'=>$v['id'])); ?>"><?php echo $v['departname']; ?></a></li>
+                  
+                <?php endforeach; ?>
                </ul> 
             </li>	
             <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
@@ -216,9 +218,9 @@
                     	</a>
                     	</li>
                         <li class="lx_nameB">
-                        	<font color="#333333" size="2">热线 ：</font><font  size="2">0592 123456</font><p>
-                            <font color="#333333" size="2">传真 ：</font><font  size="2">0592 123456</font><p>
-                            <font color="#333333" size="2">邮件 ：</font><font  size="2">0592@163.com</font><p>
+                        	<font color="#333333" size="2">热线 ：</font><font  size="2"><?php echo ($config["TELEPHONE"]); ?></font><p>
+                            <font color="#333333" size="2">传真 ：</font><font  size="2"><?php echo ($config["FOX"]); ?></font><p>
+                            <font color="#333333" size="2">邮件 ：</font><font  size="2"><?php echo ($config["EMAIL"]); ?></font><p>
                         </li>
                     </ul>
             </div>
@@ -304,7 +306,7 @@ $('.bxslider1').bxSlider({
                 		<div class="Ur_cd">
                         	<ul>
                         		<li> 
-                                <li class="Ur_cdA"><a href="<?php echo U('About/contacts'); ?>">网站地图</a></li>
+                                <li class="Ur_cdA"><a href="<?php echo U('About/contactus'); ?>">网站地图</a></li>
                                 
                                 <li class="Ur_cdA"><a href="<?php echo U('Login/index'); ?>">会员登录</a></li>
                                 <li class="Ur_cdA"><a href="<?php echo U('Feedback/index'); ?>">联系我们</a></li>

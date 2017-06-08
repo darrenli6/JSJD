@@ -2,7 +2,8 @@
 
 class AboutAction extends CommonAction {
     public function index(){
-         
+        $path = './Admin/Conf/System.php';
+        $this->config = include $path;
         
         
         $this->display();

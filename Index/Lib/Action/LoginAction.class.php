@@ -1,6 +1,6 @@
 <?php
 
-class LoginAction extends CommonAction {
+class LoginAction extends Action {
     public function index(){
          
          $this->display();

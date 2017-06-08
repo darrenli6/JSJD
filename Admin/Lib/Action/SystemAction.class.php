@@ -12,7 +12,7 @@ Class SystemAction extends CommonAction {
 	    $this->assign(array(
 	        'title'=>'网站设置',
 	    ));
-	    $this->config = include './Index/Conf/system.php';
+	    $this->config = include './Admin/Conf/System.php';
 		$this->display();
 	}
 
@@ -40,9 +40,10 @@ Class SystemAction extends CommonAction {
      * key word
      * */	
 	public function filter(){
-	    $config = include './Index/Conf/system.php';
+	    $config = include './Admin/Conf/System.php';
 	    
 	    $this->filter = implode('|', $config['FILTER']);
+	     
 	    $this->display();
 	}
 	
@@ -164,12 +165,57 @@ Class SystemAction extends CommonAction {
 	
 	public function webinfo(){
 	    
-	    M('Systemconfig')->find();
+	    $this->config = include './Admin/Conf/System.php';
 	    
 	    
 	    $this->display();
 	    
 	}
+	public function runEditSite(){
+	    $path = './Admin/Conf/System.php';
+	    $config = include $path;
+	    
+	    $config['TELEPHONE'] = $_POST['telephone'];
+	    $config['EMAIL'] = $_POST['email'];
+	    $config['ADDRESS'] = $_POST['address'];
+	    $config['FOX'] = $_POST['fox'];
+	    $config['WEB_SITE'] = $_POST['web_site'];
+	    $data = "<?php\r\nreturn " . var_export($config, true) . ";\r\n?>";
+	    
+	     
+	    if (file_put_contents($path, $data)) {
+	        $this->success('修改成功', U('webinfo'));
+	    } else {
+	        $this->error('修改失败， 请修改' . $path . '的写入权限');
+	    }
+	}
 	
+	public function skinmodel(){
+	    if($this->isPost())
+	    {
+	        $path = './Admin/Conf/theme.php';
+	        $config = include $path;
+	        $config['DEFAULT_THEME'] = $_POST['default_theme'];
+	        
+	        $config['TMPL_PARSE_STRING']=array(
+	            '__PUBLIC__' => __ROOT__ . '/Admin/Tpl/'.$_POST['default_theme'].'/Public',
+	        );
+	        $data = "<?php\r\nreturn " . var_export($config, true) . ";\r\n?>";
+	         
+	        
+	        if (file_put_contents($path, $data)) {
+	           
+	            echo "<script>window.parent.location.reload();</script>";
+	            $this->success('修改成功', U('webinfo'));
+	        } else {
+	            $this->error('修改失败， 请修改' . $path . '的写入权限');
+	        }
+	        
+	    }
+	    
+	    $this->config = include './Admin/Conf/theme.php';
+	     
+	    $this->display();
+	}
 }
 ?>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人中心</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- loading mui -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/center/css/mui.min.css">
+	<!-- custorm style -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/center/css/style.css">
+		 
+	<!-- loading mui.picker.min -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/center/css/mui.picker.min.css">
+	<!-- loading mui.popicker -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/center/css/mui.poppicker.css">
+	<!-- custorm style -->
+</head>
+<body>
+	<!-- 导航栏 -->
+	<header id="header" class="mui-bar mui-bar-nav">
+		<h1 class="mui-title"></h1>
+		<a class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1)"><span class="mui-icon mui-icon-left-nav"></span></a>
+		<a class="mui-icon mui-icon-bars mui-pull-right" href="#topPopover"></a>
+	</header>
+	<!-- 右上角弹出菜单 -->
+	<div id="topPopover" class="mui-popover">
+			<div class="mui-popover-arrow"></div>
+			<div class="mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<a href="<?php echo U('Index/index'); ?>">首页</a>
+						</li>
+						<li class="mui-table-view-cell"><a href="<?php echo U('Usercenter/qualityinfo'); ?>">素质拓展表</a>
+						</li>
+					     <li class="mui-table-view-cell"><a href="<?php echo U('Usercenter/index'); ?>">个人中心</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>

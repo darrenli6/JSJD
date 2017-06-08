@@ -1,0 +1,47 @@
+<include file="Common:header"  />
+	<!-- 主内容部分 -->
+	<div class="content">
+		<section class="xueqi">
+			<div class="class">
+				<label id="classResult">个人中心</label>
+			</div>
+		</section>
+		<section class="personData">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="#">
+					    <?php if(empty($stuinfo['face'])): ?>
+						<img class="mui-media-object mui-pull-left head-img" id="
+						head-img" src="__PUBLIC__/center/img/people.png">
+						<?php endif; ?>
+						 <?php if(!empty($stuinfo['face'])): ?>
+						<img class="mui-media-object mui-pull-left head-img" id="
+						head-img" src="<?php echo C('SHOWIMAGE').$stuinfo['face'] ?>">
+						<?php endif; ?>
+						<label class="name"><?php echo $stuinfo['stuname']; ?></label>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a>班级<span class="mui-pull-right"><?php echo $stuinfo['name']; ?></span></a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a>学号<span class="mui-pull-right"><?php echo $stuinfo['stu_id']; ?></span></a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a>性别<span class="mui-pull-right"><?php echo $stuinfo['sex']==0?'女':'男'; ?></span></a>
+				</li>
+				 
+				<li class="mui-table-view-cell">
+					<a>手机号<span class="mui-pull-right"><?php echo $stuinfo['mobilephone']==NULL?'暂无':$stuinfo['mobilephone']; ?></span></a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a>名族<span class="mui-pull-right"><?php echo $stuinfo['nation']==NULL?'汉族':$stuinfo['nation']; ?></span></a>
+				</li>
+			</ul>
+		</section>
+	</div>
+	<script src="__PUBLIC__/center/js/mui.min.js"></script>
+</body>
+</html>

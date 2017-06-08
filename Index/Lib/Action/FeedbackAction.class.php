@@ -1,6 +1,6 @@
 <?php
 
-class FeedbackAction extends CommonAction {
+class FeedbackAction extends BaseAction {
     public function index(){
        if($this->isPost()){
            

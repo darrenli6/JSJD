@@ -172,7 +172,7 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
     			   var html='';
     			   if(msg.status==1){
     				  $.each(msg.data,function(k,v){
-    					  html+='<option value='+v.id+'>'+v.stuid+'</option>';
+    					  html+='<option value='+v.id+'>'+v.stu_id+'----'+v.stuname+'</option>';
     				  });
     				   $(html).appendTo($('#hebei'));
     				   clickoptiontoright();

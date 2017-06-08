@@ -1,12 +1,37 @@
 <?php
 
-class SubjectraceAction extends CommonAction {
+class SubjectraceAction extends  BaseAction {
     public function index(){
+        
+        $did=$this->_get('did','intval');
+        
         //get department 
         $this->dData=M('departinfo')->field('id,departname')->select(); 
+        
+        if(empty($did))
+        {    
         //get subjectrace info
-        $this->sData=M('Subjectrace')->order('id DESC')->limit(9)->select();
-         
+        $this->sData=M('Subjectrace')
+        ->order('id DESC')
+        ->limit(9)
+        ->select();
+
+        }else{
+           $result=array();
+           $data=M('Subjectrace')
+           ->order('id DESC')
+           ->limit(9)
+           ->select();
+           
+           foreach($data as $k=>$v)
+           {   
+               if(!strpos($v['deds'].',', $did.','))
+               $result[$k]=$v;
+           }
+           $this->sData=$result;
+        }
+        
+       
         $this->display();
     }
     public function detail(){
@@ -46,5 +71,38 @@ class SubjectraceAction extends CommonAction {
         ->select();
         
         $this->display();
+    }
+    
+    
+    public function ajaxLoadSub(){
+        if(!$this->isAjax()){
+            die('error');
+        }
+        
+        $cid=$this->_post('targetid','intval');
+        
+        $result=array();
+        $data=M('Subjectrace')
+        ->field('racename,smallimg,deds,summary')
+        ->where(array(
+            'is_show'=>array('eq',1)
+        ))
+        ->order('id DESC')
+        ->limit(9)
+        ->select();
+         
+        foreach($data as $k=>$v)
+        {
+            if(!strpos($v['deds'].',', $cid.','))
+                $result['data'][]=$v;
+        }
+        if($result)
+        {
+        $result['state']=1;    
+        
+        }else{
+         $result['state']=0;   
+        }
+        die(json_encode($result));
     }
 }

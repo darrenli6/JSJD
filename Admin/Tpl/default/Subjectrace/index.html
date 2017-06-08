@@ -6,7 +6,6 @@
             <div class="result_content">
                 <div class="short_wrap">
                     <a href="{:U('add')}"><i class="fa fa-plus"></i>新增</a>
-                    <a href="#" onclick="delall()"><i class="fa fa-recycle"></i>批量删除</a>
                 </div>
             </div>
             <!--快捷导航 结束-->
@@ -16,7 +15,6 @@
             <div class="result_content">
                 <table class="list_tab">
                     <tr>
-                    <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>
 			<th>ID</th>
 			<th>名称</th>
 			<th>缩略图</th>
@@ -27,7 +25,6 @@
 		</tr>
 		<foreach name='SData' item='v'>
 			<tr>
-			 <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>
 				<td width='50' align='center'>{$v.id}</td>
 				<td width='100'>{$v.racename}</td>
 				<td align='center'>

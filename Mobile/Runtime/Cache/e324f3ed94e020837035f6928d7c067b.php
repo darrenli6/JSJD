@@ -21,15 +21,17 @@
 					<img src="__PUBLIC__/img/czxy.png" width="30px" height="50px"/>
 				</span>
 				<span class="nav-item admin">
-				<?php if(session('sid')){ ?> 
+				<?php if($sessionid){ ?> 
+				     <a href="<?php echo U('Usercenter/index'); ?>">
 					<img src="__PUBLIC__/img/people.png"/>
+					</a>
 				<?php } ?>	
 				</span>
 				<div class="clearfix"></div>
 			</nav>
 			<ul class="nav-list" id="nav-list">
 				<a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">首页</li></a>
-                <?php if(!session('sid')){ ?> 
+                <?php if(!$sessionid){ ?> 
                  <a class="font40" href="<?php echo U('Login/index') ?>"><li class="navlist-item">注册登录</li></a>
 			     <?php }else{ ?>
 			      <a class="font40" href="<?php echo U('Login/logout') ?>"><li class="navlist-item">退出登录</li></a>
@@ -118,64 +120,21 @@
 				<div class="news-newtitwrap">
 					<div class="news-titwrap">
 					<?php foreach($partyData as $k=>$v): ?>
-						<a class="news-tititem" href="new-con.html">
+						<a class="news-tititem" href="<?php echo U('Party/index'); ?>">
 							<span class="news-titleft font20"><?php echo $v['title']; ?></span>
 							<span class="news-titright font18"><?php echo $v['starttime']; ?></span>
 							<div class="clearfix"></div>
 						</a>
 					<?php endforeach; ?>	 
 					</div>
-					<div class="news-titwrap box-hidden">
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">222马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">222马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">222马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem height-bottom" href="company.html">
-							<span class="news-titleft font20">222马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-					</div>
-					<div class="news-titwrap box-hidden">
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">333马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">333马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem" href="company.html">
-							<span class="news-titleft font20">333马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-						<a class="news-tititem height-bottom" href="company.html">
-							<span class="news-titleft font20">333马云判断：未来30年，计划经济会越来越大，数据将成为主导。</span>
-							<span class="news-titright font18">2016-12-15</span>
-							<div class="clearfix"></div>
-						</a>
-					</div>
+					 
 				</div>
 				<a href="new-center.html" class="font30 more-icon news-moreicon">查看更多&gt;</a>
 			</div>
 			<div class="product-box">
 				<span class="product-tit font30 fontwhite">学科竞赛</span>
 				 
-				<a href="product.html" class="product-conwrap">
+				<a href="<?php echo U('Subjectrace/detail',array('sid'=>$srs['id'])); ?>" class="product-conwrap">
 					<span class="product-pic">
 						<img width="376px" height="279px" src="<?php echo C('SHOWIMAGE').$srs['smallimg']; ?>"/>
 					</span>

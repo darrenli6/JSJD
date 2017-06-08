@@ -68,10 +68,6 @@
 		</div>
 	</div>
 <script src="__PUBLIC__/UserCenter/kingediter/kindeditor-all-min.js"></script>
-<script>
-	 KindEditor.ready(function(K) {
-                window.editor = K.create('#editor_id');
-        });
-</script>
+ 
 </body>
 </html>

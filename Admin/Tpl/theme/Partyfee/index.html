@@ -1,3 +1,4 @@
+
 <layout  name="layout" />
 <include file='Common:header'/>
     <!--搜索结果页面 列表 开始-->
@@ -35,11 +36,13 @@
 					 {$v.stu_id}----{$v.stuname}
 				</td>
 			 <td align='center'>
-			<?php  echo $v['status']==0?'已缴纳':'未缴纳'; ?>
+			<?php  echo $v['status']==1?'已缴纳':'未缴纳'; ?>
 				</td>
 			 
-				<td width='100' align='center'>
+				<td width='200' align='center'>
+				<!--  
 				<a href="{:U('sendmsg',array('id' => $v['id']))}" >发送短信</a>
+				-->
 				<a href="{:U('del', array('id' => $v['id']))}" class='del'></a> 
 				<a href="{:U('edit', array('id' => $v['id']))}" class='edit'></a> 
 				 </td>

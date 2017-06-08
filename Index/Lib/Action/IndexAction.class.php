@@ -1,6 +1,6 @@
 <?php
 
-class IndexAction extends CommonAction {
+class IndexAction extends BaseAction {
     public function index(){
          
         //news 
@@ -12,7 +12,9 @@ class IndexAction extends CommonAction {
         
         //subjectrace
         $this->srs=M('Subjectrace')->order('id DESC')->limit(3)->select();
-        
+        //webinfo
+        $path = './Admin/Conf/System.php';
+        $this->config = include $path;
         
         $this->display();
     }

@@ -20,7 +20,7 @@
 				<span style="color:red;" >*</span>
 				学号：</td>
 				<td>
-					<input type="text"   name='stuid' value="<?php echo ($SData["stu_id"]); ?>"/>
+					<input type="text"  readonly="readonly" name='stuid' value="<?php echo ($SData["stu_id"]); ?>"/>
 				</td>
 			</tr>
 		   <tr>
@@ -195,8 +195,8 @@
 	       registArr=regist.split('-');
 	       resourceArr=resource.split('-');
 </script>
- </body>
- <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
+</body>
+<script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.7.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-validate.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/common.js'></script> 

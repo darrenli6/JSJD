@@ -21,7 +21,7 @@
 					<img src="__PUBLIC__/img/czxy.png" width="30px" height="50px"/>
 				</span>
 				<span class="nav-item admin">
-				<?php if(session('sid')){ ?> 
+				<?php if($sessionid){ ?> 
 					<img src="__PUBLIC__/img/people.png"/>
 				<?php } ?>	
 				</span>
@@ -29,7 +29,7 @@
 			</nav>
 			<ul class="nav-list" id="nav-list">
 				<a class="font40" href="<?php echo U('Index/index') ?>"><li class="navlist-item">首页</li></a>
-                <?php if(!session('sid')){ ?> 
+                <?php if(!$sessionid){ ?> 
                  <a class="font40" href="<?php echo U('Login/index') ?>"><li class="navlist-item">注册登录</li></a>
 			     <?php }else{ ?>
 			      <a class="font40" href="<?php echo U('Login/logout') ?>"><li class="navlist-item">退出登录</li></a>

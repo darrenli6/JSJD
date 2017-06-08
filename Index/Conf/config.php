@@ -11,6 +11,9 @@ return array(
     
     'UPLOAD_PATH' => './Public/Upload/',	//文件上传保存路径
     'SHOWIMAGE' => '/JSJD/Public/Upload/',	//show image path
+    
+    
+    'UPLOAD_FILE_PATH' => './Public/Upload/File/',	//文件上传保存路径
     //自定义模版潜换
     'TMPL_PARSE_STRING' => array(
         '__PUBLIC__' => __ROOT__ . '/Index/Tpl/Public',

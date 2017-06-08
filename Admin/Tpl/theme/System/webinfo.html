@@ -9,34 +9,38 @@
 </head>
 <body>
 	<div class='status'>
-		<span>网站设置</span>
+		<span>网站前台配置</span>
 	</div>
-	<form action="{:U('runEdit')}" method='post'>
+	<form action="{:U('runEditSite')}" method='post'>
 		<table class="table">
 			<tr>
-				<td width='45%' align='right'>网站名称：</td>
+				<td width='45%' align='right'>联系方式：</td>
 				<td>
-					<input type="text" name='webname' value='{$config.WEBNAME}'/>
+					<input type="text" name='telephone' value='{$config.TELEPHONE}'/>
 				</td>
 			</tr>
-			<tr>
-				<td align='right'>版权信息：</td>
+			 	<tr>
+				<td width='45%' align='right'>传真：</td>
 				<td>
-					<input type="text" name='copy' class='input-long' value='{$config.COPY}'/>
+					<input type="text" name='fox' value='{$config.FOX}'/>
 				</td>
 			</tr>
-			<tr>
-				<td align='right'>是否开启注册：</td>
-				<td height='30'>
-					<input type="radio" name='regis_on' value='1' class='radio' <if condition='$config["REGIS_ON"]'>checked='checked'</if>/>&nbsp;开启&nbsp;&nbsp;
-					<input type="radio" name='regis_on' value='0' class='radio'<if condition='!$config["REGIS_ON"]'>checked='checked'</if>/>&nbsp;暂停
+			 	<tr>
+				<td width='45%' align='right'>地址：</td>
+				<td>
+					<input type="text" name='address' value='{$config.ADDRESS}'/>
 				</td>
 			</tr>
-				<tr>
-				<td align='right'>是否开启审核评论：</td>
-				<td height='30'>
-					<input type="radio" name='common_on' value='1' class='radio' <if condition='$config["COMMON_ON"]'>checked='checked'</if>/>&nbsp;开启&nbsp;&nbsp;
-					<input type="radio" name='common_on' value='0' class='radio'<if condition='!$config["COMMON_ON"]'>checked='checked'</if>/>&nbsp;暂停
+			 	<tr>
+				<td width='45%' align='right'>邮箱：</td>
+				<td>
+					<input type="text" name='email' value='{$config.EMAIL}'/>
+				</td>
+			</tr>
+			 	<tr>
+				<td width='45%' align='right'>网站url：</td>
+				<td>
+					<input type="text" name='web_site' value='{$config.WEB_SITE}'/>
 				</td>
 			</tr>
 			<tr>

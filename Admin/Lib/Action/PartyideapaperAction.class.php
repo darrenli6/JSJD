@@ -12,7 +12,11 @@ class  PartyideapaperAction extends CommonAction {
         $this->page = $page->show();
         
         $PModel=D('Partyideapaper');
-        $this->PData=$PModel->select();
+        $this->PData=$PModel
+        ->alias('a')
+        ->field('a.*,b.stu_id stu_id,b.stuname stuname')
+        ->join('LEFT JOIN __STUINFO__ b ON b.id=a.sid ')
+        ->select();
        
         
         $this->assign(array(
@@ -36,7 +40,7 @@ class  PartyideapaperAction extends CommonAction {
             $size=count($arr)-1;
             $file_name = 'partypaper'.microtime(true).time().'.'.$arr[$size];
             
-            $result=checkFile($_FILES['uploadfile']);
+            $result=checkdocFile($_FILES['uploadfile']);
             
             if(!empty($result)) die(json_encode($result));
                 

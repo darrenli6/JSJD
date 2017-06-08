@@ -39,6 +39,8 @@
 					<input type="radio" name='common_on' value='0' class='radio'<?php if(!$config["COMMON_ON"]): ?>checked='checked'<?php endif; ?>/>&nbsp;暂停
 				</td>
 			</tr>
+		  </tr>
+			 
 			<tr>
 				<td colspan='2'>
 					<input type="submit" value='保存修改' class='big-btn'/>

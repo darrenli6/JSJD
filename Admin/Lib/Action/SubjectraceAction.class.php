@@ -258,8 +258,8 @@ class  SubjectraceAction extends CommonAction {
     public function ajaxSearchStu(){
        if(!$this->isAjax()) exit('error');
        $num=$this->_post('num');
-       $res=M('Stu')->field('id,stuid')->where(array(
-          'stuid'=>array('like',"%$num%")
+       $res=M('Stuinfo')->field('id,stu_id,stuname')->where(array(
+          'stu_id'=>array('like',"%$num%")
        ))->select();
         
        $result=array();

@@ -1,6 +1,6 @@
 <?php
 
-class NewsAction extends CommonAction {
+class NewsAction extends BaseAction {
     public function index(){
          $this->newsData=M('News')
          ->field('id,title,img,publictime,summary')

@@ -1,6 +1,6 @@
 <?php
 
-class AboutAction extends CommonAction {
+class AboutAction extends BaseAction {
     public function index(){
          
         
@@ -9,6 +9,9 @@ class AboutAction extends CommonAction {
     }
     
     public function  contactus(){
+        $path = './Admin/Conf/System.php';
+        $this->config = include $path;
+         
         $this->display();
     }
 }

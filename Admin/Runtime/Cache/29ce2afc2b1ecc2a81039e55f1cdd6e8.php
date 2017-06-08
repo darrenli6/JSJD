@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="__PUBLIC__/css/ch-ui.admin.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/jquery-validate.css">
 	<link rel="stylesheet" href="__PUBLIC__/font/css/font-awesome.min.css">
     <script type="text/javascript">
     var SHOWIMAGE="/JSJD/Public/Upload/";

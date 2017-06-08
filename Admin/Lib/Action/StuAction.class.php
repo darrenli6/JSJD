@@ -8,7 +8,8 @@ class StuAction extends CommonAction {
         import('ORG.Util.Page');
         $count =M('Stu')->alias('a')
                ->field('a.stuid,b.stuname,c.name')
-               ->join('LEFT JOIN __STUINFO__ b ON b.stu_id=a.stuid
+               ->join('
+                       LEFT JOIN __STUINFO__ b ON b.stu_id=a.stuid
                        LEFT JOIN __CLASSINFO__ c ON c.id=b.cid 
                       ') ->count();
         
@@ -49,7 +50,7 @@ class StuAction extends CommonAction {
     public function add(){
         
         if ($this->isPost()) {
-            
+            die;
             $registarea=$_POST['province'].'-'.$_POST['city'].'-'.$_POST['country'];
             $resourcearea=$_POST['provinces'].'-'.$_POST['citys'].'-'.$_POST['countrys'];
             $data = array(
@@ -106,11 +107,7 @@ class StuAction extends CommonAction {
             $registarea=$_POST['province'].'-'.$_POST['city'].'-'.$_POST['country'];
             $resourcearea=$_POST['provinces'].'-'.$_POST['citys'].'-'.$_POST['countrys'];
             
-            $data = array(
-                'id'      => $this->_post('id'),
-                'stuid'   => $this->_post('stuid'),
-                'password'=> $this->_post('stuid','md5'),
-            );
+           
            
             $datai= array(
                 'id'           => $this->_post('id'),
@@ -131,8 +128,8 @@ class StuAction extends CommonAction {
                 'cid'          => $this->_post('cid'),
             );
             $old=M('Stuinfo')->field(array('face'))->find($this->_post('id'));
-            if (M('Stu')->data($data)->save() && M('Stuinfo')->data($datai)->save() ) {
-                if(!empty($old) && $old['face']!=$data['face'] )
+            if ( M('Stuinfo')->data($datai)->save()) {
+                if(!empty($old) && $old['face']!=$datai['face'] )
                     @unlink(C('UPLOAD_PATH').$old['face']);
                 $this->success('修改成功', U('index'));
                 die;
@@ -587,12 +584,12 @@ class StuAction extends CommonAction {
     
     //upload excel data
     private function excel_fileput($filePath,$data,$tablename){
-    
+       // die('1');
         include './Public/Excel/PHPExcel.php';
     
         $PHPExcel = new PHPExcel();
         $PHPReader = new PHPExcel_Reader_Excel2007();
-    
+         
         if(!$PHPReader->canRead($filePath)){
             $PHPReader = new PHPExcel_Reader_Excel5();
             if(!$PHPReader->canRead($filePath)){
@@ -610,7 +607,7 @@ class StuAction extends CommonAction {
         $allColumn = $currentSheet->getHighestColumn();
         // 取得一共有多少行
         $allRow = $currentSheet->getHighestRow();
-         
+        
         // 从第二行开始输出，因为excel表中第一行为列名
         for($currentRow = 2;$currentRow <= $allRow;$currentRow++){
             //scan file A  B  C column data

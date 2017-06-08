@@ -1,6 +1,6 @@
 <?php
 
-class PartyAction extends CommonAction {
+class PartyAction extends BaseAction {
     public function index(){
          $this->newsData=M('Partyactivity')
          ->field('id,title,smallimg,starttime,endtime')

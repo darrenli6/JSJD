@@ -12,6 +12,7 @@
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-validate.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/common.js'></script> 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,12 +58,15 @@
 					 <?php echo ($v["stu_id"]); ?>----<?php echo ($v["stuname"]); ?>
 				</td>
 			 <td align='center'>
-			<?php  echo $v['status']==0?'已缴纳':'未缴纳'; ?>
+			<?php  echo $v['status']==1?'已缴纳':'未缴纳'; ?>
 				</td>
 			 
-				<td width='100' align='center'>
+				<td width='200' align='center'>
+				<!--  
 				<a href="<?php echo U('sendmsg',array('id' => $v['id']));?>" >发送短信</a>
+				-->
 				<a href="<?php echo U('del', array('id' => $v['id']));?>" class='del'></a> 
+				<a href="<?php echo U('edit', array('id' => $v['id']));?>" class='edit'></a> 
 				 </td>
 			</tr><?php endforeach; endif; ?>
 		<tr height='50'>

@@ -25,7 +25,7 @@
                 	<span class="lgfw">
                 			<ul>
                             	<ol class="fw_jt"></ol>
-                            	<?php if(empty(session('sid'))){ ?>
+                            	<?php if(empty($sessionid)){ ?>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户登录</a></ol>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户注册</a></ol>
                              <?php }else{ ?>
@@ -45,8 +45,10 @@
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
            		<ul>
-                	<li><a href="#">学习部</a></li>
-                 <li><a href="#">纪律部</a></li>
+           		<?php foreach($departinfo as $k=>$v): ?>
+                	<li><a href="<?php echo U('Subjectrace/index',array('did'=>$v['id'])); ?>"><?php echo $v['departname']; ?></a></li>
+                  
+                <?php endforeach; ?>
                </ul> 
             </li>	
             <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
@@ -100,7 +102,7 @@
                             	<div>
                                 	<ul>
                                 	<?php foreach($dData as $k=>$v): ?>
-                                	<li><a href="#" ><?php echo $v['departname']; ?></a></li>
+                                	<li><a onClick="toggle('<?php echo $v['id']; ?>','<?php echo $v['departname'] ?>')" ><?php echo $v['departname']; ?></a></li>
                                 <?php endforeach; ?>   
                                 </ul>
                                 </div>
@@ -120,7 +122,7 @@
 						</div>
                		<div class="cpzx_rightCP">
                     	
-                        <ul class="qikan_list">
+                        <ul class="qikan_list" id="subresult">
                          <?php foreach($sData as $k=>$v ):?>
                           <li class="imghover"><a href="<?php echo U('detail',array('sid'=>$v['id']));?>" target="_blank" title="<?php echo $v['racename']; ?>">
                           <img src="<?php echo C('SHOWIMAGE').$v['smallimg']; ?>" alt="<?php echo $v['racename']; ?>"/></a>
@@ -181,6 +183,42 @@ $('.bxslider1').bxSlider({
   infiniteLoop: true,
   hideControlOnEnd: true
 });
+
+
+function toggle(targetid,departname){
+	 var html='';
+	 
+	$.ajax({
+		url:"<?php echo U('Subjectrace/ajaxLoadSub'); ?>",
+		data:{'targetid':targetid},
+		type:'post',
+		dataType:'json',
+		'success':function(msg){
+		  
+			if(msg.state==1){
+			var data=msg.data;	
+            var detailurl="<?php echo U('detail'); ?>";
+            var srcimg="<?php echo C('SHOWIMAGE') ?>";
+           // console.log(data[1]['id']);
+			for(k in data){
+               html+='<li class="imghover"><a href="'+detailurl+'/sid/'+data[k]['id']+'" target="_blank" title="'+data[k]['racename']+'">';
+               html+='<img src="'+srcimg+data[k]['smallimg']+'" alt="'+data[k]['racename']+'"/></a>';
+               html+= '<div class="fix intro">';
+               html+= '<div class="l t">'+data[k]['racename']+'</div>';
+               html+='   <p class="p">'+data[k]['summary']+'...</p>';
+                html+='  </div><a href="'+detailurl+'/sid/'+data[k]['id']+'" target="_blank" title="'+data[k]['racename']+'">';
+                html+='<div  class="info">更多...</div>';
+                	  html+='   </a>';
+                		  html+='</li>';
+			}
+	 
+			$('#subresult').html(html);	
+				
+			}
+		},
+	}); 
+
+}
 </script>
 
  
@@ -198,7 +236,7 @@ $('.bxslider1').bxSlider({
                 		<div class="Ur_cd">
                         	<ul>
                         		<li> 
-                                <li class="Ur_cdA"><a href="<?php echo U('About/contacts'); ?>">网站地图</a></li>
+                                <li class="Ur_cdA"><a href="<?php echo U('About/contactus'); ?>">网站地图</a></li>
                                 
                                 <li class="Ur_cdA"><a href="<?php echo U('Login/index'); ?>">会员登录</a></li>
                                 <li class="Ur_cdA"><a href="<?php echo U('Feedback/index'); ?>">联系我们</a></li>

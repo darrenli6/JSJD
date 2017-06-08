@@ -22,8 +22,10 @@
 			<div class="public-header-admin fr">
 				<p class="admin-name"> 您好！</p>
 				<div class="public-header-fun fr">
+				    <!--  
 					<a href="" class="public-header-man">管理</a>
-					<a href="" class="public-header-loginout">安全退出</a>	
+					-->
+					<a href="<?php echo U('Login/logout'); ?>" class="public-header-loginout">安全退出</a>	
 				</div>
 			</div>
 		</div>
@@ -46,9 +48,9 @@
 					<a href="javascript:;">个人信息</a>
 					<div class="ifame-item-sub">
 						<ul>
-							<li class="active"><a href="<?php echo U('personinfo');?>" target="content">个人资料</a></li>
-							<li><a href="系统管理/admin_cardTemplate.html" target="content">名片模板管理</a></li>
-							<li><a href="系统管理/index_tj.html" target="content">首页推荐导航</a></li>
+							<li ><a href="<?php echo U('personinfo');?>" target="content">个人资料</a></li>
+			                <li ><a href="<?php echo U('modifypwd');?>" target="content">修改密码</a></li>
+			                 <li ><a href="<?php echo U('showStu');?>" target="content">打印个人资料</a></li>
 						</ul>
 					</div>
 				</li>
@@ -57,13 +59,25 @@
 					<div class="ifame-item-sub">
 						<ul>
 							<li>
-							<a href="" target="content">上交文档</a>
+							<a href="<?php echo U('uploadPartyfile'); ?>" target="content">上交文档</a>
 							</li>
-							<li><a href="信息管理/cate_manage.html" target="content">分类管理</a></li>
+					        <li>
+							<a href="<?php echo U('allfile'); ?>" target="content">文档列表</a>
+							</li>
 						</ul>
 					</div>
 				</li>
-			 
+			 <li class="public-ifame-item">
+					<a href="javascript:;">素质拓展信息</a>
+					<div class="ifame-item-sub">
+						<ul>
+							<li>
+							<a href="<?php echo U('showQuality'); ?>" target="content">我的素质拓展</a>
+							</li>
+					        
+						</ul>
+					</div>
+				</li>
 				 
 			</ul>
 		</div>

@@ -3,16 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="__PUBLIC__/css/ch-ui.admin.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/jquery-validate.css">
 	<link rel="stylesheet" href="__PUBLIC__/font/css/font-awesome.min.css">
-    
+    <script type="text/javascript">
+    var SHOWIMAGE="/JSJD/Public/Upload/";
+    </script>
 </head>
 <body>
-    <!--面包屑导航 开始-->
-    <div class="crumb_warp">
-        <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
-        <i class="fa fa-home"></i> <a href="<?php echo U('Index/copy');?>">首页</a> 
-    </div>
-    <!--面包屑导航 结束-->
+    
  
     
     <div class="result_wrap">
@@ -50,26 +48,10 @@
             </table>
         </form>
     </div>
- </body>
-    <script type="text/javascript" src="__PUBLIC__/js/jquery.js">
-    
-    </script>
-    
-    <script type="text/javascript" src="__PUBLIC__/js/ch-ui.admin.js"></script>
-    
-  <!--导入在线编辑器 -->
-<link href="__PUBLIC__/umeditor1_2_2-utf8-php/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/umeditor1_2_2-utf8-php/umeditor.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/umeditor1_2_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
-<script>
-UM.getEditor('context', {
-	initialFrameWidth : "80%",
-	initialFrameHeight : 350
-});
-</script>
-<script type="text/javascript"> var SHOWIMAGE="/JSJD/Public/Upload/";
-                                var delallurl="<?php echo U('delall');?>";
-</script>	
-    <script type="text/javascript" src="__PUBLIC__/js/delall.js"></script>
+</body>
+<script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
+<script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.7.2.min.js'></script>
+<script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-validate.js'></script>
+<script type="text/javascript" src='__PUBLIC__/Js/common.js'></script> 
+<script type="text/javascript" src="__PUBLIC__/js/ch-ui.admin.js"></script>
 </html>

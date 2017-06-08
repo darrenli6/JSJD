@@ -29,7 +29,6 @@
             <div class="result_content">
                 <table class="list_tab">
             <tr>
-            <th class="tc" width="5%"><input type="checkbox" id="all" name=""></th>
 			<th>ID</th>
 			<th>名称</th>
 			<th>上传日期</th>
@@ -38,7 +37,6 @@
 			<th>操作</th>
 		</tr>
 		<?php if(is_array($PData)): foreach($PData as $key=>$v): ?><tr>
-			<td class="tc"><input type="checkbox" name="id"  id="id<?php echo ($v["id"]); ?>" onclick="addchecked(<?php echo ($v["id"]); ?>)"  value="<?php echo ($v["id"]); ?>"></td>
 				<td width='50' align='center'><?php echo ($v["id"]); ?></td>
 				<td width='100'><?php echo ($v["title"]); ?></td>
 				<td align='center'>

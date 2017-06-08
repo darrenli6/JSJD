@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="__PUBLIC__/css/ch-ui.admin.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/jquery-validate.css">
 	<link rel="stylesheet" href="__PUBLIC__/font/css/font-awesome.min.css">
     <script type="text/javascript">
     var SHOWIMAGE="/JSJD/Public/Upload/";
@@ -65,8 +66,8 @@
 	</table>
 </body>
 
- </body>
- <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
+</body>
+<script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.8.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-1.7.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/lib/jquery-validate.js'></script>
 <script type="text/javascript" src='__PUBLIC__/Js/common.js'></script> 

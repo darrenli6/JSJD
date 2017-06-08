@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="__PUBLIC__/css/ch-ui.admin.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/jquery-validate.css">
 	<link rel="stylesheet" href="__PUBLIC__/font/css/font-awesome.min.css">
     <script type="text/javascript">
     var SHOWIMAGE="/JSJD/Public/Upload/";
@@ -263,7 +264,7 @@ $( "input[name='racetime'],input[name='endtime']" ).datetimepicker(); ;
     			   var html='';
     			   if(msg.status==1){
     				  $.each(msg.data,function(k,v){
-    					  html+='<option value='+v.id+'>'+v.stuid+'</option>';
+    					  html+='<option value='+v.id+'>'+v.stu_id+'----'+v.stuname+'</option>';
     				  });
     				   $(html).appendTo($('#hebei'));
     				   clickoptiontoright();

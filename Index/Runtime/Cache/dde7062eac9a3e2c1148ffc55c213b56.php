@@ -25,7 +25,7 @@
                 	<span class="lgfw">
                 			<ul>
                             	<ol class="fw_jt"></ol>
-                            	<?php if(empty(session('sid'))){ ?>
+                            	<?php if(empty($sessionid)){ ?>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户登录</a></ol>
                                 <ol class="fw_kefu"><a href="<?php echo U('Login/index');?>">用户注册</a></ol>
                              <?php }else{ ?>
@@ -45,8 +45,10 @@
         	<li class="top_dh"><a href="<?php echo U('Index/index'); ?>">首页</a></li>
             <li class="top_dh"><a href="<?php echo U('Subjectrace/index'); ?>">学科竞赛</a>
            		<ul>
-                	<li><a href="#">学习部</a></li>
-                 <li><a href="#">纪律部</a></li>
+           		<?php foreach($departinfo as $k=>$v): ?>
+                	<li><a href="<?php echo U('Subjectrace/index',array('did'=>$v['id'])); ?>"><?php echo $v['departname']; ?></a></li>
+                  
+                <?php endforeach; ?>
                </ul> 
             </li>	
             <li class="top_dh"><a href="<?php echo U('Party/index'); ?>">党员会议</a>
@@ -176,12 +178,12 @@ else{document.all(c_Str).style.display='none';}}
                                 <br />
                             <font size="4">长治学院计算机系</font><br />
                              <br />
-                            咨询热线：  4000 580 100<br />
-                            网址(Web)： www.czxy.net <br />      
+                            咨询热线： <?php echo ($config["TELEPHONE"]); ?><br />
+                            网址(Web)： <?php echo ($config["WEB_SITE"]); ?> <br />      
                              
-                            
-                            客服邮箱：  darren94me@gmail.com<br />
-                            地址：  长治市城北东街73号
+                            传真：  <?php echo ($config["FOX"]); ?><br />
+                            客服邮箱：  <?php echo ($config["EMAIL"]); ?><br />
+                            地址：  <?php echo ($config["ADDRESS"]); ?>
                       </div>
                                  <!--  地图 容器-->
                             <div id="mapContainer"></div>
@@ -358,7 +360,7 @@ $('.bxslider1').bxSlider({
                 		<div class="Ur_cd">
                         	<ul>
                         		<li> 
-                                <li class="Ur_cdA"><a href="<?php echo U('About/contacts'); ?>">网站地图</a></li>
+                                <li class="Ur_cdA"><a href="<?php echo U('About/contactus'); ?>">网站地图</a></li>
                                 
                                 <li class="Ur_cdA"><a href="<?php echo U('Login/index'); ?>">会员登录</a></li>
                                 <li class="Ur_cdA"><a href="<?php echo U('Feedback/index'); ?>">联系我们</a></li>

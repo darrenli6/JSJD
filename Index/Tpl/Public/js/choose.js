@@ -6,6 +6,6 @@ $(function(){
 	    // 判断屏幕属于大还是小
 	    var isSmallScreen = windowWidth < 768;
 	    if(isSmallScreen){
-	    //	window.location.href="./mobile.php"
+	    	window.location.href="/JSJD/mobile.php"
 	    } 
 });

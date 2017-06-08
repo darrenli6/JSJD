@@ -51,13 +51,18 @@ $(function () {
 	    return this.optional(element) || (tel.test(value));
 	}, "必须为8位数字");
  
-	
+	$.validator.addMethod("idcard", function(value, element) {   
+	    var tel = /^[0-9]{18}$/;
+	    return this.optional(element) || (tel.test(value));
+	}, "身份证必须为18位数字");
 	
 	 $('form[name=addstu]').validate({
 		 errorElement : 'span',
 		 success : function (label){
 		      label.addClass('success');	 
+		      
 		 },
+ 
 		 rules:{
 			 stuid:{
 				 required :true,
@@ -75,7 +80,11 @@ $(function () {
 			 },
 			 stuname:{
 				 required: true,
-			 }
+			 },
+			 idcard:{
+				 required:true,
+				 idcard:true,
+			 },
 		 },
 		 messages:{
 			 stuid:{

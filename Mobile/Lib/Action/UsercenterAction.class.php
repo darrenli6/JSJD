@@ -5,38 +5,28 @@ class UsercenterAction extends CommonAction {
     
     
     public function index(){
-        
-        $stuinfo=M('Stuinfo')
+        header('Content-Type:text/html;Charset=utf8');
+        $this->stuinfo=M('Stuinfo')
+        ->alias('a')
         ->where(array(
-            'stu_id'=>array('eq',session('stuid'))
+            'a.stu_id'=>array('eq',session('stuid'))
         ))
+        ->join('LEFT JOIN __CLASSINFO__ b ON b.id=a.cid')
         ->find();
         
-        
+        //dump($stuinfo);
         $this->display();
     }
     
-    public function main(){
-        
-        $this->display();
-    }
-    
-    
-    /**
-     * get userinfo 
-     * 
-     */
-    
-    public function personinfo(){
-        $sid=session('sid');
-        $this->s=M('Stuinfo')->find($sid);
-        
-        $this->assign(
-            array(
-                'mainarea'=>'个人中心',
-                'title'   =>'个人资料',
-            )
-            );
+    public function qualityinfo(){
+        $sessionid=session('sid');
+        $this->data=M('Quastu')
+        ->alias('a')
+        ->join('LEFT JOIN __QUALITYDEVESTORE__ b ON b.id=a.qid ')
+        ->where(array(
+            'a.sid'=>array('eq',$sessionid)
+        ))
+        ->select();
         
         $this->display();
     }
